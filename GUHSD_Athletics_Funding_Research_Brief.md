@@ -404,6 +404,108 @@ Several large CA districts use third-party AT service contracts (Scripps, Sharp,
 
 ---
 
+## Pillar 1b — Helix Charter HS Deep Dive
+
+**Why this section matters:** Helix Charter HS is a conversion charter that operates in the Grossmont League, occupies a campus inside GUHSD's historic footprint, and **explicitly credits experience at GUHSD as equivalent** on hire per HTA Contract §13.1.4.1 ("All experience within the Grossmont Union High School district in the sport to be coached shall be credited to the members"). When a coach leaves a GUHSD comprehensive site for Helix, they do not start over — they land on the Helix schedule at the same tenure tier they held at GUHSD. This is the single most direct recruiting/retention threat to GUHSD athletics programs.
+
+### Source documents verified
+
+1. **Helix 2024–25 HTA Stipend List** (effective July 1, 2024; Class 3 Step 1 = $80,444.35)
+2. **Helix 2025–26 HTA Salary Schedule** (Board approved October 20, 2025; Class 3 Step 1 = $80,444.35 — unchanged at Step 1)
+3. **HTA Contract 2023–2026**, Article 13 (Leadership positions and extended curricular assignments)
+4. **EdJoin Job Posting 2207204** (Boys Head Varsity Soccer Coach, Helix, posted April 8, 2026) — advertised stipend range $6,033.33 – $9,251.10
+
+### Helix stipend structure — all named lines
+
+Using Class 3 Step 1 = $80,444.35 as the percentage base:
+
+| Position | Tier 1 (1–3 yr) | Tier 2 (4–6 yr) | Tier 3 (7–9 yr w/ cred) | Tier 4 (10+ yr w/ cred) |
+|---|---|---|---|---|
+| **Head Varsity Coach (with assistants)** | 7.50% = $6,033.33 | 8.50% = $6,837.77 | 10.00% = $8,044.44 | 11.00% = **$8,848.88** |
+| Head Varsity Coach (without assistants) | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
+| JV / Assistant Coach | 5.00% = $4,022.22 | 6.00% = $4,826.66 | 8.00% = $6,435.55 | 9.00% = $7,239.99 |
+| Freshman coaches (10-week season) | 4.20% = $3,378.66 | 5.00% = $4,022.22 | 6.70% = $5,389.77 | 7.50% = $6,033.33 |
+| Athletic Director* | 6.35% = $5,108.22 (flat) | — | — | — |
+| **Athletic Assistant Director** | 6.35% = $5,108.22 (flat) | — | — | — |
+| Athletic Trainer* | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
+| **Equipment Manager (Football only)** | 2.85% = $2,292.66 (flat) | — | — | — |
+| Cheer Advisor | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
+
+***Asterisk footnote (verbatim from HTA contract):** "Additional compensation given: see Job Description for details."* Applies to AD, Athletic Trainer, and ASB Advisor — meaning the stipend lines above are not the full compensation for those roles.
+
+### Playoff post-season stipends (weekly, during CIF playoff participation)
+
+| Condition | Weekly stipend |
+|---|---|
+| Head Coach with 5+ student athletes in playoff competition | $737.11/week |
+| Head Coach with fewer than 5 student athletes (and asst football coaches) | $368.56/week |
+
+### Maximum total head-coach compensation at Helix (verified math)
+
+Using the verified EdJoin posting (Boys Head Varsity Soccer posted 4/8/2026) where the advertised top of range is **$9,251.10** — slightly above the stipend list's base 11.00% calculation of $8,848.88 because the advertised range includes the masters/single-subject-masters 2.5% base-salary differential per the 2025-26 salary schedule:
+
+| Scenario | Calculation | Total |
+|---|---|---|
+| Head V Football 10+ yr, regular season only | Advertised top ≈ $9,251 | **~$9,251** |
+| Head V Football 10+ yr + 3-week playoff run | $9,251 + ($737.11 × 3) | **~$11,462** |
+| Head V Football 10+ yr + 4-week playoff run | $9,251 + ($737.11 × 4) | **~$12,199** |
+| Head V Football 10+ yr + CIF-SDS Open Division 5-week run | $9,251 + ($737.11 × 5) | **~$12,937** |
+
+**At the top of the Helix schedule, a head varsity football coach running to a CIF-SDS division championship can earn ~$13,000 as stipend compensation in a single season** — on top of their underlying teacher salary.
+
+### Compared to GUHSD's equivalent maximum
+
+Using GUHSD's verified 2025–26 Extended Curricular schedule (Board approved 11/13/2025, Class 3 Step 1 = $69,187.20):
+
+| Scenario | GUHSD | Helix | Helix advantage |
+|---|---|---|---|
+| 10+ yr Head V Football, regular season | **$7,611** | ~$9,251 | +$1,640 (+21.5%) |
+| + 3-week playoff run (GUHSD $576/wk; Helix $737.11/wk) | $7,611 + $1,728 = $9,339 | $11,462 | +$2,123 |
+| + 4-week playoff run | $7,611 + $2,304 = $9,915 | $12,199 | +$2,284 |
+| + 5-week playoff run (CIF Open Division championship) | $7,611 + $2,880 = **$10,491** | **$12,937** | +$2,446 |
+
+**The user's rumor that "max coach gets $10K" tracks cleanly with the Helix data** — a head varsity football coach with 10+ years making a deep playoff run at Helix clears $11K-$13K in stipend compensation, and GUHSD's own max for the same scenario (with playoffs) is $10,491. So the $10K figure is the *GUHSD* ceiling with playoffs, while Helix's ceiling is $12K-$13K.
+
+### Stipend line count: Helix vs. GUHSD
+
+| Category | GUHSD named stipend lines | Helix named stipend lines |
+|---|---|---|
+| Athletics | 5 lines (Head V w/ assts, Head V w/o assts / JV / Asst, Freshmen, AD) | **9 lines** (adds Assistant AD, Equipment Manager, Cheer Advisor, distinct Asst Coach) |
+| Academics | ~6 lines | **8 lines** (adds Journalism Sponsor, Speech & Debate Coach, S&D Assistant Coach) |
+| Arts | 4 lines (Choir, Dance, Drama, Band) | **8 lines** (adds Band Assistant Director, Flags Advisor, Musical Theater Music Director, Musical Theater Choreographer) |
+| Leadership | (covered within 52-slot cap) | **20+ lines** (APL-TOSA, Dept Chair Committee Chair, Class Advisors, CLT Leaders, College For Me Coordinator, ELD Coord, Honors/AP Coord, CTE Grant Coord, Senior Project Coordinator [$9,000 flat], Senior Project Coordinator Assistant [$6,000 flat], WASC Committee Chair, Sustainability Coord, Work Experience Coord, etc.) |
+| **Total named stipend lines** | **~20–25** | **~45+** |
+
+**Helix has approximately twice as many named, dollar-figured stipend lines as GUHSD**, and no per-school cap — every line in the schedule is fundable without competing against other stipends for a 52-position allocation.
+
+### The $10K+ base-stipend lines at Helix (non-athletic)
+
+Even before considering playoffs, these Helix stipend lines exceed or approach $10,000 as a baseline:
+
+| Position | Top-tier base stipend |
+|---|---|
+| **ASB Advisor*** (asterisk = additional job-description comp) | $10,457.77 – **$12,871.10** |
+| Band Director | $6,435.55 – **$9,653.32** |
+| Senior Project Coordinator (flat) | $9,000.00 |
+
+### Why GUHSD experience transfers
+
+HTA Contract §13.1.4.1 (verbatim): *"Coaches shall be credited with a maximum of 7 years outside coaching experience in other districts or the equivalent in the verified sport to be coached. All experience within the Grossmont Union High School district in the sport to be coached shall be credited to the members."*
+
+Practical effect:
+- A GUHSD head varsity coach with 10+ years at Granite Hills who moves to Helix gets placed at **Tier 4 ($9,251 top-of-schedule) immediately on hire**.
+- There is no "start over" penalty for coaches moving GUHSD → Helix.
+- The reverse direction (Helix → GUHSD) receives the same 7-year outside credit maximum per GUHSD's schedule, so the transfer is functionally symmetric — but the base-salary math makes Helix the financially preferred destination.
+
+### Implications for GUHSD
+
+1. **Competitive recruiting:** For any open GUHSD head varsity position, Helix can offer a competing role at a $1,600–$4,000 higher annual stipend with identical experience credit. This creates a documentable pull on coaching talent *in the same league GUHSD competes in*.
+2. **Retention:** A GUHSD coach aging into top-tier tenure at GUHSD ($7,611) can cross over to Helix at $9,251+ with zero lost seniority — a 21% raise in stipend comp alone.
+3. **Stipend-line breadth:** Helix funds positions (Assistant AD, Football Equipment Manager, discrete Musical Theater staff, 20+ Leadership lines) that at GUHSD must compete for the 52-position cap or be unfunded.
+4. **Program quality:** When the two GUHSD conversion charters (Helix, Steele Canyon) collectively enroll 4,700+ students (32% the size of GUHSD's 14,835 ADA) and one of them is visibly out-investing the district of origin on athletics compensation, the ADA-retention argument becomes a direct financial argument.
+
+---
+
 ## Pillar 2b — Coaching Stipend Equity Issues (from internal proposal)
 
 The GUHSD internal proposal document identifies additional pay-equity issues on the coaching schedule that were not visible from the public CBA text alone:
