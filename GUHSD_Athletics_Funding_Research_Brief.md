@@ -479,9 +479,64 @@ Plus the asterisk footnote: *"Additional compensation given: see Job Description
 
 ### Total athletic stipend spending at Helix — primary-source verified
 
-**Estimated annual athletic stipend cost at Helix: $693,148.74 per year** (using max service years; excludes STRS/PERS, H&W, and indirect costs).
+**Helix annual athletic stipend cost: $693,148.74** (using max service years; excludes STRS/PERS, H&W, and indirect costs). Verified directly from the 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25).
 
-This is a verified figure from the 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25). Per-school, Helix spends $693K on athletic stipends alone. For comparison, a rough bottom-up of GUHSD's coaching stipend spending (52 slots × ~$5,500 avg) works out to roughly **$286,000 per school per year** — meaning **Helix spends approximately 2.4× as much per school on athletic stipends as GUHSD** — driven by the combination of a 40% larger stipend count (73 vs. 52) and higher per-stipend rates.
+## The spending gap — Helix vs. GUHSD per school
+
+**GUHSD per-school athletic stipend total (calculated at max service years, same methodology Helix uses):**
+
+| Role | Slots | Rate (10+ yr top tier) | Subtotal |
+|---|---|---|---|
+| Head V Football (with assistants) | 1 | $7,611 | $7,611 |
+| Varsity Football Assistants | 2 | $6,227 | $12,454 |
+| Other Boys Head V (no assts) | 12 | $6,227 | $74,724 |
+| Girls Head V (no assts) | 14 | $6,227 | $87,178 |
+| Co-ed Head V (Cheer) | 1 | $6,227 | $6,227 |
+| Boys JV | 6 | $6,227 | $37,362 |
+| Girls JV | 9 | $6,227 | $56,043 |
+| Co-ed JV (Cheer JV) | 1 | $6,227 | $6,227 |
+| Boys Frosh (10-week) | 3 | $5,187 | $15,561 |
+| Girls Frosh | 2 | $5,187 | $10,374 |
+| Discretionary slot | 1 | $6,227 | $6,227 |
+| Athletic Director | 1 | $6,227 | $6,227 |
+| Athletic Trainer | 1 | $22,500 | $22,500 |
+| **TOTAL per GUHSD comprehensive HS** | **54** | | **~$348,715** |
+
+### Head-to-head
+
+| Metric | Helix (per school) | GUHSD (per school) | Gap |
+|---|---|---|---|
+| Total athletic stipends | **73** | **54** | Helix +19 stipends |
+| Annual athletic stipend cost (max service years) | **$693,148.74** | **~$348,715** | **Helix +$344,434 per school** |
+| Ratio | — | — | **Helix ≈ 2.0× GUHSD** |
+| Per-student investment (using Helix 2,571 enrollment / Granite Hills 2,331) | ~$269/student | ~$150/student | Helix +$120/student/year |
+
+**Helix spends roughly $344,000 MORE per school per year on athletic stipends than GUHSD does — nearly 2× the investment.**
+
+### Scaled to the full district
+
+| Metric | Value |
+|---|---|
+| GUHSD athletic stipend spending, per school | ~$348,700 |
+| × 9 comprehensive GUHSD high schools | ~$3.14M district-wide |
+| What GUHSD would spend if it matched Helix's per-school investment | ~$6.24M district-wide |
+| **Gap to match Helix's per-school investment across 9 schools** | **~$3.10M additional** |
+| $3.10M as % of GUHSD general fund ($321M) | **0.97%** |
+| $3.10M as % of GUHSD reserves ($30–45M) | **6.9% – 10.3%** |
+
+### Why the gap is as large as it is — three compounding drivers
+
+1. **More slots funded (+35%):** Helix funds 73 athletic stipends per school; GUHSD caps at 52 coaching slots (plus AD + AT = 54). Helix has 19 more funded positions per site.
+2. **Higher base salary (+16.3%):** Helix's Class 3 Step 1 ($80,444.35) is 16.3% higher than GUHSD's ($69,187.20). Every stipend computed as a percentage of the base is correspondingly higher.
+3. **Higher AD line (+$7,448 at top tier):** Helix's AD stipend at 10+ years is $13,675 vs. GUHSD's $6,227. A single role accounts for roughly $7,400 of the per-school gap.
+
+### Share-of-budget comparison
+
+Helix's total operating expenses in FY 2024 were approximately **$41.4 million** (per their Form 990). Their $693K athletic stipend spend represents **~1.67% of their total budget**. GUHSD's $3.14M district-wide coaching stipend spend represents **~0.98% of their $321M general fund**. Helix dedicates roughly **1.7× the share of its total budget** to athletic stipends compared to the district it was carved out of in 1998 — and spends the absolute dollars to match.
+
+### The bottom line
+
+Helix Charter, which was part of GUHSD until 1998, now spends nearly twice as much per school on athletic compensation as the district it was carved out of. The two sites sit 15 minutes apart on Interstate 8, compete in the same Grossmont League, and draw from overlapping East County communities. Closing the gap district-wide — funding GUHSD's 9 comprehensive sites at Helix's per-school level — would cost an additional **$3.1 million per year: less than 1% of the district's general fund and less than 11% of its reserves**.
 
 ### Compared to GUHSD's equivalent maximum
 
