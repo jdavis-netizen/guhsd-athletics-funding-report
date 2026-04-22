@@ -437,6 +437,7 @@
   </div>
 
   <div class="controls">
+    <button class="btn" id="voiceToggle" title="Toggle voice-over">🔊 Voice: Off</button>
     <button class="btn" id="replay">Replay</button>
   </div>
   <div class="source-footer">Sources: CDE 2023–24 · Voice of San Diego · Helix 2024-25 Stipend Allotment · GUHSD Trust Accounts</div>
@@ -446,13 +447,43 @@
 const scenes = document.querySelectorAll('.scene');
 const progress = document.getElementById('progress');
 const replayBtn = document.getElementById('replay');
+const voiceBtn = document.getElementById('voiceToggle');
 const totalDuration = Array.from(scenes).reduce((sum, s) => sum + parseInt(s.dataset.duration), 0);
 let startTime = null;
 let timeouts = [];
+let voiceEnabled = false;
+
+// Voice-over narration script — one line per scene, timed to scene duration
+const narration = [
+  "Grossmont Union High School District — the numbers behind our athletics funding.",
+  "G-U-H-S-D spends twenty one thousand, six hundred forty four dollars per student — the third highest in San Diego County.",
+  "The district holds thirty to forty five million dollars in reserves — four times the state mandate.",
+  "Yet Helix Charter, fifteen minutes away, spends nearly two times what G-U-H-S-D does per school on athletic stipends — six hundred ninety three thousand at Helix, three hundred forty nine thousand at G-U-H-S-D.",
+  "Officials cost fifty seven thousand dollars per school. The district covers twenty two thousand. Families and A-S-Bs fundraise the rest — sixty two percent of the total.",
+  "The athletics department's full proposal: one point four million dollars. Zero point four four percent of the general fund. Three to five percent of reserves.",
+  "The resources are there. Our students deserve the investment."
+];
+
+function speakLine(text) {
+  if (!voiceEnabled || !('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.rate = 1.08;
+  utter.pitch = 1.0;
+  utter.volume = 0.95;
+  // Try to pick a decent voice
+  const voices = window.speechSynthesis.getVoices();
+  const preferred = voices.find(v => /Google US English|Microsoft Aria|Samantha|Alex/i.test(v.name))
+    || voices.find(v => v.lang.startsWith('en-US'))
+    || voices[0];
+  if (preferred) utter.voice = preferred;
+  window.speechSynthesis.speak(utter);
+}
 
 function play() {
   startTime = performance.now();
   scenes.forEach(s => s.classList.remove('active'));
+  window.speechSynthesis && window.speechSynthesis.cancel();
 
   let cumulative = 0;
   scenes.forEach((scene, i) => {
@@ -460,11 +491,11 @@ function play() {
     timeouts.push(setTimeout(() => {
       scenes.forEach(s => s.classList.remove('active'));
       scene.classList.add('active');
+      speakLine(narration[i] || '');
     }, cumulative));
     cumulative += duration;
   });
 
-  // Progress bar
   function updateProgress() {
     if (!startTime) return;
     const elapsed = performance.now() - startTime;
@@ -481,6 +512,23 @@ replayBtn.addEventListener('click', () => {
   progress.style.width = '0%';
   play();
 });
+
+voiceBtn.addEventListener('click', () => {
+  voiceEnabled = !voiceEnabled;
+  voiceBtn.textContent = voiceEnabled ? '🔊 Voice: On' : '🔊 Voice: Off';
+  if (voiceEnabled) {
+    // Kick off voice-over on the currently-active scene immediately
+    const activeIdx = Array.from(scenes).findIndex(s => s.classList.contains('active'));
+    if (activeIdx >= 0) speakLine(narration[activeIdx] || '');
+  } else {
+    window.speechSynthesis && window.speechSynthesis.cancel();
+  }
+});
+
+// Warm up voices list (some browsers populate it async)
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {};
+}
 
 // Auto-play on load
 window.addEventListener('load', play);
