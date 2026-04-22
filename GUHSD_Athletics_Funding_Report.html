@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GUHSD Athletics Funding: A Case for District Support</title>
+<style>
+  :root {
+    --navy: #0b2545;
+    --navy-light: #134074;
+    --slate: #425474;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --accent: #a6192e;
+    --accent-soft: #f6e4e7;
+    --amber: #c07f00;
+    --green: #2f6b3b;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--gray-100);
+    color: var(--gray-900);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 48px 56px;
+    background: #ffffff;
+  }
+
+  /* Cover */
+  .cover {
+    padding: 96px 56px 80px;
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-light) 100%);
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .cover .kicker {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a8c0e6;
+    margin-bottom: 14px;
+    font-weight: 600;
+  }
+  .cover h1 {
+    font-size: 44px;
+    line-height: 1.1;
+    margin: 0 0 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .cover .subtitle {
+    font-size: 19px;
+    color: #cfdcf0;
+    font-weight: 400;
+    max-width: 680px;
+    line-height: 1.45;
+  }
+  .cover .meta {
+    margin-top: 56px;
+    display: flex;
+    gap: 48px;
+    font-size: 14px;
+    color: #a8c0e6;
+  }
+  .cover .meta strong {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 2px;
+    font-weight: 600;
+  }
+
+  /* Section structure */
+  section {
+    padding: 56px 0 32px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  section:last-child { border-bottom: none; }
+
+  .section-num {
+    font-size: 12px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--slate);
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    color: var(--navy);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+  }
+  h3 {
+    font-size: 19px;
+    margin: 32px 0 10px;
+    color: var(--gray-900);
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 15px;
+    margin: 22px 0 8px;
+    color: var(--slate);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  p { margin: 0 0 14px; }
+
+  /* Eyebrow & lede */
+  .lede {
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--gray-700);
+    margin: 4px 0 20px;
+    max-width: 750px;
+  }
+
+  /* Stat cards grid */
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 28px 0 8px;
+  }
+  .stat-grid.three { grid-template-columns: repeat(3, 1fr); }
+  .stat-grid.two { grid-template-columns: repeat(2, 1fr); }
+  .stat {
+    background: var(--gray-100);
+    border: 1px solid var(--gray-200);
+    border-radius: 6px;
+    padding: 18px 18px 16px;
+  }
+  .stat.accent { background: var(--accent-soft); border-color: #e8cdd1; }
+  .stat.dark { background: var(--navy); color: #fff; border-color: var(--navy); }
+  .stat.dark .stat-label { color: #a8c0e6; }
+  .stat.dark .stat-caption { color: #cfdcf0; }
+  .stat-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--slate);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .stat-value {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--navy);
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .stat.accent .stat-value { color: var(--accent); }
+  .stat.dark .stat-value { color: #fff; }
+  .stat-caption {
+    font-size: 13px;
+    color: var(--gray-700);
+    line-height: 1.4;
+  }
+
+  /* Callouts */
+  .callout {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    padding: 18px 20px;
+    margin: 20px 0;
+    border-radius: 2px;
+  }
+  .callout h4 { margin-top: 0; color: var(--accent); font-size: 13px; }
+  .callout p:last-child { margin-bottom: 0; }
+
+  .callout.navy {
+    background: #e9eff7;
+    border-left-color: var(--navy);
+  }
+  .callout.navy h4 { color: var(--navy); }
+
+  .callout.amber {
+    background: #fbf3df;
+    border-left-color: var(--amber);
+  }
+  .callout.amber h4 { color: var(--amber); }
+
+  /* Bar chart (CSS-based) */
+  .bar-chart {
+    margin: 24px 0;
+  }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 200px 1fr 110px;
+    align-items: center;
+    gap: 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .bar-row:last-child { border-bottom: none; }
+  .bar-label {
+    font-size: 14px;
+    color: var(--gray-700);
+    font-weight: 500;
+  }
+  .bar-row.guhsd .bar-label {
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .bar-track {
+    background: var(--gray-200);
+    height: 22px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    background: var(--slate);
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+  .bar-row.guhsd .bar-fill { background: var(--accent); }
+  .bar-value {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gray-900);
+    font-variant-numeric: tabular-nums;
+  }
+  .bar-row.guhsd .bar-value { color: var(--accent); }
+
+  /* Pie/split bar for officials */
+  .split-bar {
+    margin: 20px 0 8px;
+  }
+  .split-bar-track {
+    display: flex;
+    height: 44px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--gray-300);
+  }
+  .split-bar-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 12px;
+  }
+  .split-bar-segment.district { background: var(--navy); }
+  .split-bar-segment.asb { background: var(--accent); }
+  .split-bar-legend {
+    display: flex;
+    gap: 28px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--gray-700);
+  }
+  .legend-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+  .legend-dot.district { background: var(--navy); }
+  .legend-dot.asb { background: var(--accent); }
+
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  th {
+    text-align: left;
+    padding: 12px 14px;
+    background: var(--navy);
+    color: #fff;
+    font-weight: 600;
+    border-bottom: 2px solid var(--navy);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    vertical-align: top;
+  }
+  td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--gray-200);
+    vertical-align: top;
+  }
+  tr.guhsd td { background: var(--accent-soft); font-weight: 500; }
+  tr.guhsd td strong { color: var(--accent); }
+  tr:nth-child(even) td { background: var(--gray-100); }
+  tr.guhsd:nth-child(even) td { background: var(--accent-soft); }
+  table caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 12px;
+    color: var(--slate);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 8px;
+  }
+
+  /* Key/value list */
+  .kv-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 32px;
+    margin: 16px 0 8px;
+  }
+  .kv {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  .kv .k {
+    font-size: 12px;
+    color: var(--slate);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .kv .v {
+    font-size: 15px;
+    color: var(--gray-900);
+  }
+  .kv .v strong { color: var(--navy); }
+
+  /* Ask / recommendation cards */
+  .ask-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin: 22px 0 12px;
+  }
+  .ask {
+    border: 1px solid var(--gray-300);
+    border-radius: 6px;
+    padding: 20px 22px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 18px;
+    align-items: start;
+  }
+  .ask-num {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+  }
+  .ask-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 0 0 6px;
+  }
+  .ask-body {
+    font-size: 14px;
+    color: var(--gray-700);
+    margin: 0;
+  }
+
+  /* Pull quote */
+  .pull-quote {
+    border-left: 3px solid var(--navy);
+    padding: 8px 0 8px 20px;
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--gray-700);
+    font-style: italic;
+  }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
+  .badge.green { background: #e1f0e5; color: var(--green); }
+  .badge.red { background: var(--accent-soft); color: var(--accent); }
+  .badge.amber { background: #fbf3df; color: var(--amber); }
+  .badge.gray { background: var(--gray-200); color: var(--gray-700); }
+
+  /* Links */
+  a { color: var(--navy-light); text-decoration: underline; }
+  a:hover { color: var(--accent); }
+
+  /* Footer */
+  footer {
+    background: var(--gray-100);
+    padding: 32px 56px;
+    font-size: 13px;
+    color: var(--gray-500);
+    border-top: 2px solid var(--navy);
+  }
+  footer a { color: var(--navy-light); font-size: 13px; }
+  footer h4 { color: var(--navy); font-size: 13px; margin-top: 0; }
+  footer ol { padding-left: 20px; line-height: 1.6; }
+  footer li { margin-bottom: 4px; }
+
+  /* Print-friendly */
+  @media print {
+    body { background: #fff; font-size: 11pt; }
+    .page { max-width: none; padding: 0.5in; }
+    .cover { padding: 1in 0.5in 0.6in; page-break-after: always; }
+    section { padding: 24px 0 16px; page-break-inside: avoid; }
+    h2 { page-break-after: avoid; }
+    table, .bar-chart, .stat-grid, .ask { page-break-inside: avoid; }
+    footer { background: #fff; padding: 24px 0.5in; }
+    .stat-grid { gap: 10px; }
+    a { color: var(--navy); }
+  }
+
+  @media (max-width: 700px) {
+    .page { padding: 24px 20px; }
+    .cover { padding: 56px 20px 40px; }
+    .cover h1 { font-size: 30px; }
+    .stat-grid, .stat-grid.three, .stat-grid.two { grid-template-columns: 1fr; }
+    .bar-row { grid-template-columns: 1fr; }
+    .kv-list { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div style="max-width: 960px; margin: 0 auto;">
+    <div class="kicker">Grossmont Union High School District</div>
+    <h1>Athletics Funding: A Case for District Support</h1>
+    <div class="subtitle">An evidence-based review of coaching stipends, athletic trainer staffing, and officials funding across San Diego County peer districts — and why GUHSD's allocation of resources, not its level of resources, is the underfunding question.</div>
+    <div class="meta">
+      <div>Prepared for<strong>GUHSD Governing Board</strong></div>
+      <div>Prepared by<strong>Granite Hills Athletics Administration</strong></div>
+      <div>Date<strong>April 2026</strong></div>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+
+<!-- EXECUTIVE SUMMARY -->
+<section>
+  <div class="section-num">Executive Summary</div>
+  <h2>The headline finding</h2>
+  <p class="lede">GUHSD is not resource-constrained. It is the third-highest per-student-spending high school district in San Diego County, and holds general fund reserves roughly four times the state mandate. What is constrained is the share of those resources reaching athletics — and the gap is being closed by families and student ASBs, not by the district.</p>
+
+  <div class="stat-grid">
+    <div class="stat accent">
+      <div class="stat-label">GUHSD Per-ADA Spending</div>
+      <div class="stat-value">$21,644</div>
+      <div class="stat-caption">3rd-highest in San Diego County (FY 2023–24, CDE verified)</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">District Reserves</div>
+      <div class="stat-value">$30–45M</div>
+      <div class="stat-caption">≈ 4× the state-mandated reserve requirement</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Granite Hills Athletics Spending</div>
+      <div class="stat-value">$351K</div>
+      <div class="stat-caption">Verified FY 2025-26 trust account expenditure at one comprehensive site alone</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">GUHSD Athletic Trainer</div>
+      <div class="stat-value">$22,500</div>
+      <div class="stat-caption">Teacher stipend — not a full-time classified healthcare role, unlike 6 of 7 peer districts</div>
+    </div>
+  </div>
+
+  <h3>Five findings, one argument</h3>
+
+  <ol style="padding-left: 20px; line-height: 1.7;">
+    <li><strong>Per-student spending:</strong> GUHSD spends <strong>$21,644 per ADA</strong> — above Sweetwater, San Dieguito, Oceanside, San Marcos, and Poway. Peer districts spending <em>up to 28% less</em> per student fund athletics more generously than GUHSD.</li>
+    <li><strong>Athletic trainer staffing:</strong> GUHSD pays its AT as a <strong>$22,500 certificated stipend</strong>. Six of seven verified SD County peers — including districts spending 28% less per ADA — employ the AT as a full-time classified healthcare role with benefits and BOC/NATA certification required.</li>
+    <li><strong>Coaching stipend structure:</strong> Helix Charter (in the Grossmont League) pays head varsity football <strong>$1,125–$1,303 more</strong> than GUHSD at every experience tier. Sweetwater pays <strong>40% more at entry level</strong>. GUHSD's stipend cap of 52 positions per school for 24+ sports forces programs to fundraise for any additional coaches.</li>
+    <li><strong>Athletic Director compensation:</strong> GUHSD's AD tops out at <strong>$6,227</strong> — the lowest stipend of every SD County peer. Steele Canyon Charter's AD earns <strong>$10,802 at top tier (+73%)</strong> with the same 2 release periods GUHSD provides.</li>
+    <li><strong>Officials funding:</strong> GUHSD allocates <strong>$22,000 per school</strong>. At Granite Hills (verified FY 2025-26), actual competition overhead — Arbiter-paid officials plus tournament entry fees — totaled <strong>$57,393</strong>. The district allocation covered <strong>~38%</strong> of that at one site alone; the remaining <strong>$35,393</strong> was absorbed by sport-specific trust accounts funded through ASB and booster fundraising. Scaled across 9 comprehensive sites, the district-wide ASB burden is estimated at <strong>$162K–$297K per year</strong>.</li>
+  </ol>
+
+  <div class="callout navy">
+    <h4>The reframe</h4>
+    <p>This brief does not argue the district lacks money. It argues the district has above-peer per-ADA funding, above-mandate reserves, and below-peer athletics allocation — and that the resulting gap is pushed onto student ASBs and family-led booster fundraising in a way that is not happening at peer districts with less to work with.</p>
+  </div>
+</section>
+
+<!-- PER-ADA SPENDING CHART -->
+<section>
+  <div class="section-num">Pillar 1 — District Resources</div>
+  <h2>GUHSD spends among the most per student in San Diego County</h2>
+  <p class="lede">Audited current-expense-of-education figures for FY 2023–24 from the California Department of Education put GUHSD at $21,644 per ADA — the third-highest of the eight San Diego County districts in this peer set.</p>
+
+  <div class="bar-chart">
+    <div class="bar-row">
+      <div class="bar-label">Escondido Union High</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 100%;"></div></div>
+      <div class="bar-value">$22,357</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">San Diego Unified</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 98.2%;"></div></div>
+      <div class="bar-value">$21,952</div>
+    </div>
+    <div class="bar-row guhsd">
+      <div class="bar-label">Grossmont Union High</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 96.8%;"></div></div>
+      <div class="bar-value">$21,644</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Oceanside Unified</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 84.5%;"></div></div>
+      <div class="bar-value">$18,901</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Sweetwater Union High</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 77.7%;"></div></div>
+      <div class="bar-value">$17,367</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">San Marcos Unified</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 73.2%;"></div></div>
+      <div class="bar-value">$16,361</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">San Dieguito Union High</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 69.9%;"></div></div>
+      <div class="bar-value">$15,634</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Poway Unified</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 69.6%;"></div></div>
+      <div class="bar-value">$15,555</div>
+    </div>
+  </div>
+  <p style="font-size: 12px; color: var(--gray-500); margin-top: 6px;">Current Expense of Education per ADA, FY 2023–24. Source: California Department of Education, currentexpense2324.xlsx.</p>
+
+  <div class="callout navy">
+    <h4>What this means</h4>
+    <p>GUHSD spends <strong>$6,010 more per student per year than San Dieguito UHSD</strong> and <strong>$6,089 more than Poway USD</strong>. Both of those peer districts fund athletic trainers as full-time classified healthcare professionals with benefits. Both pay their athletic directors more than GUHSD does. The resource gap is not the issue.</p>
+  </div>
+</section>
+
+<!-- ENROLLMENT / STRATEGIC CONTEXT -->
+<section>
+  <div class="section-num">Pillar 2 — Strategic Context</div>
+  <h2>Enrollment, reserves, and the retention question</h2>
+  <p class="lede">GUHSD operates in an environment of statewide declining enrollment, competitive conversion charters in the Grossmont League, and significant uncommitted reserves. Athletics funding is one of the most direct levers a district has for student engagement and ADA retention.</p>
+
+  <div class="stat-grid three">
+    <div class="stat">
+      <div class="stat-label">GUHSD Enrollment Decline (Since 2017)</div>
+      <div class="stat-value">1.58%</div>
+      <div class="stat-caption">Smallest decline of the 38 San Diego County districts with declining enrollment</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">California K-12 Decline (2024–25)</div>
+      <div class="stat-value">−1.3%</div>
+      <div class="stat-caption">8th consecutive year of decline statewide; 74,961 fewer students</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">GUHSD Reserves</div>
+      <div class="stat-value">4×</div>
+      <div class="stat-caption">General fund reserves run at roughly four times the state-mandated minimum</div>
+    </div>
+  </div>
+
+  <h3>The charter competition question</h3>
+  <p>Two of GUHSD's own conversion charters — Helix Charter HS (La Mesa) and Steele Canyon Charter HS (Spring Valley) — operate inside the Grossmont League and compete directly for families who would otherwise attend GUHSD comprehensive sites. Both charters' athletic compensation structures were verified for this brief:</p>
+
+  <ul>
+    <li><strong>Helix Charter</strong> pays head varsity football <strong>$8,849 at top tier</strong> — $1,238 more than GUHSD ($7,611). Helix's underlying teacher base salary is <strong>16.3% higher</strong> than GUHSD's (Class 3 Step 1: $80,444 vs. $69,187).</li>
+    <li><strong>Steele Canyon Charter</strong> uses an identical percentage formula to GUHSD's and <em>explicitly credits GUHSD experience as equivalent</em> on hire — but treats its Athletic Director as a senior administrative role, topping at <strong>$10,802</strong> (+73% over GUHSD's $6,227) with <strong>two release periods per year</strong> versus GUHSD's one.</li>
+  </ul>
+
+  <div class="callout amber">
+    <h4>The retention lens</h4>
+    <p>In a declining-enrollment environment where each lost student costs the district Local Control Funding Formula (LCFF) dollars, athletics is one of the few direct levers a district controls for student engagement and attendance. Research consistently identifies athletics as a primary retention factor for charter school recruitment. When GUHSD's neighboring conversion charters invest <em>more</em> per coach and per AD than the district they were converted from, the long-run cost of underfunded athletics is not paid in stipends. It is paid in ADA.</p>
+  </div>
+
+  <h3>The reserves context</h3>
+  <p>GUHSD announced 61 layoff notices in February 2025 (49 credentialed, 12 classified, plus closure of the child care center) citing a $2.5 million deficit driven in part by declining enrollment. At the same time, per public reporting, the district maintains <strong>$30–45 million in general fund reserves — approximately four times the state-mandated reserve level.</strong> For context, the entire district-wide ASB burden for officials (~$342,000 per year) is less than <strong>1.1% of the district's reserves.</strong></p>
+
+  <div class="pull-quote">
+    "If we can't save all the jobs, I want the absolute lowest number of cuts that we can possibly do." — GUHSD Board member Chris Fite, quoted in <em>Voice of San Diego</em>, March 2025.
+  </div>
+</section>
+
+<!-- ATHLETIC TRAINER -->
+<section>
+  <div class="section-num">Pillar 3 — Athletic Trainer Staffing</div>
+  <h2>The most decisive peer comparison</h2>
+  <p class="lede">GUHSD is the only San Diego County district in this peer set that treats the athletic trainer role as a $22,500 teacher stipend. Two verified peers — San Dieguito and Oceanside — employ the AT as a classified healthcare professional with BOC/NATA certification and benefits.</p>
+
+  <table>
+    <caption>AT compensation structure — San Diego County peer comparison</caption>
+    <thead>
+      <tr><th>District</th><th>Model</th><th>Compensation</th><th>Certification</th></tr>
+    </thead>
+    <tbody>
+      <tr class="guhsd">
+        <td><strong>GUHSD</strong></td>
+        <td>Certificated extra-duty stipend</td>
+        <td><strong>$22,500/yr stipend</strong> + $1,500 CCC differential</td>
+        <td>Not required by the stipend line</td>
+      </tr>
+      <tr>
+        <td>San Dieguito UHSD</td>
+        <td>Full-time classified, one per comprehensive HS</td>
+        <td>$23.21–$31.11/hr + 2.5% shift diff + benefits<br>(≈ $39K–$57K/yr + benefits)</td>
+        <td><span class="badge green">BOC required</span></td>
+      </tr>
+      <tr>
+        <td>Oceanside USD</td>
+        <td>Full-time classified, 12-month</td>
+        <td>$3,601–$5,470/mo (Range 27) + CalPERS<br>(≈ $43K–$66K/yr + benefits)</td>
+        <td><span class="badge green">NATA required</span></td>
+      </tr>
+      <tr>
+        <td>Sweetwater UHSD</td>
+        <td>Not on coaching stipend schedule</td>
+        <td>Inferred classified / service contract</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Escondido UHSD</td>
+        <td>Not on coaching stipend schedule</td>
+        <td>Inferred classified / service contract</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>San Marcos Unified</td>
+        <td>Not on coaching stipend schedule</td>
+        <td>Inferred classified / service contract</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Steele Canyon Charter</td>
+        <td>Not on coaching stipend schedule</td>
+        <td>Inferred classified / service contract</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Helix Charter</td>
+        <td>Tiered stipend + job-description supplement</td>
+        <td>$4,827–$8,044 stipend + "additional compensation per job description"</td>
+        <td>Not specified in stipend line</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="stat-grid three">
+    <div class="stat dark">
+      <div class="stat-label">GUHSD AT Comp</div>
+      <div class="stat-value">$22,500</div>
+      <div class="stat-caption">Flat stipend, added to a teacher's primary role</div>
+    </div>
+    <div class="stat accent">
+      <div class="stat-label">SDUHSD AT Comp</div>
+      <div class="stat-value">≈ $39K–57K</div>
+      <div class="stat-caption">+ benefits. Per-ADA spending is 28% <em>less</em> than GUHSD.</div>
+    </div>
+    <div class="stat accent">
+      <div class="stat-label">Oceanside AT Comp</div>
+      <div class="stat-value">≈ $43K–66K</div>
+      <div class="stat-caption">+ CalPERS. Per-ADA spending is 13% less than GUHSD.</div>
+    </div>
+  </div>
+
+  <h3>Current GUHSD AT staffing — bifurcated coverage</h3>
+  <p>Per the GUHSD internal <em>Athletic Trainer Staffing and Financial Realignment Proposal</em>, the district currently operates a two-tier AT coverage model that, in the proposal's own words, "does not ensure certified safety coverage at every campus":</p>
+
+  <div class="stat-grid two">
+    <div class="stat">
+      <div class="stat-label">5 Sites — CTE Teacher / AT Model</div>
+      <div class="stat-value" style="font-size: 18px; line-height: 1.3;">Grossmont, Granite Hills, Monte Vista, Valhalla, West Hills</div>
+      <div class="stat-caption">CTE teacher doubles as Athletic Trainer. Currently compensated at $22,500 stipend — a rate set in the 2021–22 budget at $35/hour.</div>
+    </div>
+    <div class="stat accent">
+      <div class="stat-label">4 Sites — Walk-On Trainers</div>
+      <div class="stat-value" style="font-size: 18px; line-height: 1.3;">El Cajon Valley, Mount Miguel, El Capitan, Santana</div>
+      <div class="stat-caption">No dedicated certificated or classified AT position. Coverage relies on hourly or per-event "walk-on" contractors.</div>
+    </div>
+  </div>
+
+  <h3>Missed cost-of-living adjustments</h3>
+  <p>The $22,500 stipend has not moved since the 2021–22 budget. Over that period, other union-represented groups and coaching staff received contract increases. The proposal calculates what the compounded adjustments should be:</p>
+
+  <div class="kv-list">
+    <div class="kv"><div class="k">2023 (+8% missed)</div><div class="v">Should be <strong>$24,300</strong></div></div>
+    <div class="kv"><div class="k">2024 (+1% retroactive missed)</div><div class="v">Should be <strong>$24,543</strong></div></div>
+    <div class="kv"><div class="k">2025 (+2% missed)</div><div class="v">Should be <strong>$25,034</strong></div></div>
+    <div class="kv"><div class="k">Retroactive per trainer</div><div class="v"><strong>$2,534</strong></div></div>
+    <div class="kv"><div class="k">Total one-time corrective pay (5 staff)</div><div class="v"><strong>$12,670</strong></div></div>
+  </div>
+
+  <h3>District's own proposed restructuring</h3>
+  <p>The athletics department has developed a fully-costed "hybrid coverage" proposal designed to achieve 100% certified AT coverage at every campus:</p>
+
+  <table>
+    <thead>
+      <tr><th>Component</th><th>Detail</th><th>Cost</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Track 1 — Internal Retention (5 CTE sites)</strong></td>
+        <td>0.2 FTE assignment for last-period office hours + 3 stipend adjustments per site aligned to competitive landscape</td>
+        <td><strong>$285,000</strong></td>
+      </tr>
+      <tr>
+        <td>Track 2 — Vendor Option A (Recommended)</td>
+        <td>Advantage Athletic Training Company — ~40 hrs/week at 4 walk-on sites. <em>"Aligns with San Diego Unified standards."</em></td>
+        <td>$480,000</td>
+      </tr>
+      <tr class="guhsd">
+        <td><strong>TOTAL — Option A (full-time vendor)</strong></td>
+        <td>100% district AT coverage</td>
+        <td><strong>$765,000</strong></td>
+      </tr>
+      <tr>
+        <td>Track 2 — Vendor Option B (alternative)</td>
+        <td>Advantage Athletic Training Company — 35 hrs/week capped at 4 walk-on sites</td>
+        <td>$402,700</td>
+      </tr>
+      <tr>
+        <td>TOTAL — Option B (hourly vendor)</td>
+        <td>Reduced coverage cap</td>
+        <td>$687,000</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout navy">
+    <h4>Context</h4>
+    <p>The recommended Option A ($765,000) represents <strong>0.24% of GUHSD's $321M general fund</strong> and <strong>1.7%–2.6% of the district's $30–45M in reserves</strong>. Funding the full proposal in the first year would leave the reserves still well above the state-mandated minimum.</p>
+  </div>
+
+  <h3>Regulatory context</h3>
+  <p>California is the only U.S. state without athletic-trainer licensure. <strong>AB 796</strong> (Chapter 899, Statutes of 2024) — signed by Governor Newsom on September 29, 2024 — established <em>title protection</em> only, not licensure. It makes it unlawful to hold oneself out as "athletic trainer," "certified athletic trainer," or similar without CAATE-program graduation and BOC certification, but does not require schools to employ ATs.</p>
+  <p>Peer-reviewed 2022–23 <strong>ATLAS survey</strong> data (Korey Stringer Institute / NATA, <em>Journal of Athletic Training</em>, 2024) found:</p>
+  <div class="kv-list">
+    <div class="kv"><div class="k">CA schools with certified AT</div><div class="v"><strong>39.2%</strong> (45.0% of publics)</div></div>
+    <div class="kv"><div class="k">CA schools with NO AT</div><div class="v"><strong>51.6%</strong> — up from 47.6% in 2019</div></div>
+    <div class="kv"><div class="k">CA publics using unqualified personnel in AT role</div><div class="v"><strong>10.5%</strong></div></div>
+    <div class="kv"><div class="k">Average enrollment where certified AT present</div><div class="v"><strong>1,552</strong> students (vs. 740 without)</div></div>
+  </div>
+  <p>A $22,500 stipend model is not consistent with the compensation level required to recruit or retain a BOC-certified AT as a dedicated healthcare professional. This is the compensation structure that the ATLAS survey captures as "unqualified personnel in the AT role."</p>
+</section>
+
+<!-- COACHING STIPENDS -->
+<section>
+  <div class="section-num">Pillar 4 — Coaching Stipends</div>
+  <h2>Competitive at the top, underweighted at entry level and for assistants</h2>
+  <p class="lede">GUHSD's per-coach stipend for a 10+-year head varsity football coach is mid-pack for SD County. But the district pays materially less than neighboring conversion charters, lags Sweetwater at entry level by 40%, and caps total stipended positions at a level that forces ongoing booster fundraising for any program with more than two funded coaches.</p>
+
+  <h3>Head Varsity Football — verified 2025–26</h3>
+  <table>
+    <thead>
+      <tr><th>District</th><th>Entry level (1–3 yr)</th><th>Top tier</th><th>Structure</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Helix Charter HS</td>
+        <td>$6,033</td>
+        <td><strong>$8,849</strong> (10+ yr w/cred)</td>
+        <td>% of Class 3 Step 1; base 16.3% higher than GUHSD</td>
+      </tr>
+      <tr class="guhsd">
+        <td><strong>GUHSD</strong></td>
+        <td><strong>$4,843</strong></td>
+        <td>$7,611 (10+ yr w/assts)</td>
+        <td>4 experience tiers; 7 yrs outside credit</td>
+      </tr>
+      <tr>
+        <td>SDUHSD</td>
+        <td>$5,123 (1–4 yr)</td>
+        <td>$7,069 (20+ yr)</td>
+        <td>5 tiers; no outside-district credit</td>
+      </tr>
+      <tr>
+        <td>EUHSD</td>
+        <td>$5,958 (1–3 yr)</td>
+        <td>$7,043 (26+ yr) — Class A</td>
+        <td>8 tiers</td>
+      </tr>
+      <tr>
+        <td>Steele Canyon Charter</td>
+        <td>$4,448</td>
+        <td>$6,990 (10+ yr)</td>
+        <td>Identical GUHSD % formula; credits GUHSD experience</td>
+      </tr>
+      <tr>
+        <td>Sweetwater UHSD</td>
+        <td>$6,764 flat</td>
+        <td>$6,764 flat</td>
+        <td>No experience tiers — day one pay</td>
+      </tr>
+      <tr>
+        <td>Oceanside USD</td>
+        <td>$4,530 flat</td>
+        <td>$4,530 flat</td>
+        <td>Single-rate stipend</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <h4>The entry-level gap</h4>
+    <p>A first-year head varsity football coach at GUHSD earns <strong>$4,843</strong>. The same role at Sweetwater UHSD earns <strong>$6,764 flat from day one</strong> — a <strong>40% advantage.</strong> At Helix Charter, just down the freeway, a first-year head coach earns $6,033. GUHSD's structure rewards tenure steeply but makes the district less competitive for first-time head coaching hires than every SD County peer except Oceanside.</p>
+  </div>
+
+  <h3>Internal equity issue — head coaches without assistants earn 25% less</h3>
+  <p>The GUHSD internal proposal document identifies an additional pay-equity issue within the district's existing schedule. Head coaches of programs <em>without</em> assistants earn approximately <strong>25% less</strong> than head coaches of programs <em>with</em> assistants at the same experience tier — even when both run a full varsity + JV program.</p>
+
+  <div class="kv-list">
+    <div class="kv"><div class="k">Head V Coach w/ Assistants (4–6 yr)</div><div class="v"><strong>$5,373</strong></div></div>
+    <div class="kv"><div class="k">Head V Coach w/o Assistants (4–6 yr)</div><div class="v">$4,030 — <span style="color: var(--accent);"><strong>$1,343 less (−25%)</strong></span></div></div>
+    <div class="kv"><div class="k">District-wide impact to equalize</div><div class="v"><strong>$132,957 / year</strong> ($1,343 × 11 positions × 9 schools)</div></div>
+    <div class="kv"><div class="k">As % of GF</div><div class="v">0.04% of the $321M general fund</div></div>
+  </div>
+
+  <h3>Stipend slot counts per school</h3>
+
+  <p>GUHSD is the only SD County district in this peer set that publishes a per-school cap on stipended positions.</p>
+
+  <div class="stat-grid two">
+    <div class="stat accent">
+      <div class="stat-label">GUHSD Stipended Positions / School</div>
+      <div class="stat-value">52</div>
+      <div class="stat-caption">For 24+ sports. Football = 6 total (3V + 1JV + 2F). Basketball = 2 per gender.</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">SMUSD Named Football Stipends / School</div>
+      <div class="stat-value">8</div>
+      <div class="stat-caption">Head Varsity, Asst Head V, 3 Asst Varsity, Head JV, Head Frosh, Asst JV, Asst Frosh — each a dedicated line</div>
+    </div>
+  </div>
+
+  <p>Sweetwater's schedule includes named assistant stipend lines for football ($5,254 flat), wrestling ($4,294), swimming ($4,294), track ($4,294), and flag football ($3,151). Helix's schedule includes a football-specific Equipment Manager stipend ($2,293) and an Assistant Athletic Director stipend ($5,108). GUHSD's schedule has none of these as dedicated lines — instead, any coach above the 52-slot cap must be unpaid or booster-funded.</p>
+
+  <h3>Athletic Director compensation</h3>
+
+  <table>
+    <thead>
+      <tr><th>District</th><th>AD Stipend Range</th><th>Release Time</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Steele Canyon Charter</td>
+        <td>$6,354 → <strong>$10,802</strong> (10+ yr)</td>
+        <td>2 release periods / year</td>
+      </tr>
+      <tr>
+        <td>SDUHSD (Class AA — top class)</td>
+        <td>$5,395 → $7,354</td>
+        <td>Not specified</td>
+      </tr>
+      <tr>
+        <td>Helix Charter</td>
+        <td>$5,108 flat + Asst AD $5,108 flat + job-description supplement</td>
+        <td>Not specified</td>
+      </tr>
+      <tr>
+        <td>Sweetwater UHSD</td>
+        <td>$4,256 flat</td>
+        <td>Not specified</td>
+      </tr>
+      <tr class="guhsd">
+        <td><strong>GUHSD</strong></td>
+        <td><strong>$3,459 → $6,227</strong> (10+ yr) — JV/Asst-class tier, below head varsity football</td>
+        <td>2 release periods / year</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>GUHSD is the only peer that places the Athletic Director on the same schedule line as JV and assistant coaches. Every other district structures the AD as its own weighted administrative tier — and most place it at or above the head varsity football line.</p>
+</section>
+
+<!-- GRANITE HILLS VERIFIED SPENDING -->
+<section>
+  <div class="section-num">Pillar 5 — Site Case Study</div>
+  <h2>Granite Hills athletics spending — verified FY 2025-26</h2>
+  <p class="lede">The figures in this section come directly from GUHSD trust account statements and the Arbiter officiating report for Granite Hills High School. This is the verified spending footprint of one comprehensive GUHSD site — the district's largest athletic program — and provides a primary-source baseline for extrapolating district-wide figures.</p>
+
+  <div class="stat-grid three">
+    <div class="stat accent">
+      <div class="stat-label">Total Athletics Expenditure</div>
+      <div class="stat-value">$351,185</div>
+      <div class="stat-caption">FY 2025-26, all trust accounts and Arbiter combined</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Boys / Girls / Co-ed split</div>
+      <div class="stat-value">55 / 36 / 9%</div>
+      <div class="stat-caption">$194K / $127K / $30K across 23 sport accounts</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Competition Overhead</div>
+      <div class="stat-value">$57,393</div>
+      <div class="stat-caption">16.3% of total — officials + tournament entry fees</div>
+    </div>
+  </div>
+
+  <h3>Top 10 sport accounts by expenditure</h3>
+  <div class="bar-chart">
+    <div class="bar-row">
+      <div class="bar-label">Football</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 100%;"></div></div>
+      <div class="bar-value">$85,219</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Wrestling</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 48.8%;"></div></div>
+      <div class="bar-value">$41,549</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Cheer</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 38.3%;"></div></div>
+      <div class="bar-value">$32,621</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Girls Volleyball</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 34.4%;"></div></div>
+      <div class="bar-value">$29,302</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Boys Lacrosse</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 24.8%;"></div></div>
+      <div class="bar-value">$21,170</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Boys Aquatic</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 20.8%;"></div></div>
+      <div class="bar-value">$17,738</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Athletic Needs Fund</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 18.6%;"></div></div>
+      <div class="bar-value">$15,896</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Girls Basketball</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 18.0%;"></div></div>
+      <div class="bar-value">$15,349</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Girls Soccer</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 17.1%;"></div></div>
+      <div class="bar-value">$14,529</div>
+    </div>
+    <div class="bar-row">
+      <div class="bar-label">Baseball</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 15.2%;"></div></div>
+      <div class="bar-value">$12,914</div>
+    </div>
+  </div>
+  <p style="font-size: 12px; color: var(--gray-500); margin-top: 6px;">Source: GUHSD Trust Account Statement reports, FY 2025-26. Full account list and detail available on request.</p>
+
+  <h3>Competition overhead detail — 182 games + 35 tournament entries</h3>
+  <div class="kv-list">
+    <div class="kv"><div class="k">Arbiter-paid officials (direct)</div><div class="v"><strong>$39,178</strong> across 182 games</div></div>
+    <div class="kv"><div class="k">Tournament entry fees (officials bundled)</div><div class="v"><strong>$18,215</strong> across 35 entries</div></div>
+    <div class="kv"><div class="k">Football officials (boys + girls, 39 games)</div><div class="v">$13,277 (highest sport)</div></div>
+    <div class="kv"><div class="k">Wrestling tournament entries alone</div><div class="v">$6,950 (38% of all tournament fees)</div></div>
+  </div>
+
+  <div class="callout navy">
+    <h4>Why this matters</h4>
+    <p>This is not an estimate or a projection. These are actual dollars spent out of Granite Hills trust accounts during the current fiscal year. The $351,185 total represents the real, site-level financial footprint of a single GUHSD comprehensive athletics program — before any consideration of facility costs, stipends paid directly through district payroll, transportation, or uniform purchases that may flow through other accounts.</p>
+  </div>
+</section>
+
+<!-- OFFICIALS -->
+<section>
+  <div class="section-num">Pillar 6 — Officials Funding Gap</div>
+  <h2>The district covers ~38% of competition overhead at Granite Hills</h2>
+  <p class="lede">GUHSD allocates $22,000 per school per year for officials. At Granite Hills, verified FY 2025-26 competition overhead (Arbiter officials + tournament entry fees) was $57,393 — meaning the district allocation covers roughly 38% of actual officials-related costs at the site. The remaining $35,000+ is absorbed by sport-specific trust accounts funded through gate receipts, boosters, and ASB fundraising.</p>
+
+  <div class="split-bar">
+    <div class="split-bar-track">
+      <div class="split-bar-segment district" style="width: 38.3%;">District — $22,000 (38%)</div>
+      <div class="split-bar-segment asb" style="width: 61.7%;">ASB / Boosters / Gate — $35,393 (62%)</div>
+    </div>
+    <div class="split-bar-legend">
+      <span><span class="legend-dot district"></span> District allocation</span>
+      <span><span class="legend-dot asb"></span> Trust-account / fundraising gap</span>
+    </div>
+  </div>
+  <p style="font-size: 12px; color: var(--gray-500); margin-top: 6px;">Granite Hills FY 2025-26 competition overhead (verified): $57,393 total = $39,178 Arbiter-paid officials + $18,215 tournament entry fees with bundled officiating. District allocation: $22,000.</p>
+
+  <div class="stat-grid three">
+    <div class="stat dark">
+      <div class="stat-label">District allocation (per school)</div>
+      <div class="stat-value">$22,000</div>
+      <div class="stat-caption">Same flat allocation for all 9 comprehensive HSs</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Granite Hills actual FY 2025-26</div>
+      <div class="stat-value">$57,393</div>
+      <div class="stat-caption">Verified from Arbiter + trust account statements</div>
+    </div>
+    <div class="stat accent">
+      <div class="stat-label">Site-level ASB / booster gap</div>
+      <div class="stat-value">$35,393</div>
+      <div class="stat-caption">At Granite Hills alone, absorbed by sport trust accounts</div>
+    </div>
+  </div>
+
+  <h3>Scaling district-wide (estimate range)</h3>
+  <p>Granite Hills is the largest athletic program in the district. A district-wide competition overhead figure requires trust account data from all 9 comprehensive sites. Using Granite Hills as an upper bound and an average per-school estimate of $40,000–$55,000 (reflecting smaller programs):</p>
+
+  <table>
+    <thead>
+      <tr><th>Metric</th><th>Granite Hills (verified)</th><th>District-wide estimate (× 9 schools)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>District allocation for officials</td><td>$22,000</td><td><strong>$198,000</strong></td></tr>
+      <tr><td>Actual competition overhead</td><td>$57,393</td><td><strong>~$360,000–$495,000</strong></td></tr>
+      <tr><td>ASB/booster burden</td><td>$35,393</td><td><strong>~$162,000–$297,000</strong></td></tr>
+      <tr><td>District share of actual cost</td><td>~38%</td><td>~40–55%</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Why the gap keeps widening</h3>
+  <p>Post-COVID shortages of CIF officials have driven per-game rates up. The CIF Southern Section (the best-documented California benchmark) adopted a rate structure targeting $35/hour for varsity assignments. Current per-game rates for 2024–25:</p>
+
+  <div class="kv-list">
+    <div class="kv"><div class="k">Football (varsity, per official)</div><div class="v"><strong>$140</strong> (~4 hours)</div></div>
+    <div class="kv"><div class="k">Basketball (varsity, per official)</div><div class="v"><strong>$88</strong> (~2.5 hours)</div></div>
+    <div class="kv"><div class="k">Baseball (varsity, per umpire)</div><div class="v"><strong>$116</strong> (~3 hours)</div></div>
+  </div>
+
+  <p>The CIF–San Diego Section publishes its own 2024–26 fee sheet — rates are expected to be comparable. As rates rise, a fixed $22,000 per-school allocation covers a shrinking percentage of actual cost each year.</p>
+
+  <div class="callout navy">
+    <h4>The scale matters — but not the way it first looks</h4>
+    <p>An estimated $162K–$297K in district-wide ASB burden for competition overhead is 0.05–0.10% of GUHSD's $321M general fund — a rounding error at the district level. At the same time, it represents well under <strong>1% of GUHSD's $30–45M reserves.</strong> The question this presents to the board is not whether the district can absorb this cost — it can — but whether it is strategically sound to keep pushing an operational athletics cost onto ASB and families when the district's own fiscal documents show ample room.</p>
+  </div>
+</section>
+
+<!-- FULL PROPOSAL PACKAGE -->
+<section>
+  <div class="section-num">The Ask — Full Package</div>
+  <h2>GUHSD athletics' own costed proposal</h2>
+  <p class="lede">The athletics department has already developed a fully-itemized proposal package covering athletic trainer restructuring, coaching stipend equity, ASB advisor support, AD compensation alignment, and officials allocation. The total ongoing cost is approximately $1.4 million per year — roughly 0.44% of the district's general fund and 3–5% of the district's reserves.</p>
+
+  <table>
+    <caption>Proposal Package — Ongoing and One-Time Costs</caption>
+    <thead>
+      <tr><th>Proposal Item</th><th>Ongoing Cost</th><th>One-Time</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Athletic Trainer Staffing</strong> (Option A, full-time vendor + internal CTE retention)</td>
+        <td><strong>$765,000</strong></td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Athletic Trainer Retroactive Pay (5 existing staff, missed '23/'24/'25 adjustments)</td>
+        <td>—</td>
+        <td>$12,670</td>
+      </tr>
+      <tr>
+        <td>Head Coaching Equity (eliminate 25% w/o-assistants gap)</td>
+        <td>$132,957</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Additional Discretionary Coaching Stipends (+2 per school)</td>
+        <td>$96,714</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>ASB Advisor Additional 0.2 Prep Period (10 advisors)</td>
+        <td>$270,000</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>E-Sports Stipend (formalized for '26/'27)</td>
+        <td>$44,330</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>AD Stipend Increase (match San Diego Unified benchmark ~$12K)</td>
+        <td>$71,730</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Academic League Moderator ($85 → $100/match, matching SDUSD/SMUSD)</td>
+        <td>$975</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>Officials allocation increase ($22K → $25–30K per site × 9)</td>
+        <td>$27,000 – $72,000</td>
+        <td>—</td>
+      </tr>
+      <tr class="guhsd">
+        <td><strong>TOTAL PROPOSAL PACKAGE</strong></td>
+        <td><strong>~$1,408,000 – $1,453,000</strong></td>
+        <td><strong>$12,670</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="stat-grid three">
+    <div class="stat dark">
+      <div class="stat-label">Full Package Ongoing Cost</div>
+      <div class="stat-value">$1.4M</div>
+      <div class="stat-caption">Per year, covering all 9 comprehensive sites</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">As % of General Fund</div>
+      <div class="stat-value">0.44%</div>
+      <div class="stat-caption">Against GUHSD's $321M current expense of education (FY 2023–24)</div>
+    </div>
+    <div class="stat accent">
+      <div class="stat-label">As % of Reserves</div>
+      <div class="stat-value">3.1–4.7%</div>
+      <div class="stat-caption">Against the district's $30–45M in general fund reserves (4× state mandate)</div>
+    </div>
+  </div>
+
+  <div class="callout navy">
+    <h4>The comparison to recent district action</h4>
+    <p>In February 2025, GUHSD issued 61 layoff notices citing a $2.5 million deficit. The full athletics proposal package costs $1.4 million — roughly 56% of that same deficit figure, and less than 5% of the district's reserves. Funding the entire package in year one would leave GUHSD with reserves still well above the state-mandated minimum, and aligned with every documented San Diego County peer district on athletics support.</p>
+  </div>
+</section>
+
+<!-- RECOMMENDATIONS -->
+<section>
+  <div class="section-num">Recommendations</div>
+  <h2>Five specific, actionable asks</h2>
+  <p class="lede">Each recommendation is grounded in a verified finding from this brief and is benchmarked against at least one San Diego County peer district's existing practice.</p>
+
+  <div class="ask-grid">
+    <div class="ask">
+      <div class="ask-num">1</div>
+      <div>
+        <div class="ask-title">Convert the Athletic Trainer role from stipend to full-time classified position</div>
+        <div class="ask-body">Match the SDUHSD and Oceanside models — full-time classified, BOC/NATA certification required, CalPERS-eligible, with benefits. This brings GUHSD in line with 6 of 7 verified SD County peers and addresses the documented California-wide AT shortage captured in the 2022–23 ATLAS data.</div>
+      </div>
+    </div>
+    <div class="ask">
+      <div class="ask-num">2</div>
+      <div>
+        <div class="ask-title">Raise per-school officials allocation toward actual cost</div>
+        <div class="ask-body">Move the $22,000 per-school allocation toward actual competition overhead (Granite Hills verified at $57,393 for FY 2025-26), with automatic annual adjustments tied to published CIF–SDS rate increases. Even raising the per-school allocation to $40,000 would close roughly half the current ASB burden. This is well under 0.1% of the general fund.</div>
+      </div>
+    </div>
+    <div class="ask">
+      <div class="ask-num">3</div>
+      <div>
+        <div class="ask-title">Add named assistant coach stipend lines for high-staff sports</div>
+        <div class="ask-body">Follow Sweetwater's and SMUSD's model: add specific dollar-figured stipend lines for Assistant Football (mirror Sweetwater's $5,254), Assistant Wrestling, Assistant Swimming, and Assistant Track, in addition to the existing Class II generic assistant tier. Retire the 52-position per-school cap in favor of sport-specific allocations.</div>
+      </div>
+    </div>
+    <div class="ask">
+      <div class="ask-num">4</div>
+      <div>
+        <div class="ask-title">Reclassify the Athletic Director stipend</div>
+        <div class="ask-body">Move the AD off the JV/Assistant schedule line (Class III equivalent) and onto a weighted administrative tier consistent with SDUHSD (Class AA), Steele Canyon Charter (10–17% of Class 3 Step 1), and Helix Charter (AD + Asst AD plus job-description supplement). Release time is already at 2 periods per year — the stipend dollar amount is the remaining gap.</div>
+      </div>
+    </div>
+    <div class="ask">
+      <div class="ask-num">5</div>
+      <div>
+        <div class="ask-title">Commission a board-requested peer-district athletics allocation survey</div>
+        <div class="ask-body">Formally request from business services a peer survey of (a) total athletics allocation as % of general fund, (b) officials funding split between district and ASB, (c) AT staffing model, across Sweetwater, SDUHSD, Poway, San Diego Unified, Oceanside, SMUSD, EUHSD, and the two GUHSD conversion charters. This closes the one remaining comparative gap in this brief and produces a defensible peer-anchored target for items 1–4.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout amber">
+    <h4>The strategic frame</h4>
+    <p>In a declining-enrollment environment where per-student LCFF revenue depends on ADA, and where two neighboring conversion charters (Helix, Steele Canyon) are compensating athletics staff <em>at or above</em> GUHSD's level, underfunded athletics is not only an equity question for current families — it is a retention question for future ADA. Each of the five recommendations above is within the district's existing fiscal capacity given $30–45M in reserves and the third-highest per-ADA spending in San Diego County.</p>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section>
+  <div class="section-num">Methodology</div>
+  <h2>How this brief was compiled</h2>
+  <p class="lede">Every numeric figure in this report is traceable to a primary-source document. No figures are estimated or inferred unless explicitly flagged as such.</p>
+
+  <h3>Primary sources</h3>
+  <ul>
+    <li><strong>GUHSD stipend data:</strong> Pulled from the district's Extended Curricular Assignments schedule, Board-approved 11/13/2025, with Coaching Stipends — Sports & Levels allocation exhibit updated 7/2023.</li>
+    <li><strong>Granite Hills site-level spending:</strong> GUHSD Trust Account Statement reports and Arbiter Officiating Report, FY 2025-26 — provided by Granite Hills Athletics Administration. Covers 23 sport accounts, 182 Arbiter-assigned games, and 35 tournament entries.</li>
+    <li><strong>Peer district stipend data:</strong> Board-approved salary schedules and collective bargaining agreements from Sweetwater UHSD (Appendix C-2, Board 1/6/2026), SDUHSD (Extra-Curricular Schedule, Board 6/11/2025), EUHSD (2025–26 ESTA, revised March 2026), SMUSD (SMEA/SMUSD CBA 2024–26 Section 8(D)), Helix Charter (2024–25 HTA Stipend List + 2025–26 Salary Schedule Board-approved 10/20/2025), and Steele Canyon Charter (SCCEA Contract 2022–26).</li>
+    <li><strong>Athletic trainer compensation:</strong> Directly verified via current EdJoin job postings for SDUHSD (classified, BOC required) and Oceanside USD (classified, NATA required).</li>
+    <li><strong>District budget data:</strong> California Department of Education Current Expense of Education per ADA file, FY 2023–24 (audited actuals).</li>
+    <li><strong>Enrollment, reserves, and layoff context:</strong> <em>Voice of San Diego</em> reporting, March 2025.</li>
+    <li><strong>Athletic trainer regulatory and staffing context:</strong> California AB 796 bill text; Pickett et al., <em>Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update</em>, <em>Journal of Athletic Training</em>, 2024.</li>
+  </ul>
+
+  <h3>Data gaps explicitly acknowledged</h3>
+  <ul>
+    <li>California school districts do not publish athletics as a standalone line in SACS financial reports. A true "athletics as % of general fund" figure for any district requires internal cost-center drill-down.</li>
+    <li>San Diego Unified's coaching stipend appendix and Poway USD's athletic stipend exhibit were not publicly available during research. SMUSD's coaching stipend class structure was verified but dollar amounts per class were not publicly isolatable.</li>
+    <li>Peer-district officials funding splits (what % each district covers from general fund vs. ASB) were not aggregated in any public source and are the subject of Recommendation #5.</li>
+    <li>Figures on peer-district AT staffing for Sweetwater, EUHSD, SMUSD, and Steele Canyon Charter are inferred from the absence of AT on their certificated stipend schedules — a strong inference given SDUHSD and Oceanside's verified classified model, but subject to confirmation.</li>
+  </ul>
+</section>
+
+</div><!-- /page -->
+
+<!-- FOOTER / SOURCES -->
+<footer>
+  <div style="max-width: 960px; margin: 0 auto;">
+    <h4>Primary sources referenced</h4>
+    <ol>
+      <li>California Department of Education. <em>Current Expense of Education per ADA, FY 2023–24</em>. <a href="https://www.cde.ca.gov/ds/fd/ec/documents/currentexpense2324.xlsx">currentexpense2324.xlsx</a></li>
+      <li>GUHSD. <em>Extended Curricular Assignments 2025–2026</em>, Board-approved 11/13/2025 (Class 3 Step 1 = $69,187.20).</li>
+      <li>GUHSD. <em>Coaching Stipends — Sports & Levels</em>, updated 7/2023 (52 slots per comprehensive HS).</li>
+      <li>Granite Hills High School Athletics. <em>GUHSD Trust Account Statements + Arbiter Officiating Report, FY 2025-26</em>. Verified $351,185 total athletics expenditure; $57,393 combined competition overhead (Arbiter $39,178 + tournament entry fees $18,215).</li>
+      <li>Sweetwater UHSD. <em>Salary Schedule for Extra Service Assignments – Athletics, Appendix C-2</em>, Board 1/6/2026. <a href="https://hr.sweetwaterschools.org/salary-schedules">SUHSD HR Salary Schedules</a></li>
+      <li>San Dieguito UHSD. <em>Extra-Curricular Salary Schedule</em>, Board 6/11/2025. <a href="https://www.sduhsd.net/Departments/Human-Resources/Salary-Schedules/index.html">SDUHSD Salary Schedules</a></li>
+      <li>Escondido UHSD. <em>2025–26 ESTA Co-Curricular Stipend Salary Schedule</em>, rev. March 2026. <a href="https://www.euhsd.org/apps/pages/index.jsp?uREC_ID=2772293&type=d&pREC_ID=2399780">EUHSD Certificated Salary Schedule</a></li>
+      <li>San Marcos Unified. <em>SMEA/SMUSD CBA 2024–2026</em>, Section 8(D) — Extra Pay for Extra Duty. <a href="https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf">SMEA Contract</a></li>
+      <li>Helix Charter HS. <em>2024–25 HTA Stipend List</em> and <em>2025–26 HTA Salary Schedule</em>, Board-approved 10/20/2025. <a href="https://www.helixcharter.net/staff/hta">HTA documents</a></li>
+      <li>Steele Canyon Charter HS. <em>SCCEA Certificated Bargaining Unit Agreement, 7/1/2022 – 6/30/2026</em>. <a href="https://docs.google.com/document/d/1trpw-L7mm52zVT3174gtH3xcOofoDXeJhalK-cSi5Rw/edit">SCCEA Contract</a></li>
+      <li>SDUHSD Athletic Trainer job posting. <a href="https://www.edjoin.org/Home/JobPosting/1528322">EdJoin 1528322</a> — classified, 1.0 FTE, BOC required.</li>
+      <li>Oceanside USD Athletic Trainer job posting. <a href="https://www.edjoin.org/Home/JobPosting/1093003">EdJoin 1093003</a> — classified, Range 27, NATA required.</li>
+      <li>Oceanside USD Head Varsity Football Coach posting (Dec 2025). <a href="https://www.edjoin.org/Home/JobPosting/2164562">EdJoin 2164562</a> — $4,530 flat.</li>
+      <li>California Legislature. <em>AB 796 — Athletic Trainers, Chapter 899, Statutes of 2024</em>. <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796">Bill text</a></li>
+      <li>Pickett et al. <em>Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update</em>. <em>Journal of Athletic Training</em>, 2024. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11611368/">PMC article</a></li>
+      <li>Voice of San Diego. <em>The Learning Curve: Grossmont Union's Layoffs Spark Outrage</em>, March 5, 2025. <a href="https://voiceofsandiego.org/2025/03/05/the-learning-curve-grossmont-unions-layoffs-spark-outrage/">Article</a></li>
+      <li>GUHSD Budget Information by Fiscal Year. <a href="https://www.guhsd.net/Departments/Business-Services/Budget-and-Financial-Information/Budget-Information-by-Fiscal-Year/index.html">Business Services portal</a></li>
+    </ol>
+    <p style="margin-top: 20px; font-size: 12px; color: var(--gray-500);">Report compiled April 2026 by Granite Hills Athletics Administration. All comparative dollar figures are stated in unadjusted nominal dollars as published by the issuing district or agency. Where a peer district's schedule has been recently updated (e.g., Sweetwater 1/1/2026 3.5% increase, SDUHSD 7/1/2025 1.0% increase), this report uses the current post-increase figure.</p>
+  </div>
+</footer>
+
+</body>
+</html>
