@@ -410,50 +410,78 @@ Several large CA districts use third-party AT service contracts (Scripps, Sharp,
 
 ### Source documents verified
 
-1. **Helix 2024–25 HTA Stipend List** (effective July 1, 2024; Class 3 Step 1 = $80,444.35)
-2. **Helix 2025–26 HTA Salary Schedule** (Board approved October 20, 2025; Class 3 Step 1 = $80,444.35 — unchanged at Step 1)
-3. **HTA Contract 2023–2026**, Article 13 (Leadership positions and extended curricular assignments)
-4. **EdJoin Job Posting 2207204** (Boys Head Varsity Soccer Coach, Helix, posted April 8, 2026) — advertised stipend range $6,033.33 – $9,251.10
+1. **2024–25 HCHS Stipend Allotment List** (rev. 2025.02.25) — confirmed **73 total athletic stipends** with **estimated annual cost of $693,148.74** (using max service years)
+2. **Helix 2025–26 Stipend Schedule** (current schedule with percentage revisions from prior year — percentages in athletic top tiers raised from 11.00% to 11.50% for head varsity coach w/ assistants; AD restructured from 6.35% flat to tiered topping at 17.00%)
+3. **Helix 2024–25 HTA Stipend List** (effective July 1, 2024; Class 3 Step 1 = $80,444.35)
+4. **Helix 2025–26 HTA Salary Schedule** (Board approved October 20, 2025; Class 3 Step 1 = $80,444.35 — unchanged at Step 1)
+5. **HTA Contract 2023–2026**, Article 13 (Leadership positions and extended curricular assignments)
+6. **EdJoin Job Posting 2207204** (Boys Head Varsity Soccer Coach, Helix, posted April 8, 2026) — advertised stipend range $6,033.33 – $9,251.10, confirming 2025–26 top tier
 
-### Helix stipend structure — all named lines
+### Helix 2025–26 stipend structure — verified from the current schedule
 
-Using Class 3 Step 1 = $80,444.35 as the percentage base:
+Using Class 3 Step 1 = $80,444.35 as the percentage base. Note: percentages for the top tier of head varsity coaches were raised from 11.00% (2024–25) to 11.50% (2025–26), and the Athletic Director line was restructured from a 6.35% flat stipend to a tiered schedule topping at 17.00%.
 
 | Position | Tier 1 (1–3 yr) | Tier 2 (4–6 yr) | Tier 3 (7–9 yr w/ cred) | Tier 4 (10+ yr w/ cred) |
 |---|---|---|---|---|
-| **Head Varsity Coach (with assistants)** | 7.50% = $6,033.33 | 8.50% = $6,837.77 | 10.00% = $8,044.44 | 11.00% = **$8,848.88** |
-| Head Varsity Coach (without assistants) | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
+| **Head Varsity Coach (with assistants)** | 7.50% = $6,033.33 | 8.50% = $6,837.77 | 10.50% = $8,446.66 | 11.50% = **$9,251.10** |
+| Head Varsity Coach (without assistants) | *Line being eliminated — all head varsity coaches move to the "with assistants" tier* | | | |
 | JV / Assistant Coach | 5.00% = $4,022.22 | 6.00% = $4,826.66 | 8.00% = $6,435.55 | 9.00% = $7,239.99 |
-| Freshman coaches (10-week season) | 4.20% = $3,378.66 | 5.00% = $4,022.22 | 6.70% = $5,389.77 | 7.50% = $6,033.33 |
-| Athletic Director* | 6.35% = $5,108.22 (flat) | — | — | — |
-| **Athletic Assistant Director** | 6.35% = $5,108.22 (flat) | — | — | — |
+| Freshman coaches (10-week season) | 4.20% = $3,378.66 | 5.20% = $4,183.11 | 7.20% = $5,791.99 | 8.20% = $6,596.44 |
+| **Athletic Director*** | **13.00% = $10,457.77** | **14.00% = $11,262.21** | **16.00% = $12,871.10** | **17.00% = $13,675.54** |
+| Athletic Assistant Director | 6.35% = $5,108.22 | 7.35% = $5,912.66 | 9.35% = $7,521.55 | 10.35% = $8,325.99 |
 | Athletic Trainer* | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
-| **Equipment Manager (Football only)** | 2.85% = $2,292.66 (flat) | — | — | — |
+| **Equipment Manager (Football only)** | 1.35% = $1,086.00 | 2.85% = $2,292.66 | 2.85% = $2,292.66 | 2.85% = $2,292.66 |
 | Cheer Advisor | 6.00% = $4,826.66 | 7.00% = $5,631.10 | 9.00% = $7,239.99 | 10.00% = $8,044.44 |
 
 ***Asterisk footnote (verbatim from HTA contract):** "Additional compensation given: see Job Description for details."* Applies to AD, Athletic Trainer, and ASB Advisor — meaning the stipend lines above are not the full compensation for those roles.
 
-### Playoff post-season stipends (weekly, during CIF playoff participation)
+### Playoff post-season stipends (weekly, during CIF playoff participation) — 2025–26 rates
 
 | Condition | Weekly stipend |
 |---|---|
-| Head Coach with 5+ student athletes in playoff competition | $737.11/week |
-| Head Coach with fewer than 5 student athletes (and asst football coaches) | $368.56/week |
+| Head Coach with 5+ student athletes in playoff competition | **$770.62/week** (up from $737.11 in prior year) |
+| Head Coach with fewer than 5 student athletes (and asst football coaches) | **$385.31/week** (up from $368.56) |
 
 ### Maximum total head-coach compensation at Helix (verified math)
 
-**2025–26 top-of-schedule (verified from EdJoin posting 2207204, Boys Head Varsity Soccer, posted 4/8/2026):** $9,251.10. This is slightly above the stipend list's base 11.00% calculation of $8,848.88 because the advertised range includes the masters / single-subject-masters 2.5% base-salary differential per the 2025–26 salary schedule.
+**2025–26 top-of-schedule (verified directly from the current Helix stipend schedule):** Head Varsity Coach (with assistants) at 10+ years w/ credential = **11.50% × $80,444.35 = $9,251.10**. Confirmed by EdJoin JobPosting 2207204 (Boys Head Varsity Soccer, posted 4/8/2026) which showed an advertised range of $6,033.33 – $9,251.10.
 
-**2026–27 top-of-schedule (per peer-source confirmation, April 2026):** **Scheduled to cross $10,000** — Helix is anticipated to exceed the $10K per-stipend threshold for top-tier head varsity coaches next school year, before any playoff bonuses.
+**2026–27 top-of-schedule (per peer-source confirmation, April 2026):** Scheduled to exceed **$10,000** before any playoff bonuses.
 
-| Scenario | 2025–26 Math | 2025–26 Total | 2026–27 Projected |
-|---|---|---|---|
-| Head V Football 10+ yr, regular season only | Advertised top = $9,251 | **~$9,251** | **>$10,000** (per source) |
-| Head V Football 10+ yr + 3-week playoff run | $9,251 + ($737.11 × 3) | **~$11,462** | >$12,200 |
-| Head V Football 10+ yr + 4-week playoff run | $9,251 + ($737.11 × 4) | **~$12,199** | >$12,900 |
-| Head V Football 10+ yr + CIF-SDS Open Division 5-week run | $9,251 + ($737.11 × 5) | **~$12,937** | >$13,700 |
+| Scenario | 2025–26 Math | 2025–26 Total |
+|---|---|---|
+| Head V Football 10+ yr, regular season only | 11.50% × $80,444.35 | **$9,251.10** |
+| + 3-week playoff run | $9,251.10 + ($770.62 × 3) | **$11,563** |
+| + 4-week playoff run | $9,251.10 + ($770.62 × 4) | **$12,334** |
+| + CIF-SDS Open Division championship (5 weeks) | $9,251.10 + ($770.62 × 5) | **$13,104** |
 
-**At the top of the Helix schedule, a head varsity football coach running to a CIF-SDS division championship currently earns ~$13,000 as stipend compensation in a single season** — on top of their underlying teacher salary. That ceiling is scheduled to rise further in 2026–27.
+### The Athletic Director line — even higher than the head coach line
+
+The 2025–26 schedule restructured Helix's Athletic Director stipend from a **flat 6.35% of base = $5,108.22** (the structure in effect through 2024–25) to a **tiered schedule topping at 17.00% = $13,675.54** for the 10+ year with credential tier — a 168% increase at the top tier.
+
+| AD Tier | 2025–26 Math | Total |
+|---|---|---|
+| 1–3 years | 13.00% × $80,444.35 | $10,457.77 |
+| 4–6 years | 14.00% × $80,444.35 | $11,262.21 |
+| 7–9 years (w/ cred) | 16.00% × $80,444.35 | $12,871.10 |
+| **10+ years (w/ cred)** | **17.00% × $80,444.35** | **$13,675.54** |
+
+Plus the asterisk footnote: *"Additional compensation given: see Job Description for details."*
+
+**Assistant Athletic Director** was also restructured — from flat 6.35% ($5,108.22) to a tiered 6.35% / 7.35% / 9.35% / 10.35% structure topping at **$8,325.99** in 2025–26.
+
+### Roles currently exceeding $10,000 at Helix base (before playoffs or job-description comp)
+
+- **Athletic Director:** $10,457.77 at entry — $13,675.54 at top tier
+- **Band Director (10+ yr):** $10,457.77 (13% × $80,444.35)
+- **ASB Advisor (1–3 yr):** $10,457.77 — top tier $12,871.10
+- Head Varsity Football coach with 3+ weeks of playoffs
+
+### Total athletic stipend spending at Helix — primary-source verified
+
+**Estimated annual athletic stipend cost at Helix: $693,148.74 per year** (using max service years; excludes STRS/PERS, H&W, and indirect costs).
+
+This is a verified figure from the 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25). Per-school, Helix spends $693K on athletic stipends alone. For comparison, a rough bottom-up of GUHSD's coaching stipend spending (52 slots × ~$5,500 avg) works out to roughly **$286,000 per school per year** — meaning **Helix spends approximately 2.4× as much per school on athletic stipends as GUHSD** — driven by the combination of a 40% larger stipend count (73 vs. 52) and higher per-stipend rates.
 
 ### Compared to GUHSD's equivalent maximum
 
@@ -461,23 +489,31 @@ Using GUHSD's verified 2025–26 Extended Curricular schedule (Board approved 11
 
 | Scenario | GUHSD | Helix | Helix advantage |
 |---|---|---|---|
-| 10+ yr Head V Football, regular season | **$7,611** | ~$9,251 | +$1,640 (+21.5%) |
-| + 3-week playoff run (GUHSD $576/wk; Helix $737.11/wk) | $7,611 + $1,728 = $9,339 | $11,462 | +$2,123 |
-| + 4-week playoff run | $7,611 + $2,304 = $9,915 | $12,199 | +$2,284 |
-| + 5-week playoff run (CIF Open Division championship) | $7,611 + $2,880 = **$10,491** | **$12,937** | +$2,446 |
+| 10+ yr Head V Football, regular season | **$7,611** | $9,251 | +$1,640 (+21.5%) |
+| + 3-week playoff run (GUHSD $576/wk; Helix $770.62/wk) | $7,611 + $1,728 = $9,339 | $11,563 | +$2,224 |
+| + 4-week playoff run | $7,611 + $2,304 = $9,915 | $12,334 | +$2,419 |
+| + 5-week playoff run (CIF Open Division championship) | $7,611 + $2,880 = **$10,491** | **$13,104** | **+$2,613** |
+| Head varsity coach → moving to Athletic Director role | $6,227 (AD top tier) | **$13,675** (AD top tier) | **+$7,448 (+120%)** |
 
-**The user's rumor that "max coach gets $10K" tracks cleanly with the Helix data** — a head varsity football coach with 10+ years making a deep playoff run at Helix clears $11K-$13K in stipend compensation, and GUHSD's own max for the same scenario (with playoffs) is $10,491. So the $10K figure is the *GUHSD* ceiling with playoffs, while Helix's ceiling is $12K-$13K.
+**The user's rumor that "max coach gets $10K" tracks the data closely** — a GUHSD head varsity football coach with 10+ years making a deep playoff run clears $10,491 at ceiling. At Helix, the equivalent coach clears $13,104. And if the same person moves into the AD role, Helix's AD stipend ($13,675) is more than DOUBLE GUHSD's AD stipend ($6,227).
 
 ### Stipend slot count: Helix vs. GUHSD (athletics specifically)
 
-**Per peer-source confirmation, Helix funds 70 coaching stipends for athletics — roughly 35% more than GUHSD's 52-position cap.**
+**Per the verified 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25), Helix funds 73 athletic stipends per school — 40% more than GUHSD's 52-position cap.**
 
 | District | Total athletic coaching stipends per school | Source |
 |---|---|---|
 | **GUHSD** (each of 9 comprehensive HSs) | **52 stipended positions** across 24+ sports | GUHSD *Coaching Stipends — Sports & Levels*, updated 7.23 |
-| **Helix Charter** | **70 coaching stipends** | Peer-source confirmation (April 2026); Helix does not publish an equivalent allocation document |
+| **Helix Charter** | **73 athletic stipends** (35 boys + 35 girls + 1 co-ed diving + 1 AT + 1 equipment manager) | 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25) |
 
-**Practical difference:** Helix funds roughly **18 more paid coaching positions per school** than GUHSD does — enough to staff two additional varsity programs or add 2–3 assistants to each of the larger sports (football, wrestling, basketball, soccer) without forcing ASB/booster fundraising.
+**Helix's breakdown (verified):**
+- **Boys:** 15 Varsity + 13 JV + 7 Frosh = **35** (covering 13 sports: Baseball, Basketball, Cross Country, Football [3V+1JV+2F], Golf, Lacrosse, Soccer, Swimming, Tennis, Track, Volleyball, Water Polo, Wrestling)
+- **Girls:** 14 Varsity + 14 JV + 7 Frosh = **35** (covering 14 sports including Cheer, Beach Volleyball, Field Hockey)
+- **Co-ed:** 1 (Diving)
+- **Support staff:** 1 Athletic Trainer, 1 Equipment Manager
+- **Total: 73 athletic stipends**
+
+**Practical difference:** Helix funds roughly **21 more paid coaching positions per school** than GUHSD does — enough to staff additional programs and larger assistant coach teams without forcing ASB/booster fundraising. And this does not count the Assistant Athletic Director or additional leadership stipends (which are funded separately from the 73 athletic stipend count).
 
 ### Stipend line breadth: Helix also has ~2× the named non-athletic stipend categories
 
