@@ -335,6 +335,52 @@ Other findings:
 - Nearly **43% of California student-athletes** attend schools with no certified AT.
 - The trend is worsening: 47.6% of CA schools had no AT in 2019; by 2022–23 that grew to 51.6%.
 
+### Safety outcomes: injury rates with vs. without athletic trainers (Pierpoint et al. 2018)
+
+The most directly comparative study of injury outcomes — **Pierpoint LA, Williams CM, Fields SK, Comstock RD. "Injuries in girls' soccer and basketball: a comparison of high schools with and without athletic trainers."** *Injury Epidemiology* 5:29, 2018 — provides the peer-reviewed foundation for linking AT staffing to student safety:
+
+| Outcome | Rate Ratio (no-AT vs. AT) | 95% CI | Interpretation |
+|---|---|---|---|
+| **Overall injury rate — girls soccer** | **1.73** | 1.51–2.00 | 73% more injuries at schools without AT |
+| **Overall injury rate — girls basketball** | 1.22 | 1.03–1.45 | 22% more injuries at schools without AT |
+| **Recurrent injury rate — girls soccer** | **6.00** | 4.54–7.91 | **6× higher** recurrent injury rate without AT |
+| **Recurrent injury rate — girls basketball** | **2.99** | 2.12–4.14 | **~3× higher** recurrent injury rate without AT |
+| Head/face injury detection — girls soccer | 3.37 (higher at AT schools) | 1.48–7.61 | Schools with ATs detect 3.4× more head/face injuries (identification, not incidence) |
+| Head/face injury detection — girls basketball | 3.90 (higher at AT schools) | 1.60–9.49 | 3.9× more detected |
+
+Companion concussion-knowledge study (*Journal of Athletic Training*, 715 HS athletes: 438 with AT access, 277 without):
+- Concussion-knowledge score: 28.09 w/AT vs. 26.58 w/o (p ≤ .001)
+- Memory-loss symptom recognition: **83% w/AT vs. 68% w/o**
+- Sleep-problem symptom recognition: **54% w/AT vs. 35% w/o**
+- Cognitive fogginess symptom recognition: **66% w/AT vs. 37% w/o**
+- Overall underreporting rate across the full sample: **55%** (only 15.1% of recalled "bell-ringer" concussive events were actually reported to an authority figure)
+
+**Implication for GUHSD's four walk-on-trainer sites (El Cajon Valley, Mount Miguel, El Capitan, Santana):** the Pierpoint rate ratios are specific to schools with no certified AT, which is effectively the walk-on-trainer scenario for these four GUHSD sites. Students at these four sites are statistically more likely to sustain recurrent injuries and less likely to have concussion symptoms correctly identified than students at the five CTE-teacher-AT sites — and *both* groups are below the staffing level (full-time classified certified AT) that peer districts SDUHSD and Oceanside USD maintain.
+
+### Title IX exposure from booster-dependent athletics funding — the Morgan Hill precedent
+
+The most directly relevant OCR Title IX resolution in California is the **October 2023 agreement with Morgan Hill Unified School District** concerning Live Oak High School. OCR's findings and the resolution terms are directly applicable to GUHSD's current booster-funded model:
+
+**OCR findings at Live Oak HS (per U.S. Department of Education and *Morgan Hill Times* reporting):**
+- Girls' programs "may not have had similar quality equipment, equal access to the school's weight room and athletic trainer, equal access to the school's athletic locker room, or equitable publicity from the school's social media accounts"
+- Baseball had 2 fields vs. softball's 1 — with softball lacking lighting, scoreboard, and PA system
+- Live Oak's athletics "rely significantly on a private booster club for funding, but that funding is not necessarily distributed equally among all sports teams. Each team may separately raise funds for their own needs, and funds raised by one team are not shared with other squads."
+- An unnamed Live Oak coach described the model as "the wild west" and said teams have to "fend for themselves" to obtain funding
+
+**Resolution agreement — district commitments:**
+- "Create committees to ensure that differences in fundraising between teams will not create disparities in athletic equipment, uniforms or supplies based on sex"
+- **"Ensure the school's girls' and boys' athletics teams have equitable access to the school's athletic trainer, weight room, and training facilities"**
+
+**Federal Title IX precedent cited by OCR and NFHS:** *"If booster clubs provide benefits that create disparities based on gender, the school is responsible for offsetting those disparate benefits. The origins of the money that created the inequities does not serve as a defense for the district and does not mitigate the obligation to remedy those inequities."*
+
+**Applied to GUHSD's current model:**
+- Granite Hills verified FY 2025-26 trust account spend: Football $85,219 vs. Girls Basketball $15,349, Girls Soccer $14,529 — boys sports totaled $194,101 (55.3%) vs. girls sports $127,206 (36.2%)
+- This disparity is largely a function of booster fundraising capacity by sport, not a district-driven allocation
+- Under *Morgan Hill*, the fact that these disparities originate in booster fundraising **does not relieve GUHSD of the Title IX obligation to ensure equivalent benefits**
+- The specific equitable-access item OCR named at Live Oak — **the school's athletic trainer** — is the exact resource GUHSD currently funds via a $22,500 stipend and staffs via walk-ons at 4 of 9 sites
+
+**The Title IX framing turns the argument from "please fund athletics" into "please close a documented federal compliance exposure."** An OCR complaint at any GUHSD site could invoke the Morgan Hill precedent directly, and the district-level remedy OCR tends to require is exactly what this brief recommends: equitable AT staffing, committee oversight of booster disparities, and documentation of equivalent benefits regardless of funding source.
+
 ### AB 796 — California title protection (not licensure)
 
 - **Bill:** AB 796, Athletic Trainers. Chapter 899, Statutes of 2024.
@@ -415,6 +461,44 @@ The GUHSD internal proposal confirms what public research could not verify: **Sa
 - $1.4M ongoing is less than the size of the 2025 layoff-deficit gap ($2.5M) the district cited when cutting 61 positions in February 2025
 
 The entire proposal package could be funded from 3–5% of reserves in the first year, leaving the remaining reserves still well above state-mandated minimums.
+
+---
+
+## Pillar 2d — Student-athlete participation and ADA retention context
+
+### California statewide athletics participation
+
+Per the California Interscholastic Federation annual participation census:
+
+| Year | CA HS Athletics Participants | Source |
+|---|---|---|
+| 2022–23 | 763,867 | CIF census release |
+| 2023–24 | 787,697 | CIF census release |
+| 2024–25 | **852,575** | CIF census release |
+
+Two-year growth: **+11.6%**. Athletic participation is at an all-time high in California even as overall K-12 enrollment declines by roughly -1.3% per year. As a fraction of total CA HS enrollment (~1.9M in 2024–25), CA participation runs at approximately **45% of all high schoolers in education-based athletics**.
+
+Top sports by participation (2023–24):
+- **Boys:** Football (89,667) and Track & Field (57,088)
+- **Girls:** Soccer (47,631 — +4.6% YoY)
+
+### Verified SD County comprehensive HS enrollment (2024–25 / 2025–26)
+
+| School | Enrollment | Source |
+|---|---|---|
+| Helix Charter HS (La Mesa) | 2,554 (2024–25) / **2,571 (2025–26)** | CDE school profile |
+| Steele Canyon Charter HS (Spring Valley) | ~2,150 (recent years) | SCHS enrollment materials |
+| Granite Hills HS | 2,331 (2024–25) | Ed-Data school profile |
+
+**What this means for ADA retention:** The two GUHSD conversion charters (Helix, Steele Canyon) collectively enroll roughly 4,700 students — more than 20% of GUHSD's total ADA (14,835 in FY 2023–24 CDE data). Helix's enrollment trend has been stable-to-growing; any continued growth at Helix comes out of GUHSD comprehensive-site ADA. Given Helix's 16.3%-higher teacher base salary and materially higher head varsity coaching stipends, athletics compensation is one of the documentable structural advantages that makes Helix more competitive for coaching hires and, by extension, program quality.
+
+### Why this matters for the funding argument
+
+- CA athletics participation is **at an all-time high** and growing faster than enrollment is declining
+- Within a declining-enrollment environment, athletics programs are one of the few school offerings actively *attracting* students
+- Granite Hills FY 2025-26 verified spend of $351K on athletics at a 2,331-student school is ~$151 per student — and that figure is largely ASB/booster-funded
+- The direct comparison: Helix spends more per coach (16% higher base × matching % formula) at a 2,571-student site, and has been stable or growing
+- In a retention-focused budget framework, cutting or underfunding athletics is the opposite of the intervention the participation data supports
 
 ---
 
