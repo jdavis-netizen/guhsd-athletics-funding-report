@@ -771,6 +771,48 @@ The entire proposal package could be funded from 3–5% of reserves in the first
 
 ---
 
+## Pillar 2c.1 — Off-campus (walk-on) vs. on-campus (teacher) coaches
+
+### The underlying trend — CA is majority walk-on
+
+California high school coaching staffs have shifted increasingly toward off-campus ("walk-on") coaches as stipends have stagnated relative to alternative compensation available outside the classroom. The primary-source documented data point is from LAUSD — the largest district in California:
+
+| Jurisdiction / Year | Walk-on coach % | Teacher coach % | Source |
+|---|---|---|---|
+| **LAUSD, 2013–14** (83 high schools) | **58%** | 42% | Trenton Cornelius, LAUSD Coordinator of Athletics; reported by Eric Sondheimer (LA Times), via LA School Report commentary, March 2015 |
+| NFHS national estimate | ~50% | ~50% | NFHS: "One out of every two coaches is not a professional educator" |
+
+LAUSD's 2013–14 breakdown is the cleanest California datapoint documented in the public record; the trend has likely continued or worsened in the decade since, given the statewide teacher shortage and persistently low stipend rates at most CA districts.
+
+### California's regulatory framework for walk-on coaches
+
+Per California AB 346 (2010), all non-certificated individuals in paid or volunteer coaching positions at CA public schools must hold an **Activity Supervisor Clearance Certificate (ASCC)** issued by the Commission on Teacher Credentialing. The certificate is a fingerprint/background-check clearance — it does NOT authorize instruction or grant any teaching-credential-equivalent status. Valid for 5 years.
+
+**Implication:** California has explicitly codified a two-tier coaching workforce — certificated teacher-coaches with classroom access and credential-level training, and ASCC-cleared walk-on coaches with a background check but no instructional authorization.
+
+### Why this matters for GUHSD's argument
+
+Walk-on coach prevalence is **both a symptom and a cause** of under-compensated coaching structures:
+
+1. **Symptom:** When stipends fall below the level required to motivate teachers to coach (time + skill + season-long commitment), teachers stop volunteering and walk-ons fill the gap.
+2. **Cause:** Walk-on coaches operate without classroom-day access to the students they coach. They cannot intervene on academic eligibility issues in real time, cannot monitor discipline, and tend to have shorter program tenure — all of which affect program continuity and student outcomes.
+
+GUHSD's documented split at the Athletic Trainer level (5 CTE teachers/ATs + 4 walk-on trainers across 9 comprehensive sites) is an example of this exact pattern at the AT role — where under-compensated staffing leads to bifurcated on-campus/off-campus coverage. The same dynamic likely plays out across coaching positions more broadly at GUHSD, but a site-level breakdown of teacher vs. walk-on coach ratios is not publicly available and would require an internal district pull.
+
+### The ADA retention loop
+
+Walk-on coach prevalence also ties directly to the charter competition and ADA retention arguments already in this brief:
+
+- Helix Charter's HTA Contract §13.1.4.1 explicitly credits GUHSD experience on hire — including for coaches moving from teacher-coach roles at GUHSD to equivalent roles at Helix.
+- When a teacher-coach leaves GUHSD for Helix, the GUHSD program typically has to replace them with a walk-on (because the stipend rate is no longer competitive enough to attract another certificated teacher into the role).
+- Over successive years, that substitution moves GUHSD programs further toward the walk-on end of the spectrum — which reduces continuity, which reduces program quality, which contributes to further ADA attrition toward the charters.
+
+### What to request from GUHSD business services
+
+A defensible GUHSD-specific figure on walk-on vs. teacher coach ratio would come from payroll data (certificated stipend through district payroll = teacher-coach; ASCC-cleared hourly/contract engagement = walk-on coach). This is a single-query data pull for Business Services and would give the Board a concrete number specific to GUHSD — essential context for any vote on stipend structure.
+
+---
+
 ## Pillar 2d — Student-athlete participation and ADA retention context
 
 ### California statewide athletics participation
