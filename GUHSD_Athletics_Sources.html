@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sources — GUHSD Athletics Funding Report</title>
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-light: #0f6a53;
+    --navy-deep: #094234;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --accent: #a6192e;
+    --accent-soft: #f6e4e7;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--gray-100);
+    color: var(--gray-900);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 56px 80px;
+    background: #ffffff;
+  }
+  .header {
+    padding: 72px 56px 56px;
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: #fff;
+    margin: 0 -56px 40px;
+  }
+  .header .eyebrow {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.72);
+    margin: 0 0 8px 0;
+  }
+  .header h1 {
+    font-size: 38px;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+  }
+  .header p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.88);
+    margin: 0;
+    max-width: 720px;
+  }
+  .topnav {
+    background: #fff;
+    border-bottom: 1px solid var(--gray-200);
+    padding: 10px 56px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+  }
+  .topnav a {
+    color: var(--gray-700);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+  .topnav a:hover { background: var(--gray-100); color: var(--navy); }
+  .topnav a.active { background: var(--navy); color: #fff; }
+  h2 {
+    font-size: 22px;
+    color: var(--navy);
+    margin: 42px 0 14px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--navy);
+  }
+  h3 {
+    font-size: 17px;
+    color: var(--navy-deep);
+    margin: 26px 0 10px 0;
+  }
+  .section-num {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+    margin-top: 32px;
+  }
+  ol {
+    padding-left: 28px;
+    line-height: 1.7;
+  }
+  ol li { margin-bottom: 10px; }
+  a { color: var(--navy); }
+  a:hover { color: var(--accent); }
+  strong { color: var(--gray-900); }
+  em { color: var(--gray-700); }
+  .intro {
+    background: var(--gray-100);
+    border-left: 3px solid var(--navy);
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--gray-700);
+    margin-bottom: 28px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 13px;
+  }
+  th, td {
+    border: 1px solid var(--gray-300);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--gray-100);
+    font-weight: 700;
+    color: var(--navy-deep);
+  }
+  .highlight {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 12px 16px;
+    margin: 14px 0;
+    font-size: 14px;
+  }
+  .footer {
+    margin: 48px -56px -40px;
+    padding: 32px 56px;
+    background: var(--gray-100);
+    border-top: 1px solid var(--gray-200);
+    font-size: 12px;
+    color: var(--gray-500);
+  }
+  @media (max-width: 720px) {
+    .page, .header, .topnav, .footer { padding-left: 24px; padding-right: 24px; }
+    .header { margin: 0 -24px 32px; }
+    .footer { margin: 40px -24px -24px; }
+    .header h1 { font-size: 28px; }
+  }
+  @media print {
+    .topnav { display: none; }
+    .header { background: #fff; color: var(--navy-deep); }
+    .header p, .header .eyebrow { color: var(--gray-700); }
+  }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="index.html">Main Report</a>
+  <a href="GUHSD_Athletics_Board_Deck.html">Board Deck</a>
+  <a href="GUHSD_Athletics_FAQ.html">FAQ</a>
+  <a href="GUHSD_Athletics_Animation.html">Animation</a>
+  <a href="GUHSD_Athletics_Sources.html" class="active">Sources</a>
+  <a href="https://github.com/jdavis-netizen/guhsd-athletics-funding-report" target="_blank">Source Repo</a>
+</div>
+
+<div class="page">
+
+<div class="header">
+  <p class="eyebrow">Consolidated Sources</p>
+  <h1>GUHSD Athletics Funding — Sources</h1>
+  <p>Every primary source, peer-reviewed study, and supporting document cited in the GUHSD Athletics Funding Report, Board Deck, FAQ, Animation, and Research Brief. Compiled April 2026 by Granite Hills Athletics Administration.</p>
+</div>
+
+<div class="intro">
+  <strong>Verification principle:</strong> Every dollar figure in the report traces to either (a) a Board-approved salary schedule, (b) a posted EdJoin job listing, (c) a governing Collective Bargaining Agreement, (d) audited CDE current expense data, or (e) the CHSSO 2024–26 officials fee document. Secondary-source-only figures are explicitly flagged as such in the brief.
+</div>
+
+<div class="section-num">Category 1</div>
+<h2>GUHSD Primary Documents</h2>
+<ol>
+  <li><strong>GUHSD <em>Extended Curricular Assignments 2025–2026 SY, as of 7-1-2025</em></strong> — original board-approved stipend schedule (Class 3 Step 1 = $67,159.00 version).</li>
+  <li><strong>GUHSD <em>Extended Curricular Assignments 2025–2026 SY, as of 7-1-2025, 2% Increase Board Approved 11/13/2025</em></strong> — current effective schedule (Class 3 Step 1 = $69,187.20). <strong>Primary source for all GUHSD stipend dollar amounts.</strong></li>
+  <li><strong>GUHSD <em>Coaching Stipends — Sports &amp; Levels</em>, dated 9.9.2021</strong> — historical 47-position allocation.</li>
+  <li><strong>GUHSD <em>Coaching Stipends 2023.24</em>, updated 7.23</strong> — current 52-position cap per school.</li>
+  <li><strong>GUHSD Internal Proposal: <em>Athletic Trainer Staffing, Funding, and Equity</em></strong> — athletics-department-drafted proposal package (~$1.4M total). Internal document; source for all "full proposal" cost figures.</li>
+  <li><a href="https://www.guhsd.net/Departments/Human-Resources/Bargaining-Unit-Contracts/index.html">GUHSD Bargaining Unit Contracts</a> — GEA 7/2021–6/2023 contract listing.</li>
+  <li><a href="https://www.guhsd.net/Departments/Human-Resources/Certificated-Salary-Schedules/index.html">GUHSD Certificated Salary Schedules</a> — 2% increase effective 7/1/2025.</li>
+  <li><a href="https://www.guhsd.net/Departments/Business-Services/Budget-and-Financial-Information/Budget-Information-by-Fiscal-Year/index.html">GUHSD Budget Information by Fiscal Year</a> — SACS-format reports FY 2008-09 through FY 2026-27.</li>
+</ol>
+
+<h3>Granite Hills site-level data</h3>
+<ol start="9">
+  <li><strong>Granite Hills Athletics Dashboard v5</strong> (FY 2025-26 trust account reporting, internal) — $351,185 total athletics expenditure; $39,178 Arbiter officials; $18,215 tournament entry fees; $57,393 combined competition overhead. Sport-level line items for Football $85,219, Wrestling $41,549, Cheer $32,621, Girls Volleyball $29,302, Boys Lacrosse $21,170, Boys Aquatic $17,738, Athletic Needs $15,896, Girls Basketball $15,349, Girls Soccer $14,529, Baseball $12,914.</li>
+</ol>
+
+<div class="section-num">Category 2</div>
+<h2>California Department of Education / State Financial Data</h2>
+<ol start="10">
+  <li><strong>California Department of Education, <em>Current Expense of Education per ADA, FY 2023–24</em></strong> — <a href="https://www.cde.ca.gov/ds/fd/ec/documents/currentexpense2324.xlsx">currentexpense2324.xlsx</a>. Audited-actual current expense figures for every California LEA. <strong>Primary source for every per-ADA spending comparison in this brief.</strong> GUHSD = $21,644/ADA (3rd highest in SD County peer set).</li>
+</ol>
+
+<div class="section-num">Category 3</div>
+<h2>SD County Peer District Primary Sources</h2>
+
+<h3>Sweetwater UHSD</h3>
+<ol start="11">
+  <li><strong>Sweetwater UHSD <em>Salary Schedule for Extra Service Assignments – Athletics, Appendix C-2</em></strong> — Board approved 1/6/2026 (3.5% increase). <a href="https://drive.google.com/file/d/1ZELH31AO65317cGLWe0OaA_aIOvzMA--/view?usp=drive_link">Direct file</a> · <a href="https://hr.sweetwaterschools.org/salary-schedules">SUHSD HR Salary Schedules</a>.</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/2036616">Sweetwater UHSD Varsity Head Football Coach EdJoin posting 2036616</a> — single flat $6,282 (pre-1/1/2026).</li>
+</ol>
+
+<h3>San Dieguito UHSD</h3>
+<ol start="13">
+  <li><strong>SDUHSD <em>Extra-Curricular Salary Schedule</em></strong> — Board approved 6/11/2025 (1.0% increase). <a href="https://www.sduhsd.net/Departments/Human-Resources/Salary-Schedules/index.html">SDUHSD Salary Schedules</a>.</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/1528322">SDUHSD Athletic Trainer EdJoin 1528322</a> — classified, 1.0 FTE, 35 hrs/week, $23.21–$31.11/hr + 2.5% shift diff + benefits; BOC required; San Dieguito Academy.</li>
+</ol>
+
+<h3>Escondido UHSD (incl. San Pasqual HS)</h3>
+<ol start="15">
+  <li><strong>EUHSD <em>2025–26 ESTA Co-Curricular Stipend Salary Schedule</em></strong> — revised March 2026 (3.0% increase). <a href="https://www.euhsd.org/apps/pages/index.jsp?uREC_ID=2772293&type=d&pREC_ID=2399780">EUHSD Certificated Salary Schedule</a>.</li>
+</ol>
+
+<h3>San Marcos Unified (SMUSD)</h3>
+<ol start="16">
+  <li><strong>SMUSD <em>SMEA/SMUSD CBA 2024–2026</em>, Section 8(D)</strong> — <a href="https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf">SMEA Contract PDF</a>. Class structure verified; dollar amounts per class are not in CBA body.</li>
+</ol>
+
+<h3>Oceanside USD</h3>
+<ol start="17">
+  <li><strong>OUSD / OTA Contract 2025–2027</strong> — published by <a href="https://www.oceansideta.com/resources">OTA</a> and <a href="https://www.oside.us/departments/human-resources/hr-certificated/oceanside-teacher-association-ota">OUSD HR</a>. Image-based PDF; coaching stipend amounts verified via EdJoin postings (below).</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/2164562">OUSD Head Varsity Football Coach, El Camino HS EdJoin 2164562</a> (Dec 2025) — $4,530 single rate.</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/1907754">OUSD Head Varsity Boys Basketball, Oceanside HS EdJoin 1907754</a> (Mar 2024) — $3,674 single rate.</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/1719288">OUSD Assistant Football Coach, Oceanside HS EdJoin 1719288</a> — Asst V $3,274 / Asst JV $2,870 / Asst Frosh $2,870.</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/1093003">OUSD Athletic Trainer EdJoin 1093003</a> — classified full-time, 12-month, Range 27 ($3,600.58–$5,470.25/month); NATA certification required.</li>
+</ol>
+
+<h3>San Diego Unified (SDUSD)</h3>
+<ol start="22">
+  <li><a href="https://www.sdea.net/wp-content/uploads/2022-2025_SDEA_Collective-Bargaining-Agreement_FINAL-FOR-PRINT.pdf">SDUSD — SDEA Collective Bargaining Agreement 2022–2025</a> — coaching stipend appendix not in CBA main body; not publicly isolatable during this pass.</li>
+</ol>
+
+<div class="section-num">Category 4</div>
+<h2>GUHSD Conversion Charters (Grossmont League competitors)</h2>
+
+<h3>Helix Charter HS (La Mesa)</h3>
+<ol start="23">
+  <li><strong>Helix Charter <em>2024–25 HTA Stipend List</em></strong> — effective 7/1/2024 (Class 3 Step 1 = $80,444.35). <a href="https://drive.google.com/file/d/112V4UaDWRQymyaMh0-4KhKN2hRJtCVdA/view">Drive file</a> · <a href="https://www.helixcharter.net/staff/hta">HTA page</a>.</li>
+  <li><strong>Helix Charter <em>2025–26 HTA Salary Schedule</em></strong> — Board approved 10/20/2025. <a href="https://drive.google.com/file/d/1D0OmMftKZgClzkqlvlDAT2t9h9TdS0wp/view">Drive file</a>.</li>
+  <li><strong>Helix HTA Contract 2023–2026</strong> — §13.1.4.1 (GUHSD experience credited on hire); §13.1.4 (credential-gated tenure).</li>
+  <li><strong>Helix <em>Proposed 26-27 13.1.3 Extended Curricular Assignments for 2025</em> Working Document</strong> — primary-source xlsx for 2026-27 proposed schedule (head varsity max → $11,664).</li>
+  <li><strong>2024-25 HCHS Stipend Allotment List (rev. 2025.02.25)</strong> — 73 athletic stipends (35 Boys + 35 Girls + 1 Co-ed + 1 AT + 1 Equipment Manager).</li>
+  <li><a href="https://www.edjoin.org/Home/JobPosting/2207204">Helix Charter EdJoin JobPosting 2207204</a> (Boys Head Varsity Soccer, 4/8/2026) — confirms 2025-26 range $6,033.33–$9,251.10.</li>
+</ol>
+
+<h3>Steele Canyon Charter HS (Spring Valley)</h3>
+<ol start="29">
+  <li><strong>Steele Canyon <em>SCCEA Certificated Bargaining Unit Agreement, 7/1/2022–6/30/2026</em></strong> — <a href="https://docs.google.com/document/d/1trpw-L7mm52zVT3174gtH3xcOofoDXeJhalK-cSi5Rw/edit">Contract Google Doc</a> · <a href="https://www.schscougars.org/human-resources">Steele Canyon HR</a>.</li>
+  <li><strong>Steele Canyon <em>Coaching Stipends 2025-2026</em></strong> — internal schedule confirming AD $10,802 top-tier.</li>
+  <li><a href="http://www.eastcountymagazine.org/steele-canyon-governing-board-approves-salary-increase-staff">East County Magazine — Steele Canyon 9.6% salary raise (7/1/2023)</a>.</li>
+</ol>
+
+<div class="section-num">Category 5</div>
+<h2>Officials Fees</h2>
+
+<h3>Authoritative CIF-San Diego Section Fee Document</h3>
+<ol start="32">
+  <li><strong>Committee on High School Sports Officiating (CHSSO) — <em>Fall / Winter / Spring Sports Officials Fee Schedules, 2024–2025 &amp; 2025–2026</em></strong> — governing per-game fee document for all CIF-San Diego Section contests. Source file provided by GUHSD athletics administration. <strong>Source for every verified officials-fee dollar figure in Pillar 8.</strong> Documents per-sport rates, single-official premium rules, Transportation Fee Appendix 1 ($13–$55 by mileage), 30-day payment rule with $20 late fee, CIF-SDS playoff fees set separately by Commissioner.</li>
+</ol>
+
+<h3>Supporting / benchmarking</h3>
+<ol start="33">
+  <li><a href="https://www.cifsds.org/officials/Fee_Sheets">CIF San Diego Section — Officials Fee Sheets index</a>.</li>
+  <li><a href="https://www.aol.com/news/southern-section-officials-paid-hourly-182847028.html">AOL / LA Times — CIF Southern Section officials paid under new flat-rate proposal</a> — CIF-SS benchmark: $140 football / $88 basketball / $116 baseball.</li>
+  <li><a href="https://www.cif-la.org/apps/pages/index.jsp?uREC_ID=200117&type=d&pREC_ID=432942">CIF Los Angeles City Section — Officials Fees</a>.</li>
+  <li><a href="https://sportstarsmag.com/2024/04/beyond-the-game-tackling-the-crisis-of-referee-shortages-in-high-school-and-youth-sports">SportStars — Tackling the Crisis of Referee Shortages (April 2024)</a>.</li>
+</ol>
+
+<div class="section-num">Category 6</div>
+<h2>Athletic Trainer Regulatory Framework</h2>
+<ol start="37">
+  <li><a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796">California Legislative Information — AB 796 Athletic Trainers</a> — Chapter 899, Statutes of 2024. Title protection, signed 9/29/2024.</li>
+  <li><a href="https://bocatc.org/newsroom/passage-of-athletic-training-title-protection-win-for-california/">Board of Certification — Passage of Athletic Training Title Protection in California</a>.</li>
+  <li><a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB346">California Legislative Information — AB 346 Activity Supervisor Clearance Certificate</a> — ASCC regulatory framework for walk-on coaches.</li>
+</ol>
+
+<div class="section-num">Category 7</div>
+<h2>Peer-Reviewed Academic Studies</h2>
+
+<h3>AEI attendance impact study (April 2026)</h3>
+<ol start="40">
+  <li><strong>Malkus N, Hollon S. <em>An Extra Point for Attendance: The Impact of High School Varsity Athletics on Absenteeism</em>. American Enterprise Institute, April 8, 2026.</strong> <a href="https://www.aei.org/research-products/report/an-extra-point-for-attendance-the-impact-of-high-school-varsity-athletics-on-absenteeism/">AEI report page</a> · <a href="https://www.aei.org/wp-content/uploads/2026/04/An-Extra-Point-for-Attendance-1.pdf">Full PDF</a>. n=262,600 Indiana HS students; varsity athletes 10.0% chronically absent vs. non-athletes 22.9% (−7.7 pp adjusted). Effect ~2× larger for FRPM-eligible students. <strong>Primary source for the LCFF-attendance argument in Pillar 5 and Exec Summary finding #7.</strong></li>
+  <li><a href="https://www.edweek.org/leadership/the-lesson-schools-can-learn-from-student-athletes-attendance-data/2026/04">EdWeek coverage</a>.</li>
+  <li><a href="https://www.washingtonpost.com/education/2026/04/08/student-athletes-have-better-attendance-study/">Washington Post coverage</a> (paywalled).</li>
+</ol>
+
+<h3>Injury / Athletic Trainer impact study</h3>
+<ol start="43">
+  <li><strong>Pierpoint LA, Williams CM, Fields SK, Comstock RD. <em>Injuries in girls' soccer and basketball: a comparison of high schools with and without athletic trainers</em>. Injury Epidemiology 5:29, 2018.</strong> <a href="https://link.springer.com/article/10.1186/s40621-018-0159-6">Full text</a>. Source of the <strong>6× / 3× recurrent injury rate ratios</strong> for no-AT vs. AT schools — core student-safety finding in Pillar 4.</li>
+</ol>
+
+<h3>CA AT staffing prevalence study</h3>
+<ol start="44">
+  <li><strong>Pickett et al. <em>Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update</em>. <em>Journal of Athletic Training</em>, 2024.</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11611368/">PMC article</a>. 51.6% of CA schools no AT; 45.0% of CA publics have certified AT; 10.5% of CA publics use unqualified personnel.</li>
+  <li><a href="https://koreystringer.institute.uconn.edu/atlas/">Korey Stringer Institute — ATLAS Project</a> (NFHS survey infrastructure).</li>
+  <li><a href="https://training-conditioning.com/news/study-more-than-half-of-california-high-schools-lack-athletic-trainers/">Training &amp; Conditioning coverage of Pickett study</a>.</li>
+</ol>
+
+<div class="section-num">Category 8</div>
+<h2>Title IX / OCR Precedent</h2>
+<ol start="47">
+  <li><strong>U.S. Department of Education, Office for Civil Rights. <em>Resolution of Title IX Athletics Investigation of Morgan Hill Unified School District</em>, October 2023.</strong> Directly requires "equitable access to the school's athletic trainer" regardless of booster-funding origin. <strong>Primary source for the Title IX exposure argument.</strong></li>
+</ol>
+
+<div class="section-num">Category 9</div>
+<h2>CIF Participation Data</h2>
+<ol start="48">
+  <li><strong>California Interscholastic Federation. <em>Annual Participation Census, 2022–23 through 2024–25</em>.</strong> <a href="https://www.cifstate.org/coaches-admin/census/index">CIF Census Index</a>. 2022–23: 763,867 · 2023–24: 806,979 · 2024–25: 852,575 (all-time high). Two-year growth: +11.6%.</li>
+</ol>
+
+<div class="section-num">Category 10</div>
+<h2>Coaching Stipend Benchmarks (non-SD-County)</h2>
+<ol start="49">
+  <li><a href="https://sports.yahoo.com/lausd-coaches-receive-first-stipend-023109893.html">LAUSD — Yahoo Sports, LAUSD coaches to receive first stipend raise in more than 20 years (Nov 2021)</a> — head football $5,622 / basketball &amp; baseball $5,024.</li>
+  <li><a href="https://coachfore.org/2024/06/01/cali/">CoachFore — Landing A Job in California (June 2024)</a> — head $3,500–$7,000; assistants $1,800–$3,500.</li>
+</ol>
+
+<div class="section-num">Category 11</div>
+<h2>Walk-On vs. Teacher-Coach Benchmarks</h2>
+<ol start="51">
+  <li><strong>LAUSD walk-on ratio data</strong> — publicly reported 58% walk-on coach prevalence. Used as statewide benchmark in Pillar 4b.</li>
+</ol>
+
+<div class="section-num">Category 12</div>
+<h2>News Coverage</h2>
+<ol start="52">
+  <li><a href="https://voiceofsandiego.org/2025/03/05/the-learning-curve-grossmont-unions-layoffs-spark-outrage/">Voice of San Diego — The Learning Curve: Grossmont Union's Layoffs Spark Outrage</a> (March 5, 2025) — 61 layoff notices, $2.5M deficit; Trustee Chris Fite quoted.</li>
+</ol>
+
+<div class="section-num">Category 13</div>
+<h2>Website / Repository</h2>
+<ol start="53">
+  <li><a href="https://jdavis-netizen.github.io/guhsd-athletics-funding-report/">GitHub Pages live report</a>.</li>
+  <li><a href="https://github.com/jdavis-netizen/guhsd-athletics-funding-report">GitHub source repository</a>.</li>
+</ol>
+
+<h2>Source Categorization by Claim Type</h2>
+<table>
+  <thead>
+    <tr><th>Claim category</th><th>Primary sources</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GUHSD stipend dollar amounts</td><td>#2, #4 (current schedules)</td></tr>
+    <tr><td>Per-ADA spending comparisons</td><td>#10 (CDE Current Expense 2023-24)</td></tr>
+    <tr><td>SD County peer coaching stipends</td><td>#11–#21 + #23–#31</td></tr>
+    <tr><td>Officials fees (CIF-SDS)</td><td>#32 (CHSSO 2024–26)</td></tr>
+    <tr><td>Athletic trainer regulatory</td><td>#37 (AB 796), #39 (AB 346), #43 (Pierpoint), #44 (Pickett)</td></tr>
+    <tr><td>Title IX exposure</td><td>#47 (Morgan Hill OCR)</td></tr>
+    <tr><td>Attendance / LCFF argument</td><td>#40 (Malkus &amp; Hollon AEI, 2026)</td></tr>
+    <tr><td>Participation trend</td><td>#48 (CIF Census)</td></tr>
+    <tr><td>Retention / declining enrollment</td><td>#52 (Voice of San Diego)</td></tr>
+    <tr><td>Granite Hills site data</td><td>#9 (Athletics Dashboard v5)</td></tr>
+    <tr><td>Full proposal costing</td><td>#5 (GUHSD internal AT proposal)</td></tr>
+  </tbody>
+</table>
+
+<div class="highlight">
+<strong>Remaining gaps (honestly labeled):</strong>
+<ul style="margin: 8px 0;">
+  <li>SMUSD per-class stipend dollar amounts are not in the CBA body.</li>
+  <li>SDUSD coaching stipend appendix is not in the main CBA text.</li>
+  <li>Peer SD County districts' ASB-vs.-general-fund officials funding split would require AD-to-AD survey data.</li>
+</ul>
+</div>
+
+<div class="footer">
+  <p style="margin: 0 0 6px 0;"><strong>GUHSD Athletics Funding Report — Consolidated Sources</strong></p>
+  <p style="margin: 0;">Compiled April 2026 by Granite Hills Athletics Administration. Every dollar figure in the report traces to primary-source documents listed above. This file may be distributed alongside or instead of the full report as a bibliography reference.</p>
+</div>
+
+</div>
+
+</body>
+</html>

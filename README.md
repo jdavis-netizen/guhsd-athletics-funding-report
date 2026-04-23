@@ -6,7 +6,7 @@ An evidence-based review of athletics funding at Grossmont Union High School Dis
 
 **https://jdavis-netizen.github.io/guhsd-athletics-funding-report/**
 
-## The four deliverables
+## Deliverables
 
 | File | Purpose | Direct link |
 |---|---|---|
@@ -14,6 +14,8 @@ An evidence-based review of athletics funding at Grossmont Union High School Dis
 | **`GUHSD_Athletics_Board_Deck.html`** | 12-slide board presentation deck. Keyboard nav, fullscreen-ready, prints to PDF for handouts. | [View live](https://jdavis-netizen.github.io/guhsd-athletics-funding-report/GUHSD_Athletics_Board_Deck.html) |
 | **`GUHSD_Athletics_FAQ.html`** | Anticipated board Q&A document. 14 predictable objections with data-anchored responses. Internal prep doc. | [View live](https://jdavis-netizen.github.io/guhsd-athletics-funding-report/GUHSD_Athletics_FAQ.html) |
 | **`GUHSD_Athletics_Animation.html`** | 30-second animated data story. Seven timed beats, optional voice-over. | [View live](https://jdavis-netizen.github.io/guhsd-athletics-funding-report/GUHSD_Athletics_Animation.html) |
+| **`GUHSD_Athletics_Sources.html`** | Consolidated sources document — all primary sources, peer-reviewed studies, and supporting documents organized by category. | [View live](https://jdavis-netizen.github.io/guhsd-athletics-funding-report/GUHSD_Athletics_Sources.html) |
+| **`GUHSD_Athletics_Sources.md`** | Markdown version of the sources document. | [View on GitHub](GUHSD_Athletics_Sources.md) |
 | **`GUHSD_Athletics_Funding_Research_Brief.md`** | Markdown version of the research brief. Source for all numbers. | [View on GitHub](GUHSD_Athletics_Funding_Research_Brief.md) |
 
 ## The headline
@@ -29,4 +31,16 @@ The athletics department has drafted a fully-costed $1.4M proposal package. That
 
 ## Sources
 
-Every numeric claim traces to a primary-source document: CDE Current Expense of Education, district CBAs and salary schedules, EdJoin job postings for verification, peer-reviewed injury research (Pierpoint et al. 2018), U.S. Dept of Education OCR Morgan Hill USD resolution (2023), CIF participation census, GUHSD internal proposal documents, and Granite Hills trust account reporting. Full citations in the report footer.
+Every numeric claim traces to a primary-source document. Full consolidated list at **[GUHSD_Athletics_Sources.html](https://jdavis-netizen.github.io/guhsd-athletics-funding-report/GUHSD_Athletics_Sources.html)** (also available as [markdown](GUHSD_Athletics_Sources.md)). Key primary sources:
+
+- **CDE** *Current Expense of Education per ADA, FY 2023-24* — all per-ADA spending comparisons
+- **CHSSO** *Officials Fee Schedules 2024-25 & 2025-26* — authoritative CIF-SDS per-game rates
+- **Peer district CBAs and salary schedules** (Sweetwater, SDUHSD, EUHSD, SMUSD, Oceanside, SDUSD) plus the two GUHSD conversion charters (Helix, Steele Canyon)
+- **EdJoin job postings** — 7 different postings used to verify stipend/AT dollar figures
+- **Malkus & Hollon, AEI (April 8, 2026)** — n=262,600 Indiana attendance-and-athletics study; primary source for the LCFF/ADA attendance argument
+- **Pierpoint et al., 2018** — *Injury Epidemiology* peer-reviewed study showing 6×/3× recurrent injury rate ratios in schools without ATs
+- **Pickett et al., 2024** — *Journal of Athletic Training* CA AT staffing prevalence (51.6% CA schools no AT)
+- **U.S. Dept of Education OCR Morgan Hill USD resolution (Oct 2023)** — Title IX precedent on AT/booster access
+- **California Legislature** — AB 796 (athletic trainer title protection, 2024) and AB 346 (ASCC)
+- **CIF Annual Participation Census, 2022-23 through 2024-25**
+- **GUHSD internal proposal documents** and **Granite Hills trust account reporting**
