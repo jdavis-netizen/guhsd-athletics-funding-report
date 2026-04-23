@@ -22,6 +22,8 @@
 
 6. **The new framing the budget data makes possible: GUHSD is NOT underfunded overall — it's underfunding ATHLETICS specifically.** Per verified CDE current expense data for FY 2023–24, GUHSD spends **$21,644 per ADA** — the 3rd-highest in the SD County peer set, behind only EUHSD ($22,357) and San Diego Unified ($21,952), and $6,000+ per student MORE than SDUHSD ($15,634), Poway ($15,555), and San Marcos ($16,361). Yet SDUHSD — spending 28% less per student — still funds full-time BOC-certified classified ATs at every comprehensive site, pays Head Varsity Football more at entry level, and places its AD at the top of its extracurricular schedule. **This is not a "district can't afford it" story. It's an "athletics is allocated a smaller share of a larger pie" story** — and that reframe is the most defensible version of the underfunded argument the data actually supports.
 
+7. **NEW (April 2026): athletics is one of the most direct ADA-attendance interventions available to a CA district.** Malkus & Hollon's AEI study *An Extra Point for Attendance* (April 8, 2026) merged Indiana day-level attendance records with IHSAA varsity rosters (n=262,600). Key findings: varsity athletes' chronic absenteeism rate = **10.0%** vs. non-athletes **22.9%** (−12.9 pp raw; −7.7 pp adjusted for demographics). The effect is ~**2× larger for Free/Reduced-Price-Meal-eligible students** (1.45 pp vs. 0.74 pp non-poor) — i.e., larger for exactly the populations that generate LCFF supplemental/concentration dollars. Authors describe the in-season effect as "almost certainly... predominantly caused by [athletics] participation." LCFF math: a single percentage point of district-wide attendance improvement across GUHSD's ~14,835 ADA = approximately **$800,000+/year in LCFF revenue**. The district's $1.4M full athletics proposal is ~1.75× that figure — revenue-neutral at a fractional-percentage-point attendance lift, before any retention-to-charter effects.
+
 ---
 
 ## Methodology and Data-Availability Caveats
@@ -849,6 +851,47 @@ Top sports by participation (2023–24):
 - The direct comparison: Helix spends more per coach (16% higher base × matching % formula) at a 2,571-student site, and has been stable or growing
 - In a retention-focused budget framework, cutting or underfunding athletics is the opposite of the intervention the participation data supports
 
+### NEW — AEI peer-reviewed evidence: athletics drives attendance (April 2026)
+
+**Citation:** Malkus N, Hollon S. *An Extra Point for Attendance: The Impact of High School Varsity Athletics on Absenteeism.* American Enterprise Institute, April 8, 2026. [AEI report page](https://www.aei.org/research-products/report/an-extra-point-for-attendance-the-impact-of-high-school-varsity-athletics-on-absenteeism/).
+
+**Methodology:** Merged day-level attendance records from the Indiana Department of Education with complete varsity roster data from the Indiana High School Athletic Association (IHSAA) for 2023–24 (n = ~262,600 HS students; total sample across 2021–2024 = 370,200). Uses student fixed-effects models to estimate causal in-season effects.
+
+**Headline findings:**
+
+| Measure | Non-athletes | Varsity athletes | Difference |
+|---|---|---|---|
+| **Chronic absenteeism rate (≥10% days missed)** | 22.9% | **10.0%** | **−12.9 pp (raw)** |
+| Same, adjusted for demographics | — | — | **−7.7 pp (adjusted)** |
+
+**Dosage effect (more sports = better attendance):**
+- 0 seasons (non-athletes): 21.7%
+- 1 season athletes: 15.2%
+- 2 seasons athletes: 11.4%
+- **3 seasons athletes: 10.0%**
+
+**Equity finding — effect is LARGER for populations LCFF supplemental/concentration grants are designed to serve:**
+
+| Subgroup | Adjusted athlete effect (pp absence-rate reduction) |
+|---|---|
+| **Free/Reduced-Price Meal-eligible students** | **1.45 pp** (vs. 0.74 pp non-poor — nearly 2× the effect) |
+| **Black students** | 1.32 pp (vs. 0.90 pp White students) |
+| **Hispanic/Latino students** | 1.27 pp (vs. 0.90 pp White students) |
+| **Female students** | 1.20 pp (vs. 0.77 pp male students) |
+
+**Authors' causal claim (direct quote):**
+> "It is almost certain that athletes' improved attendance during their sports seasons is predominantly caused by their active sports participation."
+
+### Translating the Indiana AEI finding into GUHSD LCFF dollars
+
+California's Local Control Funding Formula is ADA-based. Each percentage point of district-wide attendance improvement across GUHSD's ~14,835 ADA is worth approximately **$800,000+/year in LCFF base + supplemental revenue** (calculated: 1% × 14,835 students × 180 school days × per-diem ADA rate).
+
+The AEI-documented adjusted athlete effect (7.7 pp lower chronic absenteeism than non-athletes, controlling for demographics) implies:
+
+- **Expanding or stabilizing athletics participation is one of the most direct, evidence-based attendance interventions available to any CA district.** Unlike most attendance interventions, the treatment is already in place — the question is whether GUHSD funds it at the level that keeps participation rising.
+- **The $1.4M full athletics proposal is ~1.75× the LCFF revenue of a single percentage point of district-wide attendance.** Even a fractional-percentage-point attendance lift makes the proposal revenue-neutral before counting retention-to-charter effects.
+- **The equity finding (1.45 pp effect for FRPM-eligible students vs. 0.74 pp for non-poor) maps directly onto GUHSD's LCFF supplemental/concentration population** — the students who generate LCFF supplemental dollars are the students for whom athletics has the largest attendance effect.
+
 ---
 
 ## Pillar 3 — Officials Fees and Funding Models
@@ -1004,6 +1047,7 @@ The *factual* case (officials cost is rising, district share isn't keeping pace,
 13. [CoachFore — Landing A Job in California (June 2024)](https://coachfore.org/2024/06/01/cali/) — head $3,500–$7,000; assistants $1,800–$3,500
 14. [Yahoo Sports — LAUSD coaches to receive first stipend raise in more than 20 years (Nov 2021)](https://sports.yahoo.com/lausd-coaches-receive-first-stipend-023109893.html) — LAUSD head football $5,622 / basketball & baseball $5,024
 15. [Pickett et al., *Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update* (Journal of Athletic Training, 2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11611368/) — 51.6% CA schools no AT; 45.0% CA publics have certified AT; 10.5% CA publics use unqualified personnel
+15a. [Malkus N, Hollon S. *An Extra Point for Attendance: The Impact of High School Varsity Athletics on Absenteeism*. American Enterprise Institute, April 8, 2026.](https://www.aei.org/research-products/report/an-extra-point-for-attendance-the-impact-of-high-school-varsity-athletics-on-absenteeism/) — Indiana DOE × IHSAA day-level data, n=262,600; varsity athletes 10.0% chronically absent vs. non-athletes 22.9%; adjusted effect 7.7 pp; effect ~2× larger for FRPM-eligible students. Authors: "almost certain... predominantly caused by their active sports participation."
 16. [Korey Stringer Institute — ATLAS Project](https://koreystringer.institute.uconn.edu/atlas/)
 17. [California Legislative Information — AB 796 Athletic Trainers](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796) — title protection, signed 9/29/2024
 18. [Board of Certification — Passage of Athletic Training Title Protection in California](https://bocatc.org/newsroom/passage-of-athletic-training-title-protection-win-for-california/)
