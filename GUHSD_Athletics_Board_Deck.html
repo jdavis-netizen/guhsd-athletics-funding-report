@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GUHSD Athletics Funding — Board Presentation</title>
+<style>
+  :root {
+    --guhsd: #0d5844;
+    --guhsd-deep: #094234;
+    --guhsd-light: #0f6a53;
+    --slate: #2a5c6f;
+    --accent: #a6192e;
+    --accent-bright: #c4203a;
+    --accent-soft: #f6e4e7;
+    --cream: #faf7f0;
+    --gold: #b8860b;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-700: #374151;
+    --gray-900: #111827;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #000;
+    color: #1a1a1a;
+  }
+
+  /* Slide container — 16:9 */
+  .stage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 56.25vw;
+    max-height: 100vh;
+    max-width: 177.78vh;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .slide {
+    position: absolute;
+    inset: 0;
+    padding: 6vh 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    background: #fff;
+  }
+  .slide.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  /* Brand accent bar */
+  .slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, var(--guhsd) 0%, var(--slate) 100%);
+  }
+
+  /* Slide number (small, bottom right) */
+  .slide-num {
+    position: absolute;
+    bottom: 2vh;
+    right: 3vw;
+    font-size: 1vw;
+    color: var(--gray-700);
+    letter-spacing: 0.2em;
+    font-weight: 600;
+  }
+
+  /* Eyebrow (small section label) */
+  .eyebrow {
+    font-size: 1.1vw;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 2vh;
+  }
+
+  /* Headline */
+  h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--guhsd);
+    margin-bottom: 2vh;
+  }
+  h2 {
+    font-size: 3.2vw;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--guhsd);
+    margin-bottom: 2vh;
+    max-width: 88vw;
+  }
+  h3 {
+    font-size: 2.2vw;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: 1.5vh;
+  }
+
+  p { font-size: 1.5vw; line-height: 1.5; color: var(--gray-700); margin-bottom: 1.5vh; max-width: 90vw; }
+
+  .lede {
+    font-size: 1.8vw;
+    line-height: 1.45;
+    color: var(--gray-900);
+    max-width: 85vw;
+    font-weight: 400;
+  }
+
+  /* Massive number for stat-hero slides */
+  .hero-number {
+    font-size: 14vw;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+  .hero-number.guhsd { color: var(--guhsd); }
+  .hero-number.gold { color: var(--gold); }
+
+  .hero-caption {
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: var(--gray-900);
+    margin-top: 1vh;
+    max-width: 80vw;
+  }
+
+  /* 3-stat row */
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    margin-top: 4vh;
+  }
+  .stat-row.two { grid-template-columns: repeat(2, 1fr); }
+  .stat-row.four { grid-template-columns: repeat(4, 1fr); }
+  .stat {
+    background: var(--gray-100);
+    border-left: 4px solid var(--guhsd);
+    padding: 2vh 2vw;
+    border-radius: 4px;
+  }
+  .stat.accent { border-left-color: var(--accent); background: var(--accent-soft); }
+  .stat.gold { border-left-color: var(--gold); background: #fdf6e3; }
+  .stat-label {
+    font-size: 0.95vw;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--slate);
+    font-weight: 700;
+    margin-bottom: 0.5vh;
+  }
+  .stat-value {
+    font-size: 3.2vw;
+    font-weight: 800;
+    color: var(--guhsd);
+    line-height: 1.1;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat.accent .stat-value { color: var(--accent); }
+  .stat.gold .stat-value { color: var(--gold); }
+  .stat-caption {
+    font-size: 1vw;
+    color: var(--gray-700);
+    margin-top: 0.8vh;
+    line-height: 1.35;
+  }
+
+  /* Bar chart */
+  .bar-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 2vh;
+  }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 22vw 1fr 8vw;
+    align-items: center;
+    gap: 1.2vw;
+  }
+  .bar-label {
+    font-size: 1.3vw;
+    color: var(--gray-900);
+    font-weight: 500;
+  }
+  .bar-row.highlight .bar-label { color: var(--accent); font-weight: 700; }
+  .bar-track {
+    background: var(--gray-200);
+    height: 2.2vh;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    background: var(--slate);
+    border-radius: 3px;
+  }
+  .bar-row.highlight .bar-fill { background: var(--accent); }
+  .bar-value {
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: var(--gray-900);
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+  .bar-row.highlight .bar-value { color: var(--accent); }
+
+  /* Comparison table (clean, big type) */
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2vh;
+    font-size: 1.4vw;
+  }
+  .compare-table th {
+    text-align: left;
+    padding: 1.5vh 1.5vw;
+    background: var(--guhsd);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .compare-table td {
+    padding: 1.5vh 1.5vw;
+    border-bottom: 1px solid var(--gray-200);
+    vertical-align: middle;
+  }
+  .compare-table tr.highlight td { background: var(--accent-soft); font-weight: 600; }
+  .compare-table tr.highlight td strong { color: var(--accent); }
+  .compare-table tr:nth-child(even) td { background: var(--gray-100); }
+  .compare-table tr.highlight:nth-child(even) td { background: var(--accent-soft); }
+
+  /* Pull quote */
+  .pull-quote {
+    border-left: 5px solid var(--accent);
+    padding: 2vh 2vw;
+    margin-top: 3vh;
+    font-size: 1.8vw;
+    line-height: 1.45;
+    font-style: italic;
+    color: var(--gray-700);
+    max-width: 85vw;
+  }
+
+  /* Cover styling */
+  .cover {
+    background: linear-gradient(180deg, var(--guhsd) 0%, var(--guhsd-deep) 100%);
+    color: #fff;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .cover::before { display: none; }
+  .cover .eyebrow { color: #a6d2c5; }
+  .cover h1 { color: #fff; font-size: 6vw; max-width: 85vw; }
+  .cover .lede { color: #cfe4dc; font-size: 2vw; }
+  .cover-meta {
+    margin-top: 6vh;
+    display: flex;
+    gap: 4vw;
+    font-size: 1.2vw;
+    color: #a6d2c5;
+  }
+  .cover-meta strong {
+    display: block;
+    color: #fff;
+    margin-top: 0.3vh;
+    font-size: 1.3vw;
+  }
+  .cover .slide-num { color: rgba(255,255,255,0.5); }
+
+  /* Close slide */
+  .close {
+    background: linear-gradient(180deg, var(--guhsd) 0%, var(--guhsd-deep) 100%);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .close::before { display: none; }
+  .close h1 { color: #fff; font-size: 5vw; }
+  .close .lede { color: var(--gold); font-size: 2vw; font-weight: 500; margin-top: 3vh; }
+
+  /* Split bar for officials */
+  .split-bar {
+    display: flex;
+    height: 8vh;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 3vh;
+    border: 2px solid var(--gray-200);
+  }
+  .split-district {
+    background: var(--guhsd);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 1.5vw;
+    font-weight: 700;
+  }
+  .split-asb {
+    background: var(--accent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0 1.5vw;
+    font-weight: 700;
+  }
+  .split-value { font-size: 2vw; }
+  .split-label { font-size: 0.9vw; letter-spacing: 0.1em; text-transform: uppercase; opacity: 0.9; margin-top: 0.3vh; }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1vh;
+    background: rgba(255,255,255,0.95);
+    border-radius: 8px;
+    padding: 0.8vh 1.5vh;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  body:hover .nav { opacity: 0.95; }
+  .nav button {
+    background: var(--guhsd);
+    color: #fff;
+    border: none;
+    padding: 0.8vh 1.5vh;
+    border-radius: 4px;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .nav button:hover { background: var(--guhsd-light); }
+  .nav .counter {
+    padding: 0 1.5vh;
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--gray-900);
+    font-variant-numeric: tabular-nums;
+    min-width: 5vw;
+    justify-content: center;
+  }
+
+  /* Print / screen friendly */
+  @media print {
+    body { background: #fff; }
+    .stage { position: static; width: 100%; height: auto; transform: none; max-width: none; max-height: none; }
+    .slide { position: static; opacity: 1 !important; pointer-events: auto !important; page-break-after: always; height: 11in; padding: 1in; }
+    .slide:last-child { page-break-after: auto; }
+    .nav { display: none; }
+  }
+
+  /* Bullet list */
+  ul.big-bullets {
+    list-style: none;
+    padding: 0;
+    margin-top: 2vh;
+  }
+  ul.big-bullets li {
+    font-size: 1.7vw;
+    line-height: 1.5;
+    padding: 1.2vh 0 1.2vh 2.5vw;
+    position: relative;
+    color: var(--gray-900);
+    border-bottom: 1px solid var(--gray-200);
+  }
+  ul.big-bullets li:last-child { border-bottom: none; }
+  ul.big-bullets li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1.8vh;
+    width: 0.5vw;
+    height: 0.5vw;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  ul.big-bullets li strong { color: var(--guhsd); }
+</style>
+</head>
+<body>
+
+<div class="stage">
+
+  <!-- SLIDE 1: COVER -->
+  <div class="slide cover active">
+    <div class="eyebrow">Presentation to the GUHSD Governing Board · April 2026</div>
+    <h1>Athletics Funding:<br>A Case for District Support</h1>
+    <div class="lede">An evidence-based review of coaching stipends, athletic trainer staffing, and officials funding across San Diego County peer districts.</div>
+    <div class="cover-meta">
+      <div>Presented by<strong>Granite Hills Athletics Administration</strong></div>
+      <div>Purpose<strong>Information · Discussion · Action Item</strong></div>
+    </div>
+    <div class="slide-num">1 / 12</div>
+  </div>
+
+  <!-- SLIDE 2: THE HEADLINE -->
+  <div class="slide">
+    <div class="eyebrow">The Headline Finding</div>
+    <h2>GUHSD is not resource-constrained.<br>Athletics is allocation-constrained.</h2>
+    <div class="stat-row">
+      <div class="stat guhsd">
+        <div class="stat-label">Per-ADA Spending</div>
+        <div class="stat-value">$21,644</div>
+        <div class="stat-caption">3rd-highest in San Diego County · FY 2023-24 · CDE verified</div>
+      </div>
+      <div class="stat gold">
+        <div class="stat-label">District Reserves</div>
+        <div class="stat-value">4×</div>
+        <div class="stat-caption">$30M–$45M reserves · Four times the state-mandated minimum · Voice of San Diego, March 2025</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">Still: Athletic Trainer</div>
+        <div class="stat-value">$22,500</div>
+        <div class="stat-caption">Teacher stipend · Not a full-time classified healthcare role · 6 of 7 SD County peers do it differently</div>
+      </div>
+    </div>
+    <p style="margin-top: 4vh; font-size: 1.5vw; color: var(--guhsd); font-weight: 600;">GUHSD has the resources. The question before the board is how they're allocated.</p>
+    <div class="slide-num">2 / 12</div>
+  </div>
+
+  <!-- SLIDE 3: PER-ADA CHART -->
+  <div class="slide">
+    <div class="eyebrow">District Resources · Per-ADA Spending, FY 2023-24</div>
+    <h2>GUHSD ranks 3rd of 8 San Diego County peer districts on per-student spending</h2>
+    <div class="bar-chart">
+      <div class="bar-row"><div class="bar-label">Escondido Union High</div><div class="bar-track"><div class="bar-fill" style="width: 100%;"></div></div><div class="bar-value">$22,357</div></div>
+      <div class="bar-row"><div class="bar-label">San Diego Unified</div><div class="bar-track"><div class="bar-fill" style="width: 98.2%;"></div></div><div class="bar-value">$21,952</div></div>
+      <div class="bar-row highlight"><div class="bar-label">Grossmont Union High</div><div class="bar-track"><div class="bar-fill" style="width: 96.8%;"></div></div><div class="bar-value">$21,644</div></div>
+      <div class="bar-row"><div class="bar-label">Oceanside Unified</div><div class="bar-track"><div class="bar-fill" style="width: 84.5%;"></div></div><div class="bar-value">$18,901</div></div>
+      <div class="bar-row"><div class="bar-label">Sweetwater Union High</div><div class="bar-track"><div class="bar-fill" style="width: 77.7%;"></div></div><div class="bar-value">$17,367</div></div>
+      <div class="bar-row"><div class="bar-label">San Marcos Unified</div><div class="bar-track"><div class="bar-fill" style="width: 73.2%;"></div></div><div class="bar-value">$16,361</div></div>
+      <div class="bar-row"><div class="bar-label">San Dieguito Union High</div><div class="bar-track"><div class="bar-fill" style="width: 69.9%;"></div></div><div class="bar-value">$15,634</div></div>
+      <div class="bar-row"><div class="bar-label">Poway Unified</div><div class="bar-track"><div class="bar-fill" style="width: 69.6%;"></div></div><div class="bar-value">$15,555</div></div>
+    </div>
+    <p style="font-size: 1.1vw; color: var(--gray-700); margin-top: 3vh;">GUHSD spends <strong style="color: var(--guhsd);">$6,010 more per student per year than San Dieguito UHSD</strong> and <strong style="color: var(--guhsd);">$6,089 more than Poway USD</strong>. Both of those lower-per-ADA peers fund athletics more generously than GUHSD does.</p>
+    <div class="slide-num">3 / 12</div>
+  </div>
+
+  <!-- SLIDE 4: THE CONVERSION CHARTER COMPARISON -->
+  <div class="slide">
+    <div class="eyebrow">The Pattern — Not an Outlier</div>
+    <h2>Both of GUHSD's conversion charters fund ~40% more coaching stipends than GUHSD</h2>
+    <div class="stat-row">
+      <div class="stat guhsd">
+        <div class="stat-label">GUHSD · Per Comprehensive HS</div>
+        <div class="stat-value">52</div>
+        <div class="stat-caption">Coaching stipends · Published cap across 24+ sports</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">Steele Canyon Charter</div>
+        <div class="stat-value">72</div>
+        <div class="stat-caption">+20 stipends (+38%) · GUHSD origin school · Verified allotment list 2025-26</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">Helix Charter</div>
+        <div class="stat-value">73</div>
+        <div class="stat-caption">+21 stipends (+40%) · GUHSD origin school · Verified 2024-25 HCHS Stipend Allotment List</div>
+      </div>
+    </div>
+    <p style="margin-top: 4vh; font-size: 1.5vw; color: var(--gray-900);">Helix (1998 conversion) and Steele Canyon (2007 conversion) are the only two GUHSD-origin schools in the Grossmont League. Each independently built stipend structures funding ~40% more paid coaching positions than their district of origin. <strong style="color: var(--accent);">Both explicitly honor GUHSD experience on hire</strong> — a coach moving across the freeway keeps their tenure tier.</p>
+    <div class="slide-num">4 / 12</div>
+  </div>
+
+  <!-- SLIDE 5: SPENDING GAP -->
+  <div class="slide">
+    <div class="eyebrow">Athletic Stipend Spending, Per School</div>
+    <h2>Helix spends ~2× what GUHSD spends per school</h2>
+    <div class="stat-row two" style="margin-top: 3vh;">
+      <div class="stat guhsd" style="padding: 3vh 2vw;">
+        <div class="stat-label">GUHSD</div>
+        <div class="stat-value" style="font-size: 5vw;">~$348,700</div>
+        <div class="stat-caption" style="font-size: 1.1vw;">54 total stipends (52 coaches + 1 AD + 1 AT) at max service years. Calculated from GUHSD 2025-26 Extended Curricular schedule × verified Sports & Levels allocation.</div>
+      </div>
+      <div class="stat accent" style="padding: 3vh 2vw;">
+        <div class="stat-label">Helix Charter</div>
+        <div class="stat-value" style="font-size: 5vw;">$693,148</div>
+        <div class="stat-caption" style="font-size: 1.1vw;">73 total athletic stipends at max service years. Verified directly from 2024-25 HCHS Stipend Allotment List (rev. 2025.02.25).</div>
+      </div>
+    </div>
+    <p style="margin-top: 3vh; font-size: 1.5vw; color: var(--accent); font-weight: 600;">Gap per school: $344,400 more at Helix. District-wide (× 9 GUHSD schools): ~$3.1M to match Helix — less than 1% of the general fund.</p>
+    <div class="slide-num">5 / 12</div>
+  </div>
+
+  <!-- SLIDE 6: ATHLETIC TRAINER OUTLIER -->
+  <div class="slide">
+    <div class="eyebrow">Athletic Trainer Staffing · The Most Decisive Finding</div>
+    <h2>GUHSD is the only SD County district in this peer set that treats AT as a $22,500 teacher stipend</h2>
+    <table class="compare-table">
+      <thead>
+        <tr><th>District</th><th>Model</th><th>Compensation</th><th>BOC/NATA Required?</th></tr>
+      </thead>
+      <tbody>
+        <tr class="highlight"><td><strong>GUHSD</strong></td><td>Certificated stipend (teacher extra duty)</td><td><strong>$22,500 / year</strong></td><td>No</td></tr>
+        <tr><td>San Dieguito UHSD</td><td>Full-time classified, one per comp HS</td><td>$39K–$57K + benefits</td><td>Yes — BOC required</td></tr>
+        <tr><td>Oceanside USD</td><td>Full-time classified, 12-month</td><td>$43K–$66K + CalPERS</td><td>Yes — NATA required</td></tr>
+        <tr><td>Sweetwater UHSD</td><td>Not on coaching stipend schedule</td><td>Classified / service contract</td><td>—</td></tr>
+        <tr><td>Escondido UHSD</td><td>Not on coaching stipend schedule</td><td>Classified / service contract</td><td>—</td></tr>
+        <tr><td>San Marcos Unified</td><td>Not on coaching stipend schedule</td><td>Classified / service contract</td><td>—</td></tr>
+        <tr><td>Steele Canyon Charter</td><td>Not on coaching stipend schedule</td><td>Classified / service contract</td><td>—</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size: 1.4vw; color: var(--gray-900); font-weight: 500; margin-top: 3vh;"><strong>6 of 7 SD County peers</strong> treat the AT as a classified healthcare role — including peers that spend up to 28% LESS per ADA than GUHSD.</p>
+    <div class="slide-num">6 / 12</div>
+  </div>
+
+  <!-- SLIDE 7: SAFETY + TITLE IX -->
+  <div class="slide">
+    <div class="eyebrow">Peer-Reviewed Safety Outcomes + Federal Title IX Exposure</div>
+    <h2>Two additional material findings on AT funding</h2>
+    <div class="stat-row two" style="margin-top: 2vh;">
+      <div class="stat accent">
+        <div class="stat-label">Pierpoint et al., 2018 · Injury Epidemiology</div>
+        <div class="stat-value" style="font-size: 5vw;">6× / 3×</div>
+        <div class="stat-caption" style="font-size: 1.1vw;"><strong>Recurrent injury rate ratios</strong> (no-AT vs. AT schools) in girls' soccer and girls' basketball. Directly applies to GUHSD's 4 walk-on trainer sites: El Cajon Valley, Mount Miguel, El Capitan, Santana.</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">Morgan Hill USD · OCR · October 2023</div>
+        <div class="stat-value" style="font-size: 3vw; line-height:1.15;">Title IX<br>Precedent</div>
+        <div class="stat-caption" style="font-size: 1.1vw;">OCR resolution agreement specifically requires <strong>"equitable access to the school's athletic trainer"</strong> regardless of booster-funding source. Directly analogous to Granite Hills: Boys Football spent $85K this year vs. Girls Basketball $15K — from ASB-driven fundraising disparities.</div>
+      </div>
+    </div>
+    <div class="pull-quote">"The origins of the money that created the inequities does not serve as a defense for the district and does not mitigate the obligation to remedy those inequities." — OCR / NFHS Title IX guidance</div>
+    <div class="slide-num">7 / 12</div>
+  </div>
+
+  <!-- SLIDE 8: OFFICIALS GAP -->
+  <div class="slide">
+    <div class="eyebrow">Officials Funding · Granite Hills FY 2025-26 Verified</div>
+    <h2>The district covers ~38% of officials cost. Families and ASBs cover the rest.</h2>
+    <div class="split-bar">
+      <div class="split-district" style="width: 38.3%;">
+        <div class="split-value">$22,000</div>
+        <div class="split-label">District Allocation · 38%</div>
+      </div>
+      <div class="split-asb" style="width: 61.7%;">
+        <div class="split-value">$35,393</div>
+        <div class="split-label">ASB · Boosters · Gate · 62%</div>
+      </div>
+    </div>
+    <p style="font-size: 1.3vw; color: var(--gray-700); margin-top: 2vh;">Granite Hills FY 2025-26 competition overhead verified from GUHSD Trust Account statements and Arbiter officiating report: $57,393 total ($39,178 Arbiter-paid + $18,215 tournament entry fees).</p>
+    <div class="stat-row" style="margin-top: 3vh;">
+      <div class="stat gold">
+        <div class="stat-label">District allocation / school</div>
+        <div class="stat-value">$22,000</div>
+        <div class="stat-caption">Flat across all 9 comp HSs. Unchanged for years.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Verified avg per-site spend</div>
+        <div class="stat-value">$32K–$75K</div>
+        <div class="stat-caption">Mount Miguel $32K · Granite Hills $57K · Valhalla $75K (per GUHSD internal proposal)</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">District-wide ASB burden</div>
+        <div class="stat-value">$162K–$297K</div>
+        <div class="stat-caption">Estimated family/booster fundraising covering the gap, district-wide</div>
+      </div>
+    </div>
+    <div class="slide-num">8 / 12</div>
+  </div>
+
+  <!-- SLIDE 9: THE DISTRICT'S OWN PROPOSAL -->
+  <div class="slide">
+    <div class="eyebrow">This Isn't an Activist Ask</div>
+    <h2>GUHSD's athletics department has already drafted and costed a full proposal</h2>
+    <table class="compare-table">
+      <thead>
+        <tr><th>Proposal Item</th><th>Ongoing Cost</th></tr>
+      </thead>
+      <tbody>
+        <tr class="highlight"><td><strong>Athletic Trainer Restructuring</strong> (Track 1 internal CTE + Track 2 Advantage Athletic Training vendor — 100% certified coverage)</td><td><strong>$765,000</strong></td></tr>
+        <tr><td>Head Coaching Equity (eliminate 25% w/o-assistants gap)</td><td>$132,957</td></tr>
+        <tr><td>Additional Discretionary Coaching Stipends (+2 per school)</td><td>$96,714</td></tr>
+        <tr><td>ASB Advisor Additional 0.2 Prep Period</td><td>$270,000</td></tr>
+        <tr><td>AD Stipend Increase (match San Diego Unified ~$12K benchmark)</td><td>$71,730</td></tr>
+        <tr><td>E-Sports Formal Stipend (2026-27)</td><td>$44,330</td></tr>
+        <tr><td>Officials Allocation Increase ($22K → $25-30K × 9)</td><td>$27K–$72K</td></tr>
+        <tr><td>Academic League Moderator ($85 → $100/match)</td><td>$975</td></tr>
+        <tr class="highlight"><td><strong>TOTAL PROPOSAL PACKAGE</strong></td><td><strong>~$1.4M / year</strong></td></tr>
+      </tbody>
+    </table>
+    <p style="font-size: 1.2vw; color: var(--gray-700); margin-top: 2vh;">+ $12,670 one-time retroactive pay for 5 existing AT staff (missed 2023/2024/2025 COLAs).</p>
+    <div class="slide-num">9 / 12</div>
+  </div>
+
+  <!-- SLIDE 10: THE FINANCIAL FRAME -->
+  <div class="slide">
+    <div class="eyebrow">$1.4 Million · What That Actually Means</div>
+    <h2>The full proposal is 0.44% of the general fund</h2>
+    <div class="stat-row">
+      <div class="stat guhsd">
+        <div class="stat-label">As % of General Fund</div>
+        <div class="stat-value">0.44%</div>
+        <div class="stat-caption">Against $321M current expense of education (FY 2023-24 CDE)</div>
+      </div>
+      <div class="stat gold">
+        <div class="stat-label">As % of Reserves</div>
+        <div class="stat-value">3–5%</div>
+        <div class="stat-caption">Against $30M–$45M reserves · Leaves reserves well above state mandate</div>
+      </div>
+      <div class="stat accent">
+        <div class="stat-label">vs. Feb 2025 Layoff Deficit</div>
+        <div class="stat-value">~56%</div>
+        <div class="stat-caption">$1.4M is roughly 56% of the $2.5M deficit cited when the district issued 61 layoff notices</div>
+      </div>
+    </div>
+    <div class="pull-quote">"If we can't save all the jobs, I want the absolute lowest number of cuts that we can possibly do." — GUHSD Board Trustee Chris Fite, <em>Voice of San Diego</em>, March 2025</div>
+    <div class="slide-num">10 / 12</div>
+  </div>
+
+  <!-- SLIDE 11: THE RECOMMENDED ASK -->
+  <div class="slide">
+    <div class="eyebrow">Recommended First Action</div>
+    <h2>Approve the Athletic Trainer restructuring tonight.<br>Address the remaining items in subsequent meetings.</h2>
+    <ul class="big-bullets">
+      <li><strong>The cost:</strong> $765,000 ongoing + $12,670 one-time = 0.24% of general fund; 1.7–2.6% of reserves</li>
+      <li><strong>The safety case:</strong> Pierpoint 2018 — 6× higher recurrent injury rate at schools without ATs (directly applies to our 4 walk-on sites)</li>
+      <li><strong>The Title IX case:</strong> Morgan Hill OCR precedent requires equitable AT access regardless of booster funding source</li>
+      <li><strong>The peer case:</strong> 6 of 7 SD County peers employ AT as a classified healthcare role, including districts spending up to 28% less per ADA than GUHSD</li>
+      <li><strong>The proposal is district-internal:</strong> The athletics department has already drafted a hybrid model with Advantage Athletic Training Company for the 4 walk-on sites and CTE retention at the 5 internal sites</li>
+      <li><strong>Funding headroom:</strong> $30M–$45M reserves exist specifically to fund strategic obligations. This is one.</li>
+    </ul>
+    <div class="slide-num">11 / 12</div>
+  </div>
+
+  <!-- SLIDE 12: CLOSE -->
+  <div class="slide close">
+    <h1>The resources are there.<br>Our students deserve the investment.</h1>
+    <div class="lede">Full report and primary sources available at<br><strong style="color: #fff;">jdavis-netizen.github.io/guhsd-athletics-funding-report</strong></div>
+    <p style="color: #a6d2c5; margin-top: 5vh; font-size: 1.2vw;">Prepared by Granite Hills Athletics Administration · April 2026</p>
+    <div class="slide-num" style="color: rgba(255,255,255,0.5);">12 / 12</div>
+  </div>
+
+</div>
+
+<!-- Nav -->
+<div class="nav">
+  <button id="prev">← Previous</button>
+  <div class="counter" id="counter">1 / 12</div>
+  <button id="next">Next →</button>
+</div>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+let current = 0;
+const counter = document.getElementById('counter');
+
+function go(n) {
+  slides[current].classList.remove('active');
+  current = Math.max(0, Math.min(slides.length - 1, n));
+  slides[current].classList.add('active');
+  counter.textContent = (current + 1) + ' / ' + slides.length;
+}
+
+document.getElementById('next').addEventListener('click', () => go(current + 1));
+document.getElementById('prev').addEventListener('click', () => go(current - 1));
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); go(current + 1); }
+  if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(current - 1); }
+  if (e.key === 'Home') { e.preventDefault(); go(0); }
+  if (e.key === 'End') { e.preventDefault(); go(slides.length - 1); }
+  if (e.key === 'f' || e.key === 'F') {
+    if (document.fullscreenElement) document.exitFullscreen();
+    else document.documentElement.requestFullscreen();
+  }
+});
+
+// Click-to-advance (right half = forward, left third = back)
+document.querySelector('.stage').addEventListener('click', (e) => {
+  if (e.target.closest('.nav') || e.target.closest('button')) return;
+  const rect = e.currentTarget.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  if (x > rect.width * 0.6) go(current + 1);
+  else if (x < rect.width * 0.3) go(current - 1);
+});
+</script>
+
+</body>
+</html>
