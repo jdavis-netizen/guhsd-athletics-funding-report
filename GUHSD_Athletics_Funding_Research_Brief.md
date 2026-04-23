@@ -404,6 +404,22 @@ Several large CA districts use third-party AT service contracts (Scripps, Sharp,
 
 ---
 
+## Pillar 1a — BOTH GUHSD Conversion Charters Fund More Stipends Than GUHSD
+
+**Verified from primary-source allotment documents:**
+
+| District / Charter | Total athletic coaching stipends per school | vs. GUHSD |
+|---|---|---|
+| **GUHSD** (each of 9 comprehensive HSs) | **52** | — |
+| **Steele Canyon Charter HS** | **72** | **+20 stipends (+38%)** |
+| **Helix Charter HS** | **73** | **+21 stipends (+40%)** |
+
+Steele Canyon's 72-stipend total comes from their verified 2025-2026 Coaching Stipends allotment document: 33 Boys (14V + 11JV + 8F) + 33 Girls (15V + 13JV + 5F) + 1 Diving + 5 Cheer positions (Sideline V/JV/F + Competition V/JV) + 1 Support = 72. Helix's 73 comes from the verified 2024-25 HCHS Stipend Allotment List.
+
+**The point this should land with the GUHSD Board:** Not one but BOTH of GUHSD's own conversion charters — schools that were part of GUHSD until they converted (Helix 1998, Steele Canyon 2007) — fund roughly 40% more athletic coaching positions per school than their district of origin does today.
+
+---
+
 ## Pillar 1b — Helix Charter HS Deep Dive
 
 **Why this section matters:** Helix Charter HS is a conversion charter that operates in the Grossmont League, occupies a campus inside GUHSD's historic footprint, and **explicitly credits experience at GUHSD as equivalent** on hire per HTA Contract §13.1.4.1 ("All experience within the Grossmont Union High School district in the sport to be coached shall be credited to the members"). When a coach leaves a GUHSD comprehensive site for Helix, they do not start over — they land on the Helix schedule at the same tenure tier they held at GUHSD. This is the single most direct recruiting/retention threat to GUHSD athletics programs.
@@ -446,7 +462,18 @@ Using Class 3 Step 1 = $80,444.35 as the percentage base. Note: percentages for 
 
 **2025–26 top-of-schedule (verified directly from the current Helix stipend schedule):** Head Varsity Coach (with assistants) at 10+ years w/ credential = **11.50% × $80,444.35 = $9,251.10**. Confirmed by EdJoin JobPosting 2207204 (Boys Head Varsity Soccer, posted 4/8/2026) which showed an advertised range of $6,033.33 – $9,251.10.
 
-**2026–27 top-of-schedule (per peer-source confirmation, April 2026):** Scheduled to exceed **$10,000** before any playoff bonuses.
+**2026–27 proposed top-of-schedule (now verified from primary-source Helix working document "Proposed 26-27 13.1.3 Extended Curricular Assignments" xlsx, sheet: PROPOSED 2026-27 Stipend List):**
+
+| Position | 1-3 yr | 4-6 yr | 7-9 yr | 10+ yr |
+|---|---|---|---|---|
+| Head Varsity Coach (w/ assts) — 2026-27 proposed | 10.5% = $8,447 | 11.5% = $9,251 | **13.5% = $10,860** | **14.5% = $11,664** |
+| JV/Asst Coach — 2026-27 proposed | 8% = $6,436 | 9% = $7,240 | 11% = $8,849 | 12% = $9,653 |
+| Freshman — 2026-27 proposed | 7.2% = $5,792 | 8.2% = $6,596 | (same structure proposed) | (same structure proposed) |
+| Athletic Director — 2026-27 proposed | 13% = $10,458 | 14% = $11,262 | 16% = $12,871 | 17% = **$13,675** (unchanged from 2025-26) |
+
+**Helix head varsity football 10+ yr will jump from $9,251 (2025-26) to $11,664 (2026-27 proposed)** — a $2,413 increase in a single year (+26%). The 7-9 yr tier jumps to $10,860, also exceeding $10K. JV/Assistant Coach top tier jumps from $7,240 to $9,653 (+33%).
+
+**The user's reported "max coach goes over $10K next year" is directly confirmed from the primary-source proposed schedule.**
 
 | Scenario | 2025–26 Math | 2025–26 Total |
 |---|---|---|
@@ -608,6 +635,79 @@ Practical effect:
 2. **Retention:** A GUHSD coach aging into top-tier tenure at GUHSD ($7,611) can cross over to Helix at $9,251+ with zero lost seniority — a 21% raise in stipend comp alone.
 3. **Stipend-line breadth:** Helix funds positions (Assistant AD, Football Equipment Manager, discrete Musical Theater staff, 20+ Leadership lines) that at GUHSD must compete for the 52-position cap or be unfunded.
 4. **Program quality:** When the two GUHSD conversion charters (Helix, Steele Canyon) collectively enroll 4,700+ students (32% the size of GUHSD's 14,835 ADA) and one of them is visibly out-investing the district of origin on athletics compensation, the ADA-retention argument becomes a direct financial argument.
+
+---
+
+## Pillar 1c — Steele Canyon Charter Deep Dive
+
+### Source documents verified
+
+1. **STEELE CANYON Coaching Stipends 2025-2026** — per-school allotment showing **72 total coaching stipends**
+2. **Steele Canyon Charter HS Extended Curricular Assignments 2025-2026** (3% Increase effective 7/1/2025, rev. 8/12/2025) — verified stipend schedule with dollar amounts
+
+### Steele Canyon 2025-26 stipend base
+
+Steele Canyon calculates most extended curricular stipends as a percentage of **Class 3, Step 4 = $79,021.25** — a meaningful change from their 2022-26 CBA text which referenced Class 3 Step 1 ($63,541.88). The 2025-26 schedule represents both a 3% COLA and a shift of the base reference point several steps up the salary schedule.
+
+For reference: GUHSD uses Class 3 Step 1 ($69,187.20) as its base. Steele Canyon's $79,021.25 stipend base is **14.2% higher than GUHSD's**.
+
+Freshman coach stipends at Steele Canyon still use Class 3 Step 1 ($65,820 current) as the base.
+
+### Steele Canyon athletic stipend structure (verified 2025-26)
+
+| Position | 1-3 yr | 4-6 yr | 7-9 yr | 10+ yr |
+|---|---|---|---|---|
+| **Head Varsity Coach w/ Assts** | 7% = $5,531 | 8% = $6,322 | 10% = $7,902 | 11% = **$8,692** |
+| JV / Asst / Head V w/o Assts | 5% = $3,951 | 6% = $4,741 | 8% = $6,322 | 9% = $7,112 |
+| Freshman (10-week) | 5% = $3,291 | 6% = $3,949 | 8% = $5,266 | 9% = $5,924 |
+| **Athletic Director*** | 10% = $7,902 | 12% = $9,483 | 14% = $11,063 | **17% = $13,434** |
+| Assistant Athletic Director | 4.25% = $3,358 | 5% = $3,951 | 5.75% = $4,544 | 6.5% = $5,136 |
+
+***AD asterisk:** 1 release period per year.
+
+### Steele Canyon non-athletic high-value stipends
+
+| Position | Top tier (10+ yr) |
+|---|---|
+| **Drama Director** | $9,483 |
+| **A.S.B. Advisor** (1 release period each term) | $9,483 |
+| **Band Director** | $9,483 |
+
+### Steele Canyon playoff stipends
+
+- Head Coach with 5+ athletes: **$659/week**
+- Head Coach with <5 athletes: **$329/week**
+
+### Steele Canyon 72-stipend allotment breakdown
+
+**Boys (33 stipends):** Baseball 1/1/1 · Basketball 1/1/1 · Cross Country 1/1 · Football 3/1/2 · Golf 1 · Soccer 1/1/1 · Swimming 1/1 · Tennis 1/1 · Track 1/1/1 · Volleyball 1/1 · Water Polo 1/1/1 · Wrestling 1/1/1 = 14V + 11JV + 8F = 33
+
+**Girls (33 stipends):** Softball 1/1/1 · Basketball 1/1/1 · Cross Country 1/1 · Flag Football 1/1 · Golf 1 · Gymnastics 1/1 · Soccer 1/1/1 · Swimming 1/1 · Tennis 1/1 · Track 2/1/1 · Volleyball 1/1/1 · Beach Volleyball 1/1 · Water Polo 1/1 · Wrestling 1/1 = 15V + 13JV + 5F = 33
+
+**Co-Ed (6 stipends):** Diving 1 · Sideline Cheer 1V/1JV/1F = 3 · Competition Cheer 1V/1JV = 2
+
+**Total: 72 coaching stipends**
+
+### Steele Canyon head-to-head vs. GUHSD
+
+| Metric | GUHSD | Steele Canyon |
+|---|---|---|
+| Total coaching stipends per school | 52 | **72 (+38%)** |
+| Stipend base (Class 3 reference) | Step 1 = $69,187 | Step 4 = $79,021 (+14.2%) |
+| Head V Football top tier | $7,611 | $8,692 (+$1,081, +14.2%) |
+| **Athletic Director top tier** | **$6,227** | **$13,434 (+$7,207, +116%)** |
+| Playoff stipend (5+ athletes) | $576/wk | $659/wk (+14.4%) |
+| Credits GUHSD experience on hire | N/A (default district) | **Yes — explicit in HTA contract** |
+
+Like Helix, Steele Canyon **explicitly credits experience at Grossmont Union High School District** in the sport to be coached — per the 2025-26 schedule's Regulations Governing Placement: *"All experience within the Grossmont Union High School District or at Steele Canyon High School in the sport to be coached shall be credited to the members."*
+
+### Combined charter competition picture
+
+**GUHSD now has TWO neighboring conversion charters — both in the Grossmont League, both within 15 miles of district comprehensive sites — each of which:**
+- Funds ~40% more coaching positions per school than GUHSD (72 and 73 vs. 52)
+- Pays a ~14–22% higher per-coach stipend at every experience tier
+- Pays their Athletic Director **2× to 2.2× GUHSD's AD stipend**
+- Explicitly honors GUHSD coaching experience on hire (no "start over" penalty)
 
 ---
 
