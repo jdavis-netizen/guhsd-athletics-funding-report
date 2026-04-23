@@ -16,7 +16,7 @@
 
 3. **Athletic trainer staffing is the most decisive comparative finding.** GUHSD compensates the AT role via a **$22,500 certificated stipend** layered on top of another district role. Two SD County peers have been directly verified to employ the AT role as a full-time classified healthcare position with BOC/NATA certification required: **SDUHSD** (1.0 FTE, 35 hrs/week, $23.21–$31.11/hour + 2.5% shift diff + benefits, ~$39K–$57K/yr + benefits, BOC required) and **Oceanside USD** (12-month classified position, Range 27 = $3,600.58–$5,470.25/month = ~$43K–$66K/yr + CalPERS benefits, NATA certification required). **Six of the eight SD County districts/charters in this peer set — Sweetwater, SDUHSD, EUHSD, SMUSD, Steele Canyon, and Oceanside — do NOT list the Athletic Trainer role on their coaching/extracurricular stipend schedules at all**, treating the role instead as classified staff or external service contract. Only GUHSD and Helix Charter expose AT as a teacher-stipend line, and Helix's stipend has an explicit "additional compensation per job description" note indicating it's not the full AT compensation. **GUHSD is the outlier** in its SD County peer group on how it funds athletic training — even the SD County district that pays its coaches the least (Oceanside) still treats its AT as a full-time classified healthcare role with benefits at roughly 2×–3× GUHSD's stipend.
 
-4. **Officials funding: district allocation covers a minority of actual costs; ASB/families cover the majority.** Per verified James-provided data and Granite Hills trust account reporting: each GUHSD comprehensive HS receives **$22,000 per year** from the district for officials. Granite Hills verified FY 2025-26 competition overhead (Arbiter officials + tournament entry fees) was **$57,393**, meaning the district allocation covered ~38% of actual overhead at that one site. Scaled across 9 schools using Granite Hills as the upper bound and an assumed $40–55K average: district allocation = **$198,000**; estimated district-wide actual competition overhead ≈ **$360K–$495K**; **estimated ASB/booster burden ≈ $162K–$297K per year**. CIF Southern Section rates for 2024–25 put varsity football at $140/official per game (4 hrs), basketball at $88/official (2.5 hrs), baseball at $116/official (3 hrs); the CIF-SDS 2024–26 fee sheet is the authoritative per-game document. Whether peer SD County districts fully fund officials or also rely on ASB/booster backfill is a peer-AD-survey question — the most important remaining comparative gap in this brief.
+4. **Officials funding: district allocation covers a minority of actual costs; ASB/families cover the majority.** Per verified James-provided data and Granite Hills trust account reporting: each GUHSD comprehensive HS receives **$22,000 per year** from the district for officials. Granite Hills verified FY 2025-26 competition overhead (Arbiter officials + tournament entry fees) was **$57,393**, meaning the district allocation covered ~38% of actual overhead at that one site. Scaled across 9 schools using Granite Hills as the upper bound and an assumed $40–55K average: district allocation = **$198,000**; estimated district-wide actual competition overhead ≈ **$360K–$495K**; **estimated ASB/booster burden ≈ $162K–$297K per year**. **Verified CHSSO 2025–26 CIF-SDS per-game rates** put varsity football at $712/crew (5 officials × ~$142), varsity basketball at $276/crew (3 × $92), varsity baseball at $220/crew (2 × $110). CHSSO rates rose 2–7% across nearly every sport from 2024–25 to 2025–26, while the district's $22,000 per-school allocation has not been re-indexed to match. Whether peer SD County districts fully fund officials or also rely on ASB/booster backfill is a peer-AD-survey question — the only remaining comparative gap in this brief.
 
 5. **Athletic Director compensation is below most SD County peers — especially against GUHSD's own conversion charters.** GUHSD's top-tier AD (10+ years, $6,227) sits below SDUHSD's Class AA AD ($7,354), Helix's combined AD + Assistant AD structure ($10,216 + job-description supplement), and Steele Canyon Charter's top-tier AD ($10,802 — 73% more than GUHSD's, with the same 2 release periods per year GUHSD provides). Sweetwater's flat $4,256 AD stipend is the one verified SD County peer that sits below GUHSD on pure stipend amount. **The structural issue**: GUHSD places its AD on the same schedule line as JV and assistant coaches (Class III equivalent), while SDUHSD, Helix, and Steele Canyon all treat the AD as a distinct, weighted administrative role — most placing it at or above their head-varsity-football line.
 
@@ -33,13 +33,13 @@
 - **Public-web primary sources:**
   - *Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update* (Pickett et al., *Journal of Athletic Training*, 2024) — ATLAS survey data
   - California AB 796 bill text (Chapter 899, Statutes of 2024)
-  - CIF Southern Section rate reporting (via AOL / LA Times coverage)
+  - **CHSSO (Committee on High School Sports Officiating) 2024–25 & 2025–26 Fee Schedules** — the authoritative CIF-SDS officials rate document, provided by GUHSD athletics administration
+  - CIF Southern Section rate reporting (via AOL / LA Times coverage) — retained for historical context
   - LAUSD stipend history (Yahoo Sports, Nov 2021)
 - **Secondary sources:** CoachFore.org statewide compensation piece (June 2024); news coverage of CA officials shortage; T&C / Project Play coverage of AT access.
-- **Gaps I could not close from open sources:**
-  - The CIF-San Diego Section Fee Sheet returned 403 on direct fetch. The authoritative 2024–26 CIF-SDS fee document is published at cifsds.org/officials/Fee_Sheets — James can pull it directly inside the district network.
-  - No aggregated public dataset exists of how CA districts split officials costs between general fund and ASB.
-  - Peer CA district coaching stipend appendices (SDUHSD, Sweetwater, Poway, SDUSD, Clovis, Elk Grove) are published but would need to be individually pulled to build a clean head-to-head table; I captured only LAUSD in primary form.
+- **Remaining gaps:**
+  - No aggregated public dataset exists of how CA districts split officials costs between general fund and ASB (would require a district AD survey).
+  - Peer CA district coaching stipend appendices (Poway, Clovis, Elk Grove) beyond the SD County set documented here would need to be individually pulled for a statewide comparison.
 
 ---
 
@@ -853,21 +853,39 @@ Top sports by participation (2023–24):
 
 ## Pillar 3 — Officials Fees and Funding Models
 
-### Current rates (CIF Southern Section as best-documented proxy)
+### Current rates (CHSSO 2024–25 and 2025–26 Fee Schedules — authoritative CIF-SDS source)
 
-Following a multi-year shift to a ~$35/hour target for varsity officials, CIF-SS 2024–25 per-game rates:
+The Committee on High School Sports Officiating (CHSSO) publishes the governing fee schedule for CIF-San Diego Section contests. Both 2024–25 and 2025–26 rates are now verified from primary-source CHSSO documents (provided by GUHSD athletics administration). Rates rose 2–7% across nearly every sport between the two years.
 
-| Sport | Varsity rate per official | Work time |
-|---|---|---|
-| Football | $140 | ~4 hours |
-| Basketball | $88 | ~2.5 hours |
-| Baseball | $116 | ~3 hours |
+| Sport (varsity) | 2024–25 per official | 2025–26 per official | Typical crew → cost per game |
+|---|---|---|---|
+| **Football** | $142 referee / $140 other (4) | **$144 referee / $142 other** | 5-person crew = **$712/game** |
+| Football (JV / Frosh) | $95 | **$97** | 4-person crew = $388/game |
+| **Basketball** | $90 | **$92** | 3-person crew = $276/game |
+| Basketball (below V) | $70 | **$73** | 2–3 officials = $146–$219 |
+| **Baseball** | $105 (V) / $75 (other) | **$110 (V) / $80 (other)** | 2 umpires V = **$220/game** |
+| **Softball** | $84 (V) / $68 (other) | **$88 (V) / $72 (other)** | 2 umpires V = **$176/game** |
+| **Girls' Volleyball** | $88 R / $78 U | **$90 R / $80 U** | R + U = $170/match |
+| **Soccer** | $85 V / $75 below / 3-person $90/75/75 | unchanged | 3-person crew = $240/game |
+| **Wrestling** | $82 | **$84** | 1 official/dual = $84 |
+| **Girls' Lacrosse** | $90 | **$96** (+6.7%) | 2 officials = $192/game |
+| **Boys' Lacrosse** | V Ref $99 / V Umpire $92 / V Field $92 | **$101 / $94 / $94** | 3-person = $289/game |
+| **Girls' Water Polo / Boys' Water Polo** | $70 (V) / $47 (other) | **$73 (V) / $50 (other)** | 2 officials = $146/match |
+| **Track & Field (20 races)** | $96 | **$101** | per official |
+| **Swim (22 starts)** | $77 | **$80** | per official |
+| **Girls' Flag Football** (new CIF sport) | $70 V / $67 JV | **$72 V / $69 JV** | per official |
+| **Field Hockey** | $85 (V) | **$87 (V)** | per official |
 
-Rates are flat per game; sub-varsity lower; crew size and playoff multipliers apply. CIF-SS's explicit goal was to address the post-COVID officials shortage by making per-hour compensation competitive.
+**Source:** CHSSO Fall/Winter/Spring Sports Officials Fee Schedules, 2024–2025 & 2025–2026 (primary-source PDF provided by GUHSD athletics administration).
 
-### CIF-San Diego Section — data gap
+**Key operational rules from the CHSSO document:**
+- Single official covering a 2-official contest paid 150% of base; single assigned official paid base + $20
+- CIF-SDS **playoff fees set separately** by the Commissioner and published in playoff bulletins — not on this schedule
+- Schools also pay **round-trip transportation fees** per CHSSO Appendix 1: $13–$55 flat-fee tiers for 51–350 mile distances
+- Tournament/invitational fees negotiated between tournament management and officials' association (not on fixed schedule)
+- Late payment (not processed within 30 days of contest) incurs $20 late fee
 
-The authoritative document is the **CIF-SDS 2024–26 Fee Sheet** at https://www.cifsds.org/officials/Fee_Sheets. I was not able to fetch it during research (403 response). This is the single document James should pull first to put hard numbers behind the $70K Granite Hills line item. Expect CIF-SDS rates to be in the same band as CIF-SS.
+CHSSO's rate structure reflects the same post-COVID officials-shortage pressure documented across California — the annual increases are locked in and are likely to continue.
 
 ### Funding-model question
 
@@ -879,7 +897,7 @@ There is **no public aggregated survey** of how California districts split offic
 
 ### Framing the officials funding gap — verified district-wide numbers
 
-Using CIF-SS rates as a floor (CIF-SDS is likely similar): a comprehensive CA high school hosting varsity, JV, and frosh schedules across football, boys/girls basketball, boys/girls soccer, girls volleyball, baseball, softball, water polo, wrestling, and swim/dive easily exceeds $50K–$60K in officials fees across the year. $140 × ~25 football games (V+JV+Frosh), $88 × many crews × 100+ basketball games, etc., adds up fast.
+Using verified CHSSO 2025–26 CIF-SDS rates: a comprehensive HS hosting varsity, JV, and frosh schedules across football, boys/girls basketball, boys/girls soccer, girls volleyball, baseball, softball, water polo, wrestling, swim/dive, track, and the growing girls' flag football easily exceeds $50K–$60K in officials fees per year. Sample home-game math using CHSSO 2025–26 rates: 5 home varsity football games × $712/crew = $3,560 in varsity football officiating alone. 15 home basketball games (V + JV + Frosh) × 3 officials × $73–$92 = ~$3,500+. Baseball 10 home games × $220 = $2,200. That's ~$9,300 across three sports before soccer, volleyball, softball, wrestling, and all sub-varsity contests are layered in. The $57,393 Granite Hills FY 2025-26 competition overhead figure is directly consistent with CHSSO rate math.
 
 **Verified primary-source data from Granite Hills Athletics (FY 2025-26 GUHSD Trust Accounts + Arbiter Officiating Report):**
 
@@ -936,7 +954,7 @@ The *factual* case (officials cost is rising, district share isn't keeping pace,
 ## Recommendations — concrete next steps to turn this into a board-ready case
 
 ### Near-term (1 week) — fully in your control
-1. **Pull the CIF-SDS 2024–26 Fee Sheet** from cifsds.org/officials/Fee_Sheets and add a per-sport schedule to the report showing Granite Hills's actual expected spend by sport × level × rate. This converts the "$70K" figure into a defensible bottom-up calculation.
+1. **Build the Granite Hills sport-by-sport officials spend model** using the now-verified CHSSO 2025–26 CIF-SDS rates (in Pillar 3 above). For each home contest in the Arbiter schedule, multiply the CHSSO per-official rate × crew size and add transportation fees per CHSSO Appendix 1. This turns the $57,393 figure into an itemized defense of every dollar.
 2. **Rewrite the AT section** around the $22,500 stipend finding. That number does not need comparison data to be alarming on its own — a BOC-certified AT is a healthcare professional, and $22,500 does not fund one. Note whether each of the nine GUHSD comprehensives currently has a certified AT on campus for home events, and under what contract (district employee / third-party service / coach-moonlighting).
 
 ### Short-term (2–4 weeks) — requires peer outreach
@@ -957,6 +975,7 @@ The *factual* case (officials cost is rising, district share isn't keeping pace,
 2. GUHSD *Extended Curricular Assignments 2025–2026 SY, as of 7-1-2025, 2% Increase Board Approved 11/13/2025* (Class 3 Step 1 = $69,187.20 — **current**)
 3. GUHSD *Coaching Stipends — Sports & Levels*, dated 9.9.2021 (47 total per school)
 4. GUHSD *Coaching Stipends 2023.24*, updated 7.23 (52 total per school — **current**)
+4c. **CHSSO *Fall / Winter / Spring Sports Officials Fee Schedules 2024-2025 & 2025-2026*** (Committee on High School Sports Officiating — governing fee document for CIF-San Diego Section contests). Covers all CIF-SDS sports; includes rate escalations, single-official rules, playoff fee reference, transportation fee appendix, and payment-timing rules. Primary source, provided by GUHSD athletics administration.
 
 ### District financial data (primary CDE source)
 4a. **California Department of Education, *Current Expense of Education per ADA, FY 2023–24*** — [currentexpense2324.xlsx](https://www.cde.ca.gov/ds/fd/ec/documents/currentexpense2324.xlsx). Audited actual current expense figures for every California LEA; used for all per-ADA comparison figures in this brief.
