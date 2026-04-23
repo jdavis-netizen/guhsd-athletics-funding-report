@@ -25,6 +25,11 @@
 
   * { box-sizing: border-box; }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 56px; /* keeps anchors from landing under sticky tab nav */
+  }
+
   html, body {
     margin: 0;
     padding: 0;
@@ -33,6 +38,66 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.55;
+  }
+
+  /* Sticky section tab nav */
+  .tab-nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: #ffffff;
+    border-bottom: 1px solid var(--gray-200);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--gray-300) transparent;
+  }
+  .tab-nav::-webkit-scrollbar { height: 6px; }
+  .tab-nav::-webkit-scrollbar-thumb { background: var(--gray-300); border-radius: 3px; }
+  .tab-nav::-webkit-scrollbar-track { background: transparent; }
+  .tab-nav-inner {
+    display: inline-flex;
+    gap: 4px;
+    padding: 10px 24px;
+    min-width: 100%;
+  }
+  .tab-nav a {
+    flex-shrink: 0;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gray-700);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.15s, color 0.15s;
+    letter-spacing: 0.01em;
+  }
+  .tab-nav a:hover {
+    background: var(--gray-100);
+    color: var(--navy);
+  }
+  .tab-nav a.active {
+    background: var(--navy);
+    color: #ffffff;
+  }
+  .tab-nav a .tab-num {
+    color: var(--accent);
+    font-weight: 700;
+    margin-right: 4px;
+  }
+  .tab-nav a.active .tab-num {
+    color: rgba(255,255,255,0.85);
+  }
+  section[id] {
+    scroll-margin-top: 60px; /* fallback for browsers without scroll-padding */
+  }
+  @media print {
+    .tab-nav { display: none; }
+    html { scroll-padding-top: 0; }
   }
 
   .page {
@@ -478,10 +543,31 @@
   <a href="https://github.com/jdavis-netizen/guhsd-athletics-funding-report" target="_blank" style="color: var(--gray-700); font-weight: 600; text-decoration: none; border: 1px solid var(--gray-300); padding: 6px 14px; border-radius: 4px;">Source Repo</a>
 </div>
 
+<!-- STICKY SECTION TAB NAV -->
+<nav class="tab-nav" aria-label="Report sections">
+  <div class="tab-nav-inner">
+    <a href="#summary">Summary</a>
+    <a href="#p1"><span class="tab-num">1.</span>Resources</a>
+    <a href="#p2"><span class="tab-num">2.</span>Strategic Context</a>
+    <a href="#p3"><span class="tab-num">3.</span>Helix</a>
+    <a href="#gap">Spending Gap</a>
+    <a href="#p3b"><span class="tab-num">3b.</span>Steele Canyon</a>
+    <a href="#p4"><span class="tab-num">4.</span>Athletic Trainers</a>
+    <a href="#p4b"><span class="tab-num">4b.</span>Walk-On Coaches</a>
+    <a href="#p5"><span class="tab-num">5.</span>Attendance &amp; ADA</a>
+    <a href="#p6"><span class="tab-num">6.</span>Stipends</a>
+    <a href="#p7"><span class="tab-num">7.</span>Granite Hills</a>
+    <a href="#p8"><span class="tab-num">8.</span>Officials</a>
+    <a href="#ask">The Ask</a>
+    <a href="#recs">Recommendations</a>
+    <a href="#method">Methodology</a>
+  </div>
+</nav>
+
 <div class="page">
 
 <!-- EXECUTIVE SUMMARY -->
-<section>
+<section id="summary">
   <div class="section-num">Executive Summary</div>
   <h2>The headline finding</h2>
   <p class="lede">GUHSD is not resource-constrained. It is the third-highest per-student-spending high school district in San Diego County, and holds general fund reserves roughly four times the state mandate. What is constrained is the share of those resources reaching athletics — and the gap is being closed by families and student ASBs, not by the district.</p>
@@ -545,7 +631,7 @@
 </section>
 
 <!-- PER-ADA SPENDING CHART -->
-<section>
+<section id="p1">
   <div class="section-num">Pillar 1 — District Resources</div>
   <h2>GUHSD spends among the most per student in San Diego County</h2>
   <p class="lede">Audited current-expense-of-education figures for FY 2023–24 from the California Department of Education put GUHSD at $21,644 per ADA — the third-highest of the eight San Diego County districts in this peer set.</p>
@@ -601,7 +687,7 @@
 </section>
 
 <!-- ENROLLMENT / STRATEGIC CONTEXT -->
-<section>
+<section id="p2">
   <div class="section-num">Pillar 2 — Strategic Context</div>
   <h2>Enrollment, reserves, and the retention question</h2>
   <p class="lede">GUHSD operates in an environment of statewide declining enrollment, competitive conversion charters in the Grossmont League, and significant uncommitted reserves. Athletics funding is one of the most direct levers a district has for student engagement and ADA retention.</p>
@@ -646,7 +732,7 @@
 </section>
 
 <!-- HELIX DEEP DIVE -->
-<section>
+<section id="p3">
   <div class="section-num">Pillar 3 — Helix Charter Deep Dive</div>
   <h2>The direct charter competition, with full primary-source data</h2>
   <p class="lede">Helix Charter HS is a conversion charter operating in the Grossmont League. Per the HTA Contract §13.1.4.1, Helix <em>explicitly credits experience at GUHSD as equivalent</em> on hire — meaning a coach moving from a GUHSD comprehensive site to Helix keeps their tenure tier. Helix's stipend schedule has roughly twice as many named lines as GUHSD's, pays more at every experience tier, and tops out at ~$12,000–$13,000 in stipend compensation for a head varsity football coach with a deep playoff run.</p>
@@ -782,7 +868,7 @@
 </section>
 
 <!-- THE SPENDING GAP -->
-<section style="background: linear-gradient(180deg, #fffaf2 0%, #ffffff 100%); margin: 0 -56px; padding: 56px 56px 40px;">
+<section id="gap" style="background: linear-gradient(180deg, #fffaf2 0%, #ffffff 100%); margin: 0 -56px; padding: 56px 56px 40px;">
   <div class="section-num" style="color: var(--accent);">The Spending Gap</div>
   <h2 style="color: var(--accent);">Both of GUHSD's conversion charters fund ~40% more coaching stipends than GUHSD does</h2>
   <p class="lede">Helix Charter (part of GUHSD until 1998) and Steele Canyon Charter (part of GUHSD until 2007) both operate in the Grossmont League, within 15 miles of district comprehensive sites. Both now fund substantially more athletic coaching positions per school than their district of origin.</p>
@@ -937,7 +1023,7 @@
 </section>
 
 <!-- STEELE CANYON DEEP DIVE -->
-<section>
+<section id="p3b">
   <div class="section-num">Pillar 3b — Steele Canyon Charter Deep Dive</div>
   <h2>The second conversion charter shows the same structural pattern</h2>
   <p class="lede">Steele Canyon Charter — part of GUHSD until converting in 2007 — funds 72 coaching stipends per school (+38% over GUHSD's 52) and pays its Athletic Director $13,434 at top tier (+116% over GUHSD's $6,227). Its stipend base has been moved from Class 3 Step 1 to Class 3 Step 4, putting its reference salary 14.2% above GUHSD's base.</p>
@@ -989,7 +1075,7 @@
 </section>
 
 <!-- ATHLETIC TRAINER -->
-<section>
+<section id="p4">
   <div class="section-num">Pillar 4 — Athletic Trainer Staffing</div>
   <h2>The most decisive peer comparison</h2>
   <p class="lede">GUHSD is the only San Diego County district in this peer set that treats the athletic trainer role as a $22,500 teacher stipend. Two verified peers — San Dieguito and Oceanside — employ the AT as a classified healthcare professional with BOC/NATA certification and benefits.</p>
@@ -1197,7 +1283,7 @@
 </section>
 
 <!-- WALK-ON COACHES -->
-<section>
+<section id="p4b">
   <div class="section-num">Pillar 4b — Walk-On Coaches</div>
   <h2>California has shifted majority-walk-on for high school coaching</h2>
   <p class="lede">When stipends fall below the level required to motivate teachers to take on season-long coaching commitments, teachers stop volunteering and off-campus walk-on coaches fill the gap. The documented California data point is from LAUSD, the state's largest district:</p>
@@ -1233,7 +1319,7 @@
 </section>
 
 <!-- PARTICIPATION + RETENTION -->
-<section>
+<section id="p5">
   <div class="section-num">Pillar 5 — Participation & Retention</div>
   <h2>California athletics participation is at an all-time high — while enrollment declines</h2>
   <p class="lede">California's high school enrollment has declined for 8 consecutive years, but athletics participation has grown by 11.6% over two years. Within a declining-ADA environment, athletics is one of the few school programs actively attracting and retaining students.</p>
@@ -1335,7 +1421,7 @@
 </section>
 
 <!-- COACHING STIPENDS -->
-<section>
+<section id="p6">
   <div class="section-num">Pillar 6 — Coaching Stipends</div>
   <h2>Competitive at the top, underweighted at entry level and for assistants</h2>
   <p class="lede">GUHSD's per-coach stipend for a 10+-year head varsity football coach is mid-pack for SD County. But the district pays materially less than neighboring conversion charters, lags Sweetwater at entry level by 40%, and caps total stipended positions at a level that forces ongoing booster fundraising for any program with more than two funded coaches.</p>
@@ -1464,7 +1550,7 @@
 </section>
 
 <!-- GRANITE HILLS VERIFIED SPENDING -->
-<section>
+<section id="p7">
   <div class="section-num">Pillar 7 — Site Case Study</div>
   <h2>Granite Hills athletics spending — verified FY 2025-26</h2>
   <p class="lede">The figures in this section come directly from GUHSD trust account statements and the Arbiter officiating report for Granite Hills High School. This is the verified spending footprint of one comprehensive GUHSD site — the district's largest athletic program — and provides a primary-source baseline for extrapolating district-wide figures.</p>
@@ -1557,7 +1643,7 @@
 </section>
 
 <!-- OFFICIALS -->
-<section>
+<section id="p8">
   <div class="section-num">Pillar 8 — Officials Funding Gap</div>
   <h2>The district covers ~38% of competition overhead at Granite Hills</h2>
   <p class="lede">GUHSD allocates $22,000 per school per year for officials. At Granite Hills, verified FY 2025-26 competition overhead (Arbiter officials + tournament entry fees) was $57,393 — meaning the district allocation covers roughly 38% of actual officials-related costs at the site. The remaining $35,000+ is absorbed by sport-specific trust accounts funded through gate receipts, boosters, and ASB fundraising.</p>
@@ -1640,7 +1726,7 @@
 </section>
 
 <!-- FULL PROPOSAL PACKAGE -->
-<section>
+<section id="ask">
   <div class="section-num">The Ask — Full Package</div>
   <h2>GUHSD athletics' own costed proposal</h2>
   <p class="lede">The athletics department has already developed a fully-itemized proposal package covering athletic trainer restructuring, coaching stipend equity, ASB advisor support, AD compensation alignment, and officials allocation. The total ongoing cost is approximately $1.4 million per year — roughly 0.44% of the district's general fund and 3–5% of the district's reserves.</p>
@@ -1729,7 +1815,7 @@
 </section>
 
 <!-- RECOMMENDATIONS -->
-<section>
+<section id="recs">
   <div class="section-num">Recommendations</div>
   <h2>Five specific, actionable asks</h2>
   <p class="lede">Each recommendation is grounded in a verified finding from this brief and is benchmarked against at least one San Diego County peer district's existing practice.</p>
@@ -1779,7 +1865,7 @@
 </section>
 
 <!-- METHODOLOGY -->
-<section>
+<section id="method">
   <div class="section-num">Methodology</div>
   <h2>How this brief was compiled</h2>
   <p class="lede">Every numeric figure in this report is traceable to a primary-source document. No figures are estimated or inferred unless explicitly flagged as such.</p>
@@ -1887,6 +1973,69 @@
     <p style="margin-top: 20px; font-size: 12px; color: var(--gray-500);">Report compiled April 2026 by Granite Hills Athletics Administration. All comparative dollar figures are stated in unadjusted nominal dollars as published by the issuing district or agency. Where a peer district's schedule has been recently updated (e.g., Sweetwater 1/1/2026 3.5% increase, SDUHSD 7/1/2025 1.0% increase), this report uses the current post-increase figure.</p>
   </div>
 </footer>
+
+<script>
+  // Scroll-spy: highlight the tab for the section currently in view
+  (function() {
+    const tabLinks = document.querySelectorAll('.tab-nav a[href^="#"]');
+    const sectionMap = new Map();
+    tabLinks.forEach(link => {
+      const id = link.getAttribute('href').slice(1);
+      const section = document.getElementById(id);
+      if (section) sectionMap.set(section, link);
+    });
+
+    const sections = Array.from(sectionMap.keys());
+    if (!sections.length) return;
+
+    function setActive(link) {
+      tabLinks.forEach(l => l.classList.remove('active'));
+      if (link) {
+        link.classList.add('active');
+        // Scroll the active tab into view horizontally if needed
+        const nav = document.querySelector('.tab-nav');
+        if (nav && link.offsetLeft !== undefined) {
+          const navRect = nav.getBoundingClientRect();
+          const linkRect = link.getBoundingClientRect();
+          if (linkRect.left < navRect.left || linkRect.right > navRect.right) {
+            nav.scrollTo({
+              left: link.offsetLeft - nav.clientWidth / 2 + link.offsetWidth / 2,
+              behavior: 'smooth'
+            });
+          }
+        }
+      }
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      // Pick the section whose top is closest to just-below-the-tab-nav
+      const visible = entries
+        .filter(e => e.isIntersecting)
+        .sort((a, b) => a.target.getBoundingClientRect().top - b.target.getBoundingClientRect().top);
+      if (visible.length > 0) {
+        const link = sectionMap.get(visible[0].target);
+        if (link) setActive(link);
+      }
+    }, {
+      rootMargin: '-60px 0px -70% 0px',
+      threshold: 0
+    });
+
+    sections.forEach(s => observer.observe(s));
+
+    // Also set active immediately based on scroll position
+    function updateOnScroll() {
+      const pos = window.scrollY + 80;
+      let current = sections[0];
+      for (const s of sections) {
+        if (s.offsetTop <= pos) current = s;
+      }
+      if (current) setActive(sectionMap.get(current));
+    }
+    window.addEventListener('scroll', updateOnScroll, { passive: true });
+    updateOnScroll();
+  })();
+</script>
 
 </body>
 </html>
