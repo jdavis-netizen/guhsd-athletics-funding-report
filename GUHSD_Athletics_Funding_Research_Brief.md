@@ -232,7 +232,7 @@ This does not include equipment, transportation, facilities maintenance, uniform
 
 | District | AT staffing model | Compensation | BOC certification |
 |---|---|---|---|
-| **GUHSD** | Certificated extra-duty stipend added to a teacher's primary role | **$22,500 annual stipend** + $1,500 "Certificate of Clinical Competence" differential + per-event day-of-event stipends | Not required by the stipend line itself; CCC differential is an *incentive* not a *mandate* |
+| **GUHSD** | Certificated extra-duty stipend added to a teacher's primary role | **$22,500 annual stipend** (= $35/hr × 214 hrs/season × 3 seasons; per-event day-of-event stipends paid separately) | Not required by the stipend line itself |
 | **Sweetwater UHSD** | Athletic Trainer NOT on the Extra Service Assignments – Athletics schedule (Appendix C-2). Treated as a non-coaching role. | Not exposed as a certificated stipend — presumably classified or service contract | — |
 | **SDUHSD** | **Full-time classified Athletic Trainer at each of the 4 comprehensive HSs** (La Costa Canyon, San Dieguito Academy, Torrey Pines, Canyon Crest Academy). 1.0 FTE, 35 hrs/week, 11-month work year, 2:00–9:30 PM base shift + weekends. | **$23.21–$31.11/hour + 2.5% shift differential + full classified benefits** (~$39K–$57K/yr + benefits) | **Required — valid BOC certification** |
 | **EUHSD** | Athletic Trainer NOT on the ESTA Co-Curricular Stipend Salary Schedule. | Not exposed as a certificated stipend | — |
@@ -270,13 +270,14 @@ The resulting structural reality: GUHSD's $22,500 stipend is compensation for a 
 
 ### GUHSD — Verified AT compensation structure
 
-The 2025–26 Extended Curricular schedule lists:
+The 2025–26 Extended Curricular schedule lists, under "Stipend Assignments":
 
-- **Athletic Trainer: $22,500 annual stipend**
+- **Athletic Trainer: $22,500 annual stipend** (verified directly with current Granite Hills AT as $35/hour × 214 hours/season × 3 seasons = $22,470)
 - **Athletic Trainer (Additional Day Events): Daily stipend amount specified by Athletics per event (example given: $200)**
-- **Certificate of Clinical Competence: $1,500** (appears to be an incentive differential, likely for ATs who hold BOC certification)
 
-**This is a stipend line, not a full-time AT salary line.** A full-time certified athletic trainer in California public schools typically earns $55K–$80K+ as a classified or certificated employee. A $22,500 stipend assumes the AT role is a secondary duty layered on top of another district employment relationship (e.g., a PE teacher who also serves as AT), or a very part-time hourly engagement.
+**Note on the $1,500 "Certificate of Clinical Competence" line.** The GUHSD Extended Curricular Assignments document (page 2) does include a $1,500 stipend for "Certificate of Clinical Competence." Earlier drafts of this brief grouped that line with the Athletic Trainer compensation. **That was incorrect.** The Certificate of Clinical Competence (CCC) is a credential issued by the American Speech-Language-Hearing Association (ASHA) for Speech-Language Pathologists (CCC-SLP) and Audiologists (CCC-A). It is not an athletic-training credential. The athletic-training credential is BOC (Board of Certification, designation ATC). The $1,500 CCC line at GUHSD is almost certainly the credential differential for SLPs/audiologists working in special education, not a supplement available to the AT role. **The $22,500 stipend is the entirety of the AT compensation line.**
+
+**This is a stipend line, not a full-time AT salary line.** A full-time certified athletic trainer in California public schools typically earns $55K–$80K+ as a classified or certificated employee. A $22,500 stipend assumes the AT role is a secondary duty layered on top of another district employment relationship (e.g., a CTE teacher who also serves as AT), or a very part-time hourly engagement.
 
 ### GUHSD — Current AT staffing reality (verified from GUHSD proposal documents)
 
