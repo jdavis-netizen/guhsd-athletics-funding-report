@@ -299,6 +299,30 @@ Per the same proposal document, the $22,500 AT stipend is based on a **2021–22
 
 Retroactive corrective pay required: **$2,534 per trainer × 5 existing CTE/AT staff = $12,670 one-time** (proposed).
 
+### Coverage-hours gap — verified directly from current Granite Hills AT (April 2026)
+
+Direct quote from Katherine Leek, Granite Hills HS Athletic Trainer:
+
+> "ATs are currently contracted/paid for 9 months of work, but we end up working 10.5/11 months. We are currently being paid $35/hour to work 214 hours per season (there are 3 seasons). This averages out to about 17 hours per week. However, certain sports/seasons require more than 17 hours per week (such as football, winter sports, etc.) which leaves less hours per work for other sports/seasons."
+
+**The arithmetic that matters:**
+
+| Element | Contracted | Actual / impact |
+|---|---|---|
+| Months of work | 9 months | **10.5–11 months actually worked** (1.5–2 uncompensated months/year) |
+| Hourly rate | $35/hour | Set in 2021-22 budget; no increase since |
+| Hours per season | 214 | 3 seasons × 214 = **642 hours/year** |
+| Annual stipend total | $22,470 (= 642 × $35) | Matches the $22,500 stipend line — confirms the stipend is calculated as an hourly-cap product |
+| Average weekly coverage | ~17 hrs/week | **Football and winter sports require more than 17 hrs/week** — drains the budget for other sports/seasons |
+| **Coverage shortfall result** | — | **Spring sports get less AT coverage** because high-demand fall/winter sports consume more than the per-week average; this is a structural funding-driven coverage gap, not an effort gap |
+
+**Why this strengthens the AT staffing argument:**
+
+1. The $22,500 figure is not a generously-funded "stipend" — it is a cap on hours (214 × 3) at a flat $35/hour rate that hasn't moved since 2021-22. Once the hours are exhausted, coverage stops, even if events are still occurring.
+2. ATs are working 1.5–2 months *outside their contract* every year. That's not a sign of generous time off; it's a sign that the contract underestimates the actual work needed by ~17–22% and the district is benefiting from uncompensated AT labor.
+3. The coverage gap for spring sports is mathematically forced by the schedule structure. Football season alone — with daily practices and weekly games requiring AT presence — typically exceeds the per-week budget allocation, which means the season-by-season hour allocation effectively rations spring-sport coverage.
+4. This is the structural argument that ATs are not just underpaid in absolute dollars but **structurally constrained from delivering equitable coverage across all three sports seasons** — which directly maps to the Title IX equity question raised by the Morgan Hill OCR resolution.
+
 ### GUHSD's own proposed AT restructuring (from internal proposal document)
 
 The district's athletic department has already developed and costed a hybrid coverage proposal:
@@ -310,7 +334,7 @@ The district's athletic department has already developed and costed a hybrid cov
 - **Track 1 base cost: $285,000**
 
 **Track 2 — Strategic Outsourcing (Vendor Model) — 4 sites:**
-- Partner with **Advantage Athletic Training Company** to replace "walk-on" trainers at El Cajon Valley, Mount Miguel, El Capitan, and Santana
+- Partner with **ATvantage Athletic Training** to replace "walk-on" trainers at El Cajon Valley, Mount Miguel, El Capitan, and Santana
 - **Option A (Full-Time, Recommended):** ~40 hrs/week @ 4 sites = **$480,000/yr vendor cost**. Aligns with San Diego Unified standards.
 - **Option B (Hourly):** 35 hrs/week capped @ 4 sites = **$402,700/yr vendor cost**. Reduced coverage cap.
 
