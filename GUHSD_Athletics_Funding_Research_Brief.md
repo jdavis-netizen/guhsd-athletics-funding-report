@@ -22,7 +22,7 @@
 
 6. **The new framing the budget data makes possible: GUHSD is NOT underfunded overall — it's underfunding ATHLETICS specifically.** Per verified CDE current expense data for FY 2023–24, GUHSD spends **$21,644 per ADA** — the 3rd-highest in the SD County peer set, behind only EUHSD ($22,357) and San Diego Unified ($21,952), and $6,000+ per student MORE than SDUHSD ($15,634), Poway ($15,555), and San Marcos ($16,361). Yet SDUHSD — spending 28% less per student — still funds full-time BOC-certified classified ATs at every comprehensive site, pays Head Varsity Football more at entry level, and places its AD at the top of its extracurricular schedule. **This is not a "district can't afford it" story. It's an "athletics is allocated a smaller share of a larger pie" story** — and that reframe is the most defensible version of the underfunded argument the data actually supports.
 
-7. **NEW (April 2026): athletics is one of the most direct ADA-attendance interventions available to a CA district.** Malkus & Hollon's AEI study *An Extra Point for Attendance* (April 8, 2026) merged Indiana day-level attendance records with IHSAA varsity rosters (n=262,600). Key findings: varsity athletes' chronic absenteeism rate = **10.0%** vs. non-athletes **22.9%** (−12.9 pp raw; −7.7 pp adjusted for demographics). The effect is ~**2× larger for Free/Reduced-Price-Meal-eligible students** (1.45 pp vs. 0.74 pp non-poor) — i.e., larger for exactly the populations that generate LCFF supplemental/concentration dollars. Authors describe the in-season effect as "almost certainly... predominantly caused by [athletics] participation." LCFF math: a single percentage point of district-wide attendance improvement across GUHSD's ~14,835 ADA = approximately **$800,000+/year in LCFF revenue**. The district's $1.4M full athletics proposal is ~1.75× that figure — revenue-neutral at a fractional-percentage-point attendance lift, before any retention-to-charter effects.
+7. **NEW (April 2026): athletics is one of the most direct ADA-attendance interventions available to a CA district.** Malkus & Hollon's AEI study *An Extra Point for Attendance* (April 8, 2026) merged Indiana day-level attendance records with IHSAA varsity rosters (n=262,600). Key findings: varsity athletes' chronic absenteeism rate = **10.0%** vs. non-athletes **22.9%** (−12.9 pp raw; −7.7 pp adjusted for demographics). The effect is ~**2× larger for Free/Reduced-Price-Meal-eligible students** (1.45 pp vs. 0.74 pp non-poor) — i.e., larger for exactly the populations that generate LCFF supplemental/concentration dollars. Authors describe the in-season effect as "almost certainly... predominantly caused by [athletics] participation." **LCFF math:** a single percentage-point of district-wide attendance improvement across GUHSD's ~14,835 ADA = roughly **148 additional ADA × $11,500–$13,000 per-ADA LCFF rate ≈ $1.7M–$1.9M/year in LCFF revenue.** The district's $1.4M full athletics proposal is **less than the value of a single percentage-point attendance gain** — revenue-neutral at a fractional-percentage-point lift (≈ 0.7–0.9 pp), before any retention-to-charter effects.
 
 ---
 
@@ -127,10 +127,10 @@ This is the strongest single comparison. Six peer district schedules were pulled
 | **Sweetwater UHSD** | $4,256 flat | Not specified in schedule |
 | **SDUHSD** (Class AA — highest class) | $5,395 → $7,354 | Not specified |
 | **EUHSD** | Class not mapped in public doc; top-tier would be Class A | Not specified |
-| **Helix Charter** | $5,108 flat + Assistant AD $5,108 flat + "additional compensation per job description" | Not specified |
+| **Helix Charter** | **$10,458 (1-3 yr) → $13,675 (10+ yr w/cred)** — 13%/14%/16%/17% of Class 3 Step 1 ($80,444.35); + Assistant AD $5,108 → $8,326 (6.35%/7.35%/9.35%/10.35%); + asterisked "additional compensation per job description" | Not specified |
 | **Steele Canyon Charter** | $7,902 (1–3 yr) → **$13,434 (10+ yr)** — 10%/12%/14%/17% of Class 3 Step 4 ($79,021.25) | **1 release period per year** (corrected from primary-source 2025-26 schedule) |
 
-**GUHSD's AD stipend is below every verified SD County peer except Sweetwater.** Steele Canyon's top-tier AD ($10,802) is 73% more than GUHSD's top-tier AD ($6,227), with matching 2-release-period allocations. SDUHSD's Class AA AD ($7,354) exceeds GUHSD's by $1,127. Helix's AD + Assistant AD combined ($10,216 + job-description supplement) also exceeds GUHSD. Sweetwater's flat $4,256 AD is the one peer verified to be lower on stipend dollars. This is consistent with GUHSD treating the AD role as lower-status than a head varsity football coach on the stipend schedule (AD tops out at $6,227 vs. head football at $7,611), while most peers treat the AD as equal to or higher than head football.
+**GUHSD's AD stipend is below every verified SD County peer except Sweetwater.** Steele Canyon's top-tier AD ($13,434, verified 2025-26 schedule) is **+116% over** GUHSD's top-tier AD ($6,227); Steele Canyon AD has 1 release period/year per the verified schedule (vs. GUHSD's 2/year). SDUHSD's Class AA AD ($7,354) exceeds GUHSD's by $1,127. Helix's tiered AD ($10,458 → $13,675) plus tiered Assistant AD ($5,108 → $8,326) plus job-description supplement also greatly exceeds GUHSD. SDUSD's AD ($12,636 with 208-day work year) is roughly 2× GUHSD's stipend with substantially more dedicated work time. SMUSD's 15% salary differential structure (~$10K+ for a Year-5 teacher, scaling) likewise exceeds GUHSD. Sweetwater's flat $4,256 AD is the one peer verified to be lower on stipend dollars. This is consistent with GUHSD treating the AD role as lower-status than a head varsity football coach on the stipend schedule (AD tops out at $6,227 vs. head football at $7,611), while most peers treat the AD as equal to or higher than head football.
 
 ### San Diego County head-to-head — Total stipend slot counts per school
 
@@ -556,9 +556,9 @@ Plus the asterisk footnote: *"Additional compensation given: see Job Description
 
 ### Roles currently exceeding $10,000 at Helix base (before playoffs or job-description comp)
 
-- **Athletic Director:** $10,457.77 at entry — $13,675.54 at top tier
-- **Band Director (10+ yr):** $10,457.77 (13% × $80,444.35)
-- **ASB Advisor (1–3 yr):** $10,457.77 — top tier $12,871.10
+- **Athletic Director\*** (13%/14%/16%/17% of Class 3 Step 1): $10,457.77 at entry — $13,675.54 at top tier
+- **ASB Advisor\*** (15%/16%/18%/19% of Class 3 Step 1): $12,066.65 at entry — $15,284.43 at top tier
+- **Band Director** (11%/12%/14%/15% of Class 3 Step 1): $11,262.21 at 7-9 yr — $12,066.65 at 10+ yr
 - Head Varsity Football coach with 3+ weeks of playoffs
 
 ### Total athletic stipend spending at Helix — primary-source verified
@@ -671,11 +671,12 @@ Beyond athletic position count, Helix's broader stipend schedule has substantial
 
 Even before considering playoffs, these Helix stipend lines exceed or approach $10,000 as a baseline:
 
-| Position | Top-tier base stipend |
-|---|---|
-| **ASB Advisor*** (asterisk = additional job-description comp) | $10,457.77 – **$12,871.10** |
-| Band Director | $6,435.55 – **$9,653.32** |
-| Senior Project Coordinator (flat) | $9,000.00 |
+| Position | Tier 1 (1-3 yr) | Top tier (10+ yr w/cred) |
+|---|---|---|
+| **Athletic Director\*** (13%/14%/16%/17%) | $10,457.77 | **$13,675.54** |
+| **ASB Advisor\*** (15%/16%/18%/19%, asterisk = job-description comp) | $12,066.65 | **$15,284.43** |
+| **Band Director** (11%/12%/14%/15%) | $8,848.88 | **$12,066.65** |
+| Senior Project Coordinator (flat) | $9,000.00 | $9,000.00 |
 
 ### Why GUHSD experience transfers
 
@@ -945,12 +946,12 @@ Top sports by participation (2023–24):
 
 ### Translating the Indiana AEI finding into GUHSD LCFF dollars
 
-California's Local Control Funding Formula is ADA-based. Each percentage point of district-wide attendance improvement across GUHSD's ~14,835 ADA is worth approximately **$800,000+/year in LCFF base + supplemental revenue** (calculated: 1% × 14,835 students × 180 school days × per-diem ADA rate).
+California's Local Control Funding Formula is ADA-based. Each percentage-point of district-wide attendance improvement across GUHSD's ~14,835 ADA = **148 additional ADA**. At the CA HSD LCFF base grant rate for grades 9-12 (~$11,500/ADA), that's roughly **$1.7M/year**; including supplemental/concentration grants, it can reach **~$1.9M+/year**.
 
 The AEI-documented adjusted athlete effect (7.7 pp lower chronic absenteeism than non-athletes, controlling for demographics) implies:
 
 - **Expanding or stabilizing athletics participation is one of the most direct, evidence-based attendance interventions available to any CA district.** Unlike most attendance interventions, the treatment is already in place — the question is whether GUHSD funds it at the level that keeps participation rising.
-- **The $1.4M full athletics proposal is ~1.75× the LCFF revenue of a single percentage point of district-wide attendance.** Even a fractional-percentage-point attendance lift makes the proposal revenue-neutral before counting retention-to-charter effects.
+- **The $1.4M full athletics proposal is LESS than the LCFF revenue of a single percentage-point of district-wide attendance.** Even a fractional-percentage-point attendance lift (≈ 0.7–0.9 pp) makes the proposal revenue-neutral before counting retention-to-charter effects.
 - **The equity finding (1.45 pp effect for FRPM-eligible students vs. 0.74 pp for non-poor) maps directly onto GUHSD's LCFF supplemental/concentration population** — the students who generate LCFF supplemental dollars are the students for whom athletics has the largest attendance effect.
 
 ---
