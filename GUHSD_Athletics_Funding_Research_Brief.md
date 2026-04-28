@@ -36,6 +36,8 @@
   - *Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update* (Pickett et al., *Journal of Athletic Training*, 2024) — ATLAS survey data
   - California AB 796 bill text (Chapter 899, Statutes of 2024)
   - **CHSSO (Committee on High School Sports Officiating) 2024–25 & 2025–26 Fee Schedules** — the authoritative CIF-SDS officials rate document, provided by GUHSD athletics administration
+  - **SMUSD *2025-26 Extra Duty Stipends, Certificated Hourly and Daily Rates, Substitute Teacher Rates*** — effective 7/1/25, provided by GUHSD athletics administration. Closes the SMUSD coaching-stipend dollar-amount data gap that earlier drafts of this brief flagged.
+  - **California Athletic Trainers Association (CATA) — *Certificated Athletic Training Pay Discrepancy Proposal*** — recommended minimum per-diem hourly rate by region, $57–$87.50/hour, provided by GUHSD athletics administration.
   - CIF Southern Section rate reporting (via AOL / LA Times coverage) — retained for historical context
   - LAUSD stipend history (Yahoo Sports, Nov 2021)
 - **Secondary sources:** CoachFore.org statewide compensation piece (June 2024); news coverage of CA officials shortage; T&C / Project Play coverage of AT access.
@@ -91,21 +93,23 @@ This is the strongest single comparison. Six peer district schedules were pulled
 | **Sweetwater UHSD** | **$6,764 flat** (any experience) | No tiers | Asst Football $5,254, JV Asst $3,362 (all flat) | N/A | Not needed (flat) |
 | **SDUHSD** | $5,123 (1–4 yr) → **$7,069** (20+ yr) | 5 tiers | Class II Varsity Asst $4,044–$5,499 | **No** | Not applicable (% of Step 1 Class 4) |
 | **EUHSD** (incl. San Pasqual HS) | $5,958 → **$7,043** (26+ yr) — Class A top tier | **8 tiers (through 26+)** | Class F $3,580–$4,665 | Not specified | $76,979 |
-| **SMUSD** (class structure verified; dollar amounts not publicly extracted) | Head Varsity Football = **Column AA** (top tier); Asst Head Varsity = A; other Asst/JV/Frosh = B/C | Appears flat within class; CBA does not publish experience tiers for coaching | Yes — Assistant Head Varsity (A), Assistant Varsity (B) × 3, Head JV (B), Head Frosh (B), Assistant JV (B), Assistant Frosh (C) — notably **8 named football stipend slots** | 5 yrs outside credit | Not extracted (not in CBA body) |
+| **SMUSD** | $6,668 (Yr 1) → **$8,675** (Yr 15+) — Column AA. Year 5 = $8,006; Year 10 = $8,341 | **7 service tiers** (1, 2, 3, 4, 5, 10, 15) | Yes — Assistant Head Varsity (A: $5,755–$7,592), Assistant Varsity (B: $4,842–$6,475) × 3, Head JV (B), Head Frosh (B), Assistant JV (B), Assistant Frosh (C: $3,929–$5,392) — **8 named football stipend slots** | 5 yrs outside credit | ~$56,700 (Column 1 Step 1, computed from schedule). 18% LOWER base than GUHSD, but higher % rates produce higher stipends |
 | **Helix Charter HS** (conversion charter; historically GUHSD) | $6,033 (1–3 yr) → **$9,251** (10+ yr w/cred, 2025-26) | 4 tiers | JV/Asst Coach $4,022–$7,240 | N/A (credential-gated tenure) | **$80,444.35** — 16.3% HIGHER than GUHSD |
 | **Steele Canyon Charter HS** (conversion charter; historically GUHSD) | $4,448 (1–3 yr) → **$6,990** (10+ yr) — same % structure as GUHSD | 4 tiers (identical to GUHSD) | JV/Asst/Head V w/o Assts $3,177–$5,719 | Yes, up to 7 yrs + **experience at GUHSD or SCHS is credited** | $63,541.88 (per 2022–26 CBA text; subsequent MOUs have raised base) |
 | **Oceanside USD** (OHS, El Camino HS) | **$4,530 flat** (Head Varsity Football, Dec 2025 posting at El Camino HS); **$3,674 flat** (Head Varsity Boys Basketball, Mar 2024 posting at Oceanside HS) | **No tiers — single rate** | Asst V Football $3,274 max, Asst JV / Asst Frosh Football $2,870 max (all "max" = single flat rate) | Unknown | Not applicable (flat) |
 | LAUSD (statewide benchmark) | $5,622 flat (post-2021 raise) | No tiers | Not specified | N/A | — |
 
-**Sources:** GUHSD Extended Curricular Assignments (Board 11/13/2025); Sweetwater *Salary Schedule for Extra Service Assignments – Athletics, Appendix C-2* (Board 1/6/2026, 3.5%); SDUHSD *Extra-Curricular Salary Schedule* (Board 6/11/2025, 1.0%); EUHSD *2025–26 ESTA Co-Curricular Stipend Salary Schedule* (rev. March 2026, 3.0%); SMUSD *SMEA/SMUSD CBA 2024-2026* Section 8(D) — verified structural class assignments; Helix *2024–25 HTA Stipend List* (effective 7/1/2024) + *2025–26 HTA Salary Schedule* (Board approved 10/20/2025); Steele Canyon *SCCEA Contract 7/1/2022–6/30/2026*.
+**Sources:** GUHSD Extended Curricular Assignments (Board 11/13/2025); Sweetwater *Salary Schedule for Extra Service Assignments – Athletics, Appendix C-2* (Board 1/6/2026, 3.5%); SDUHSD *Extra-Curricular Salary Schedule* (Board 6/11/2025, 1.0%); EUHSD *2025–26 ESTA Co-Curricular Stipend Salary Schedule* (rev. March 2026, 3.0%); SMUSD *2025-26 Extra Duty Stipends, Certificated Hourly and Daily Rates, Substitute Teacher Rates* (effective 7/1/25) + SMEA/SMUSD CBA Section 8(D) — both fully verified with dollar amounts; Helix *2024–25 HTA Stipend List* (effective 7/1/2024) + *2025–26 HTA Salary Schedule* (Board approved 10/20/2025); Steele Canyon *SCCEA Contract 7/1/2022–6/30/2026*.
 
-### The three most striking comparative facts
+### The four most striking comparative facts
 
 1. **Helix Charter pays head varsity football $1,190–$1,640 MORE than GUHSD at every experience tier (2025-26).** Helix's 2025-26 stipend percentages (7.5%/8.5%/10.5%/11.5%) are close to GUHSD's (7%/8%/10%/11%), but Helix's underlying Class 3 Step 1 base ($80,444.35) is 16.3% higher than GUHSD's ($69,187.20). Same math, different base. Helix is in the Grossmont League competing directly against GUHSD schools for coaches — and is paying $1,000+ more per head coach at every tier. A 10+-year head football coach earns $9,251 at Helix vs. $7,611 at GUHSD. Helix's 2026-27 proposed schedule widens this gap further (14.5% top tier = $11,664).
 
-2. **Steele Canyon Charter uses the identical stipend formula structure GUHSD uses** (same percentages, same 4 tiers, same 7-year outside credit — and explicitly credits GUHSD experience). But Steele Canyon's Class 3 Step 1 per the 2022–26 CBA text is $63,541.88 — so their stipend dollar amounts fall slightly BELOW GUHSD's current values at each tier. This makes Steele Canyon the only SD County peer whose head *coaching* pay is lower than GUHSD's at the tier level. (Note: Steele Canyon approved a 9.6% pay raise effective 7/1/2023, so the base may have moved; the current post-MOU base is not exposed in the 2022–26 contract text.)
+2. **NEW (verified Apr 2026): SMUSD pays head varsity football $1,064–$2,471 MORE than GUHSD across the experience curve, despite an 18% LOWER teacher base salary.** Per the SMUSD 2025-26 Extra Duty Stipend Schedule (effective 7/1/25), the Class AA head varsity football coach earns $6,668 at Year 1 (vs. GUHSD entry $4,843 = **+$1,825 / +38%**), $8,006 at Year 5 (vs. GUHSD 4-6 yr $5,535 = **+$2,471 / +45%**), $8,341 at Year 10 (vs. GUHSD 10+ yr $7,611 = **+$730 / +10%**), and $8,675 at Year 15+ (= **+$1,064 / +14%**). SMUSD does this with a Column 1 Step 1 base of ~$56,700 — about 18% LOWER than GUHSD's $69,187 — but with much higher percentages (11.76%–15.30% for Class AA vs. GUHSD's 7%–11%). **This means TWO of the SD County peers in this brief — Helix Charter AND SMUSD — pay head varsity football MORE than GUHSD at every tier.** SMUSD's playoff stipend is also higher: 10% of annual coaching pay/week = $867/week at the top tier vs. GUHSD's $576/week.
 
-3. **Oceanside USD is the lowest-paying SD County district in this peer set for head coaching — by a wide margin.** OUSD's head varsity football coach earns **$4,530 flat** (per a December 2025 El Camino HS posting) and head varsity boys basketball earns **$3,674 flat** (March 2024 Oceanside HS posting). OUSD uses single flat rates with no experience tiers. Those figures are below GUHSD's *entry-level* head varsity football stipend ($4,843 at 1–3 years). An OUSD head football coach with 20 years of experience earns less than a first-year GUHSD head football coach. **But the flip-side: OUSD treats the Athletic Trainer role completely differently — see Pillar 2.**
+3. **Steele Canyon Charter uses the identical stipend formula structure GUHSD uses** (same percentages, same 4 tiers, same 7-year outside credit — and explicitly credits GUHSD experience). But Steele Canyon's Class 3 Step 1 per the 2022–26 CBA text is $63,541.88 — so their stipend dollar amounts fall slightly BELOW GUHSD's current values at each tier. This makes Steele Canyon the only SD County peer whose head *coaching* pay is lower than GUHSD's at the tier level. (Note: Steele Canyon approved a 9.6% pay raise effective 7/1/2023, so the base may have moved; the current post-MOU base is not exposed in the 2022–26 contract text.)
+
+4. **Oceanside USD is the lowest-paying SD County district in this peer set for head coaching — by a wide margin.** OUSD's head varsity football coach earns **$4,530 flat** (per a December 2025 El Camino HS posting) and head varsity boys basketball earns **$3,674 flat** (March 2024 Oceanside HS posting). OUSD uses single flat rates with no experience tiers. Those figures are below GUHSD's *entry-level* head varsity football stipend ($4,843 at 1–3 years). An OUSD head football coach with 20 years of experience earns less than a first-year GUHSD head football coach. **But the flip-side: OUSD treats the Athletic Trainer role completely differently — see Pillar 2.**
 
 ### San Diego County head-to-head — Head Varsity Basketball / other major sports
 
@@ -323,6 +327,36 @@ Direct quote from Katherine Leek, Granite Hills HS Athletic Trainer:
 2. ATs are working 1.5–2 months *outside their contract* every year. That's not a sign of generous time off; it's a sign that the contract underestimates the actual work needed by ~17–22% and the district is benefiting from uncompensated AT labor.
 3. The coverage gap for spring sports is mathematically forced by the schedule structure. Football season alone — with daily practices and weekly games requiring AT presence — typically exceeds the per-week budget allocation, which means the season-by-season hour allocation effectively rations spring-sport coverage.
 4. This is the structural argument that ATs are not just underpaid in absolute dollars but **structurally constrained from delivering equitable coverage across all three sports seasons** — which directly maps to the Title IX equity question raised by the Morgan Hill OCR resolution.
+
+### NEW — California Athletic Trainers Association (CATA) recommended minimum hourly rate
+
+The **California Athletic Trainers Association** publishes a *Certificated Athletic Training Pay Discrepancy Proposal* with a recommended minimum per-diem hourly rate, adjusted by region for cost of living. Source document: CATA *Recommended Minimum Per Diem Pay Rate: On-Site Athletic Training Medical Care* (provided by GUHSD athletics administration). The CATA rate map:
+
+| CATA Region | Cost of Living Index | Recommended Hourly Per Diem Rate |
+|---|---|---|
+| Region 1 | 112.5 | $59.50/hour |
+| Region 2 | 165.2 | **$87.50/hour** |
+| Region 3 | 107.6 | $57.00/hour |
+| Region 4 | 154.1 | $81.75/hour |
+| Region 5 | 138.2 | $73.00/hour |
+| Region 6 | 126.9 | **$67.00/hour** |
+
+The methodology base: CATA started from the 2020 NATA Salary Survey median per-diem rate of $53/hour and adjusted upward for California's ~34% higher cost of living vs. national average, then varied the rate by region.
+
+**Direct comparison to GUHSD's $35/hour rate:**
+
+- GUHSD pays **$35/hour** — set in the 2021-22 budget, unchanged since
+- CATA recommends a **floor of $57/hour** for the lowest-cost region in California ($59.50 for Region 1; $57 for Region 3)
+- For coastal Southern California (Region 5 or Region 6 depending on the SD County mapping), the recommended rate is **$67–$73/hour** — roughly **2× what GUHSD pays**
+- CATA notes that even its recommended rate "does NOT include any expenses related to health care supplies (e.g. athletic tape, crutches, or emergency equipment) that the host athletic or community-based event should make available to the certified AT"
+
+**What this means in plain English:** GUHSD is paying its certificated Athletic Trainers roughly half of the floor that the state professional association says is appropriate for any region of California — and well below half the appropriate rate for cost-of-living-adjusted Southern California. The 4 walk-on sites (El Cajon Valley, Mount Miguel, El Capitan, Santana), where coverage relies on hourly walk-on contractors, presumably negotiate at or above the CATA recommended rate; the 5 internal CTE-AT sites have been frozen at $35/hour for four budget cycles.
+
+**This adds a third independent argument for the AT funding restructuring:**
+
+1. **Pierpoint 2018:** schools without ATs have 6× / 3× higher recurrent injury rates in girls' soccer / girls' basketball — a student safety argument
+2. **Morgan Hill OCR 2023:** Title IX requires equitable AT access regardless of booster funding source — a legal liability argument
+3. **CATA 2022:** GUHSD's $35/hour rate is roughly half the state-association-recommended minimum for Southern California — a market-rate / professional standards argument
 
 ### GUHSD's own proposed AT restructuring (from internal proposal document)
 

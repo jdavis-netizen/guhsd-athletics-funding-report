@@ -42,7 +42,9 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 15. **Escondido UHSD *2025–26 ESTA Co-Curricular Stipend Salary Schedule*** — revised March 2026 (3.0% increase effective 7/1/2025). [EUHSD Certificated Salary Schedule page](https://www.euhsd.org/apps/pages/index.jsp?uREC_ID=2772293&type=d&pREC_ID=2399780).
 
 ### San Marcos Unified (SMUSD)
-16. **SMUSD *SMEA/SMUSD Collective Bargaining Agreement 2024–2026*, Section 8(D) — Extra Pay for Extra Duty**. [PDF via SMEA](https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf). Class structure (AA/A/B/C/D/E) verified with per-sport position assignments; dollar amounts per class are NOT in CBA body — represents a partial data point in the peer comparison.
+16. **SMUSD *SMEA/SMUSD Collective Bargaining Agreement 2024–2026*, Section 8(D) — Extra Pay for Extra Duty**. [PDF via SMEA](https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf). Class structure (AA/A/B/C/D/E) verified with per-sport position assignments.
+16a. **SMUSD *2025-26 Extra Duty Stipends, Certificated Hourly and Daily Rates, Substitute Teacher Rates*** — effective 7/1/25. Primary-source schedule with dollar amounts at every Class × Year tier (provided by GUHSD athletics administration). Class AA Year 1 = $6,668 → Year 15+ = $8,675; percentages 11.76%–15.30% of Column 1 Step 1 (~$56,700). **Closes the SMUSD coaching-stipend data gap.**
+16b. **SMUSD *SMEA Master Contract 7/1/22–6/30/24*** — primary-source CBA with the percentages-of-Column-1-Step-1 formula in Article X Section C, the AD's 15% salary differential in Section E, and the 10%-of-coaching-pay-per-week playoff stipend in Article X Section D.
 
 ### Oceanside USD
 17. **Oceanside USD / OTA Contract 2025–2027** — published by OTA at [oceansideta.com/resources](https://www.oceansideta.com/resources) and by OUSD HR at [oside.us HR Certificated](https://www.oside.us/departments/human-resources/hr-certificated/oceanside-teacher-association-ota). (25MB PDF, image-based.) Coaching stipend amounts verified via EdJoin postings:
@@ -86,11 +88,12 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ---
 
-## 6. Athletic Trainer Regulatory Framework
+## 6. Athletic Trainer Regulatory Framework + Professional Standards
 
 37. [California Legislative Information — *AB 796 Athletic Trainers*](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796) — Chapter 899, Statutes of 2024. Title protection, signed 9/29/2024.
 38. [Board of Certification — *Passage of Athletic Training Title Protection in California*](https://bocatc.org/newsroom/passage-of-athletic-training-title-protection-win-for-california/) — BOC context on AB 796.
 39. [California Legislative Information — *AB 346 Activity Supervisor Clearance Certificate*](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB346) — ASCC regulatory framework for walk-on coaches.
+39a. **California Athletic Trainers Association (CATA) — *Certificated Athletic Training Pay Discrepancy Proposal: Recommended Minimum Per Diem Pay Rate, On-Site Athletic Training Medical Care*** (provided by GUHSD athletics administration). 6-region cost-of-living-adjusted rate map: Region 1 $59.50/hr, Region 2 $87.50/hr, Region 3 $57/hr, Region 4 $81.75/hr, Region 5 $73/hr, Region 6 $67/hr. Methodology base: 2020 NATA Salary Survey median ($53/hour) adjusted upward 34% for California cost of living, then varied by region. **Source for the GUHSD-pays-half-the-recommended-floor finding in Pillar 4.**
 
 ---
 
