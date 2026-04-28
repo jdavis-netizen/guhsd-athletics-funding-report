@@ -54,7 +54,11 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 21. [OUSD Athletic Trainer EdJoin 1093003](https://www.edjoin.org/Home/JobPosting/1093003) — classified full-time, 12-month, Range 27 ($3,600.58–$5,470.25/month = ~$43K–$66K/yr + CalPERS); NATA certification required.
 
 ### San Diego Unified (SDUSD)
-22. [San Diego Unified — SDEA Collective Bargaining Agreement 2022–2025](https://www.sdea.net/wp-content/uploads/2022-2025_SDEA_Collective-Bargaining-Agreement_FINAL-FOR-PRINT.pdf) — coaching stipend appendix is not in the main CBA body; SDUSD stipends not publicly isolatable during this research pass.
+22. [San Diego Unified — SDEA Collective Bargaining Agreement 2022–2025](https://www.sdea.net/wp-content/uploads/2022-2025_SDEA_Collective-Bargaining-Agreement_FINAL-FOR-PRINT.pdf).
+22a. **SDUSD Coaching Stipend Per-Unit Schedule** — primary-source document provided by GUHSD athletics admin, April 2026. **$1,404 per unit**; sport-specific unit count. Football head varsity = 5 units = **$7,020**. Tennis = 3 units = $4,212. **Athletic Directors: 3 units × 3 seasons = $12,636** on a **208-day work year**, with last period of day allocated as Athletic PE Class. **Closes the SDUSD coaching-stipend data gap.**
+
+### Poway USD
+22b. **Poway USD Board Policy 4.213 (Issue 12, dated 12/11/06): Salary Schedule — Extra-Curricular Coaching Assignments**. Class structure: Class AAA (Head Football, AD per semester) Step 1 = .163 → Step 10 = .235; Class AA (Head Basketball boys/girls) .140 → .203; Class A (Head Track, Baseball, Wrestling, Softball, Gymnastics) .117 → .171; Class B (other Head Coaches, Head Swim) .094 → .139; Class C (All Assistant Coaches) .070 → .106. Outside-district experience credit max 4 years. Stipends prorated over 10 months and paid monthly per AP 4.212.1. **Pay-scale base salary still requires confirmation for actual dollar amounts.** Closes Poway USD structural data gap.
 
 ---
 
@@ -69,7 +73,8 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 28. [Helix Charter HS — EdJoin JobPosting 2207204](https://www.edjoin.org/Home/JobPosting/2207204) (Boys Head Varsity Soccer, 4/8/2026) — confirms the 2025-26 range $6,033.33–$9,251.10.
 
 ### Steele Canyon Charter HS (Spring Valley)
-29. **Steele Canyon *SCCEA Certificated Bargaining Unit Agreement, 7/1/2022–6/30/2026*** — Athletic Programs stipend section. Class 3 Step 1 (as of CBA text) = $63,541.88; subsequent 9.6% raise effective 7/1/2023. [Contract Google Doc](https://docs.google.com/document/d/1trpw-L7mm52zVT3174gtH3xcOofoDXeJhalK-cSi5Rw/edit). Steele Canyon HR landing: [schscougars.org/human-resources](https://www.schscougars.org/human-resources).
+29. **Steele Canyon *SCCEA Certificated Bargaining Unit Agreement, 7/1/2022–6/30/2026*** — Athletic Programs stipend section. [Contract Google Doc](https://docs.google.com/document/d/1trpw-L7mm52zVT3174gtH3xcOofoDXeJhalK-cSi5Rw/edit). Steele Canyon HR landing: [schscougars.org/human-resources](https://www.schscougars.org/human-resources).
+29a. **Steele Canyon Charter HS *Extended Curricular Assignments 2025-2026*** — primary-source schedule with 3% increase effective 7/1/2025, rev. 8/12/2025. **Class 3 Step 4 = $79,021.25** (NOT Step 1, as the older CBA text used). Head Varsity Coach top tier: 11% × $79,021.25 = **$8,692**. AD top tier: 17% = **$13,434**, **1 release period per year** (corrected from earlier draft). Coaching requires CA teaching credential. Provided by GUHSD athletics admin April 2026.
 30. **Steele Canyon *Coaching Stipends 2025-2026*** — internal schedule confirming the AD $10,802 top-tier stipend (primary source provided during research).
 31. [East County Magazine — *Steele Canyon Governing Board Approves Salary Increase Staff*](http://www.eastcountymagazine.org/steele-canyon-governing-board-approves-salary-increase-staff) — 9.6% raise 7/1/2023 context.
 
