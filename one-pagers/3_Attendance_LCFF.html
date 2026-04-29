@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GUHSD Athletics Funding — Attendance &amp; LCFF</title>
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-deep: #094234;
+    --accent: #a6192e;
+    --accent-soft: #fbecef;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --gold: #b8860b;
+    --amber-soft: #fff7e6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: letter; margin: 0; }
+  html, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--gray-900); background: var(--gray-100); }
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.35in 0.45in 0.3in;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 9.5pt;
+    line-height: 1.35;
+  }
+  /* Header bar */
+  .header {
+    border-top: 5px solid var(--navy);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 7px 0 8px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header .topic-num { font-size: 7pt; font-weight: 800; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; }
+  .header .topic { font-size: 18pt; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; line-height: 1; margin-top: 2px; }
+  .header .right { text-align: right; font-size: 7pt; color: var(--gray-500); line-height: 1.35; }
+  .header .right strong { color: var(--gray-700); display: block; font-size: 7.5pt; letter-spacing: 0.1em; text-transform: uppercase; }
+  /* Headline */
+  .headline { font-size: 11.5pt; font-weight: 700; color: var(--gray-900); line-height: 1.25; margin: 9px 0 10px; padding: 9px 12px; background: var(--accent-soft); border-left: 4px solid var(--accent); }
+  .headline em { font-style: normal; color: var(--accent); }
+  /* Stat row */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 10px; }
+  .stat { border: 1px solid var(--gray-200); padding: 8px 10px 8px; border-radius: 4px; background: var(--gray-100); }
+  .stat.accent { background: var(--accent-soft); border-color: var(--accent); }
+  .stat .label { font-size: 6.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 2px; }
+  .stat .value { font-size: 16pt; font-weight: 800; color: var(--navy); line-height: 1; }
+  .stat.accent .value { color: var(--accent); }
+  .stat .caption { font-size: 7.5pt; color: var(--gray-700); margin-top: 3px; line-height: 1.3; }
+  /* Section headings */
+  h3 { font-size: 10pt; color: var(--navy-deep); margin: 9px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--gray-200); }
+  ul, ol { padding-left: 16px; margin: 4px 0 0; }
+  li { margin-bottom: 3px; line-height: 1.32; }
+  strong { color: var(--gray-900); }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 8.5pt; }
+  th, td { border: 1px solid var(--gray-300); padding: 4px 6px; text-align: left; vertical-align: top; line-height: 1.3; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 7.5pt; letter-spacing: 0.04em; }
+  tr.guhsd { background: var(--accent-soft); }
+  tr.guhsd td { font-weight: 700; }
+  /* Quote callout */
+  .quote { background: var(--amber-soft); border-left: 3px solid var(--gold); padding: 7px 11px; margin: 7px 0; font-style: italic; font-size: 8.5pt; line-height: 1.35; }
+  .quote .attr { display: block; font-style: normal; margin-top: 3px; color: var(--gray-700); font-size: 7.5pt; }
+  /* The ask box */
+  .ask { background: var(--navy); color: #fff; padding: 8px 12px; margin: 7px 0 5px; border-radius: 4px; }
+  .ask .ask-label { font-size: 7pt; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 3px; }
+  .ask .ask-body { font-size: 10pt; font-weight: 600; line-height: 1.32; }
+  .ask strong { color: #fff; }
+  .ask .cost { margin-top: 4px; font-size: 8pt; color: rgba(255,255,255,0.85); line-height: 1.35; }
+  /* Footer */
+  .footer { margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--gray-200); font-size: 6.5pt; color: var(--gray-500); line-height: 1.4; }
+  .footer strong { color: var(--gray-700); display: block; font-size: 7pt; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
+  /* Split bar visual (used in officials one-pager) */
+  .split-bar { display: flex; width: 100%; height: 38px; border-radius: 4px; overflow: hidden; margin: 8px 0 2px; border: 1px solid var(--gray-200); }
+  .split-bar > div { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 9.5pt; }
+  .split-bar .district { background: var(--navy); width: 38%; }
+  .split-bar .asb { background: var(--accent); width: 62%; }
+  .split-legend { display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--gray-700); margin-bottom: 4px; }
+  .stat.gold { background: var(--amber-soft); border-color: var(--gold); }
+  .stat.gold .value { color: var(--gold); }
+  /* Print */
+  @media print {
+    html, body { background: #fff; }
+    .page { box-shadow: none; padding: 0.25in 0.4in 0.2in; min-height: auto; page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div>
+    <div class="topic-num">Issue 3 of 5 · Attendance &amp; LCFF</div>
+    <div class="topic">Athletics Drives ADA</div>
+  </div>
+  <div class="right">
+    <strong>GUHSD Board Brief</strong>
+    Granite Hills Athletics<br>
+    April 2026
+  </div>
+</div>
+
+<div class="headline">
+  A new peer-reviewed study (April 2026, n=262,600) finds varsity athletes are <em>12.9 percentage points less likely to be chronically absent</em> than non-athletes — and the effect is <em>~2× larger for low-income students</em>. In California, where LCFF revenue is ADA-based, athletics is one of the most direct attendance interventions a district has.
+</div>
+
+<div class="stat-row">
+  <div class="stat">
+    <div class="label">Non-athletes</div>
+    <div class="value">22.9%</div>
+    <div class="caption">Chronic absenteeism rate (≥10% of school days missed). Indiana statewide HS data, 2023–24.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">Varsity Athletes</div>
+    <div class="value">10.0%</div>
+    <div class="caption"><strong>−12.9 pp raw / −7.7 pp adjusted</strong> for demographics. Three-season athletes = 10.0% (single-season = 15.2%).</div>
+  </div>
+  <div class="stat gold">
+    <div class="label">LCFF Value of 1 pp Attendance</div>
+    <div class="value">~$1.7M+</div>
+    <div class="caption">1% × 14,835 GUHSD ADA = 148 students × ~$11,500–$13,000 LCFF rate per HS ADA.</div>
+  </div>
+</div>
+
+<h3>The equity finding — athletics helps the students LCFF supplemental funding is designed to serve</h3>
+<table>
+  <thead>
+    <tr><th>Subgroup</th><th>Adjusted athlete effect (pp absence reduction)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Free / Reduced-Price Meal-eligible students</td><td><strong>1.45 pp</strong></td><td>Nearly 2× the effect of 0.74 pp for non-poor students</td></tr>
+    <tr><td>Black students</td><td><strong>1.32 pp</strong></td><td>vs. White students 0.90 pp</td></tr>
+    <tr><td>Hispanic / Latino students</td><td><strong>1.27 pp</strong></td><td>vs. White students 0.90 pp</td></tr>
+    <tr><td>Female students</td><td><strong>1.20 pp</strong></td><td>vs. male students 0.77 pp</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">
+  "It is almost certain that athletes' improved attendance during their sports seasons is predominantly caused by their active sports participation."
+  <span class="attr">— Malkus and Hollon, <em>An Extra Point for Attendance: The Impact of High School Varsity Athletics on Absenteeism</em>, American Enterprise Institute, April 8, 2026 (n=262,600 Indiana HS students; day-level Indiana DOE attendance × IHSAA varsity rosters; student fixed-effects causal model).</span>
+</div>
+
+<h3>The math: why the $1.4M proposal pays for itself</h3>
+<ul>
+  <li><strong>1 percentage point of district-wide attendance gain</strong> = 148 ADA × $11,500–$13,000 LCFF rate (HS grades 9-12) = <strong>$1.7M – $1.9M per year in LCFF revenue</strong></li>
+  <li><strong>The full $1.4M athletics proposal</strong> = LESS than the LCFF revenue from a single percentage-point of attendance improvement</li>
+  <li><strong>Break-even threshold</strong> = roughly <strong>0.7–0.9 percentage points</strong> of district-wide attendance lift — well within the AEI's documented 7.7 pp varsity-athlete effect</li>
+  <li><strong>And the effect is larger for the supplemental/concentration LCFF student population</strong> (FRPM-eligible at 1.45 pp), so retaining or expanding athletics participation in the lowest-income students disproportionately drives LCFF supplemental dollars</li>
+</ul>
+
+<h3>Athletics participation is rising — even as enrollment declines</h3>
+<ul>
+  <li>CA HS enrollment has declined 8 consecutive years (~1.3%/yr). CIF participation: <strong>763,867 → 806,979 → 852,575 (2024-25 all-time high; +11.6% two-year)</strong>.</li>
+  <li>In a declining-enrollment, ADA-driven funding environment, <strong>athletics is one of the few programs whose participation base is growing while overall enrollment shrinks</strong> — exactly where retention investment has the highest LCFF return.</li>
+</ul>
+
+<div class="ask">
+  <div class="ask-label">The Ask</div>
+  <div class="ask-body">Approve the full <strong>$1.4M athletics proposal package</strong> as a documented attendance/retention investment. The AEI evidence + ADA-based LCFF math make this the only board action where <strong>the cost is structurally less than the revenue it can generate.</strong></div>
+  <div class="cost">$1.4M = 0.44% of $321M general fund · 3–5% of $30–45M reserves · break-even at &lt;1 pp district-wide attendance gain.</div>
+</div>
+
+<div class="footer">
+  <strong>Primary Sources</strong>
+  Malkus N, Hollon S. <em>An Extra Point for Attendance: The Impact of High School Varsity Athletics on Absenteeism</em>. American Enterprise Institute, April 8, 2026. aei.org/research-products/report/an-extra-point-for-attendance/. California Interscholastic Federation Annual Participation Census 2022–23 through 2024–25. California Department of Education <em>Current Expense of Education per ADA, FY 2023–24</em>. Voice of San Diego, <em>Grossmont Union's Layoffs Spark Outrage</em> (March 5, 2025) — context on declining enrollment and reserves. Full report: <strong>jdavis-netizen.github.io/guhsd-athletics-funding-report</strong>
+</div>
+
+</div>
+</body>
+</html>

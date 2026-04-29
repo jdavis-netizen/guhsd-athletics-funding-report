@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GUHSD Athletics Funding — Officials / Ref Fees</title>
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-deep: #094234;
+    --accent: #a6192e;
+    --accent-soft: #fbecef;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --gold: #b8860b;
+    --amber-soft: #fff7e6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: letter; margin: 0; }
+  html, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--gray-900); background: var(--gray-100); }
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.35in 0.45in 0.3in;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 9.5pt;
+    line-height: 1.35;
+  }
+  /* Header bar */
+  .header {
+    border-top: 5px solid var(--navy);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 7px 0 8px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header .topic-num { font-size: 7pt; font-weight: 800; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; }
+  .header .topic { font-size: 18pt; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; line-height: 1; margin-top: 2px; }
+  .header .right { text-align: right; font-size: 7pt; color: var(--gray-500); line-height: 1.35; }
+  .header .right strong { color: var(--gray-700); display: block; font-size: 7.5pt; letter-spacing: 0.1em; text-transform: uppercase; }
+  /* Headline */
+  .headline { font-size: 11.5pt; font-weight: 700; color: var(--gray-900); line-height: 1.25; margin: 9px 0 10px; padding: 9px 12px; background: var(--accent-soft); border-left: 4px solid var(--accent); }
+  .headline em { font-style: normal; color: var(--accent); }
+  /* Stat row */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 10px; }
+  .stat { border: 1px solid var(--gray-200); padding: 8px 10px 8px; border-radius: 4px; background: var(--gray-100); }
+  .stat.accent { background: var(--accent-soft); border-color: var(--accent); }
+  .stat .label { font-size: 6.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 2px; }
+  .stat .value { font-size: 16pt; font-weight: 800; color: var(--navy); line-height: 1; }
+  .stat.accent .value { color: var(--accent); }
+  .stat .caption { font-size: 7.5pt; color: var(--gray-700); margin-top: 3px; line-height: 1.3; }
+  /* Section headings */
+  h3 { font-size: 10pt; color: var(--navy-deep); margin: 9px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--gray-200); }
+  ul, ol { padding-left: 16px; margin: 4px 0 0; }
+  li { margin-bottom: 3px; line-height: 1.32; }
+  strong { color: var(--gray-900); }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 8.5pt; }
+  th, td { border: 1px solid var(--gray-300); padding: 4px 6px; text-align: left; vertical-align: top; line-height: 1.3; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 7.5pt; letter-spacing: 0.04em; }
+  tr.guhsd { background: var(--accent-soft); }
+  tr.guhsd td { font-weight: 700; }
+  /* Quote callout */
+  .quote { background: var(--amber-soft); border-left: 3px solid var(--gold); padding: 7px 11px; margin: 7px 0; font-style: italic; font-size: 8.5pt; line-height: 1.35; }
+  .quote .attr { display: block; font-style: normal; margin-top: 3px; color: var(--gray-700); font-size: 7.5pt; }
+  /* The ask box */
+  .ask { background: var(--navy); color: #fff; padding: 8px 12px; margin: 7px 0 5px; border-radius: 4px; }
+  .ask .ask-label { font-size: 7pt; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 3px; }
+  .ask .ask-body { font-size: 10pt; font-weight: 600; line-height: 1.32; }
+  .ask strong { color: #fff; }
+  .ask .cost { margin-top: 4px; font-size: 8pt; color: rgba(255,255,255,0.85); line-height: 1.35; }
+  /* Footer */
+  .footer { margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--gray-200); font-size: 6.5pt; color: var(--gray-500); line-height: 1.4; }
+  .footer strong { color: var(--gray-700); display: block; font-size: 7pt; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
+  /* Split bar visual (used in officials one-pager) */
+  .split-bar { display: flex; width: 100%; height: 38px; border-radius: 4px; overflow: hidden; margin: 8px 0 2px; border: 1px solid var(--gray-200); }
+  .split-bar > div { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 9.5pt; }
+  .split-bar .district { background: var(--navy); width: 38%; }
+  .split-bar .asb { background: var(--accent); width: 62%; }
+  .split-legend { display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--gray-700); margin-bottom: 4px; }
+  .stat.gold { background: var(--amber-soft); border-color: var(--gold); }
+  .stat.gold .value { color: var(--gold); }
+  /* Print */
+  @media print {
+    html, body { background: #fff; }
+    .page { box-shadow: none; padding: 0.25in 0.4in 0.2in; min-height: auto; page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div>
+    <div class="topic-num">Issue 5 of 5 · Officials &amp; Ref Fees</div>
+    <div class="topic">The 38% District Share</div>
+  </div>
+  <div class="right">
+    <strong>GUHSD Board Brief</strong>
+    Granite Hills Athletics<br>
+    April 2026
+  </div>
+</div>
+
+<div class="headline">
+  At Granite Hills, actual FY 2025–26 competition overhead totaled <em>$57,393</em>. The district allocation covered <em>$22,000 (38%)</em>. The remaining <em>$35,393</em> was absorbed by sport-specific trust accounts funded through ASB and family booster fundraising. Scaled across 9 GUHSD comprehensive schools, the district-wide ASB burden is approximately <em>$162K–$297K per year</em>.
+</div>
+
+<h3>Granite Hills FY 2025–26 — verified split</h3>
+<div class="split-bar">
+  <div class="district">$22K · District (38%)</div>
+  <div class="asb">$35K · ASB / Boosters / Families (62%)</div>
+</div>
+<div class="split-legend">
+  <span>Total Granite Hills competition overhead: <strong>$57,393</strong> (verified, GUHSD Trust Accounts)</span>
+  <span>$39,178 Arbiter officials (182 games) + $18,215 tournament fees (35 entries)</span>
+</div>
+
+<div class="stat-row">
+  <div class="stat">
+    <div class="label">Per-school district allocation</div>
+    <div class="value">$22,000</div>
+    <div class="caption">Same allocation across all 9 GUHSD comprehensive HSs. Has not been re-indexed despite annual CHSSO rate increases.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">District-wide ASB burden</div>
+    <div class="value">$162K–$297K</div>
+    <div class="caption">Estimated using Granite Hills as upper bound and $40–55K/site average for the other 8 schools. Booster + ASB fundraising covers this annually.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">CHSSO rate increase 2024 → 2025</div>
+    <div class="value">2–7%</div>
+    <div class="caption">Per-game officials fees rose across nearly every CIF-SDS sport while the district's $22K allocation stayed flat.</div>
+  </div>
+</div>
+
+<h3>CHSSO 2025–26 verified per-game rates (CIF–San Diego Section)</h3>
+<table>
+  <thead>
+    <tr><th>Sport (varsity)</th><th>Per official</th><th>Typical crew → cost per game</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Football</td><td>$144 referee / $142 other (4)</td><td><strong>5-person crew = $712 / game</strong></td></tr>
+    <tr><td>Football (JV/Frosh)</td><td>$97</td><td>4-person crew = $388 / game</td></tr>
+    <tr><td>Basketball</td><td>$92</td><td>3-person crew = $276 / game</td></tr>
+    <tr><td>Baseball</td><td>$110 (V) / $80 (other)</td><td>2 umpires varsity = $220 / game</td></tr>
+    <tr><td>Softball</td><td>$88 (V) / $72 (other)</td><td>2 umpires varsity = $176 / game</td></tr>
+    <tr><td>Girls' Volleyball</td><td>$90 ref / $80 umpire</td><td>R + U = $170 / match</td></tr>
+    <tr><td>Soccer (3-person)</td><td>$90 / $75 / $75</td><td>3-person crew = $240 / game</td></tr>
+    <tr><td>Wrestling</td><td>$84 (per dual)</td><td>1 official / dual = $84</td></tr>
+    <tr><td>Track &amp; Field (20 races)</td><td>$101</td><td>per official</td></tr>
+  </tbody>
+</table>
+<p style="font-size: 8pt; color: var(--gray-500); margin-top: 4px;">Source: CHSSO <em>Sports Officials Fee Schedules 2024-2025 &amp; 2025-2026</em>. Crew sizes per standard CIF-SDS assignments. Schools also pay round-trip transportation per CHSSO Appendix 1 ($13–$55 by mileage). Single-official contests pay base rate + $20. CIF-SDS playoff fees set separately by the Commissioner.</p>
+
+<h3>Why the gap keeps widening</h3>
+<ul>
+  <li>CHSSO fees rise <strong>annually</strong>; GUHSD's <strong>$22K per-school allocation has been static</strong> — not indexed to CHSSO inflation. Each year the allocation covers a smaller share of actual cost.</li>
+  <li>Sub-varsity contests, tournament fees, and transportation (CHSSO Appendix 1) are not visible in the $22K allocation but are mandatory school-paid line items.</li>
+</ul>
+
+<div class="ask">
+  <div class="ask-label">The Ask · Move the per-school allocation toward actual cost</div>
+  <div class="ask-body">Raise the per-school officials allocation from <strong>$22K → $40K–$50K</strong> with <strong>automatic annual indexing tied to CHSSO rate increases</strong>. Even a $40K allocation would close roughly half of the current ASB burden at the largest sites; a $50K allocation reduces the booster/family burden to roughly 15%.</div>
+  <div class="cost">Cost: 9 schools × ($40K – $22K) = $162K/year (~0.05% of $321M general fund); or 9 × ($50K – $22K) = $252K/year (0.08% of GF). Internal proposal currently estimates the increase at $27K–$72K; the higher target ($40K–$50K) brings the allocation closer to verified Granite Hills actuals.</div>
+</div>
+
+<div class="footer">
+  <strong>Primary Sources</strong>
+  Committee on High School Sports Officiating (CHSSO) <em>Fall / Winter / Spring Sports Officials Fee Schedules, 2024–2025 &amp; 2025–2026</em> (governing CIF-SDS document, provided by GUHSD athletics admin). Granite Hills Athletics Dashboard v5 (FY 2025-26 GUHSD Trust Accounts + Arbiter Officiating Report). GUHSD Internal AT/Athletics Proposal documents. Verified district allocation: $22,000/school. Full report: <strong>jdavis-netizen.github.io/guhsd-athletics-funding-report</strong>
+</div>
+
+</div>
+</body>
+</html>

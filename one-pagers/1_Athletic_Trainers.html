@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GUHSD Athletics Funding — Athletic Trainers</title>
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-deep: #094234;
+    --accent: #a6192e;
+    --accent-soft: #fbecef;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --gold: #b8860b;
+    --amber-soft: #fff7e6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: letter; margin: 0; }
+  html, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--gray-900); background: var(--gray-100); }
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.35in 0.45in 0.3in;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 9.5pt;
+    line-height: 1.35;
+  }
+  /* Header bar */
+  .header {
+    border-top: 5px solid var(--navy);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 7px 0 8px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header .topic-num { font-size: 7pt; font-weight: 800; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; }
+  .header .topic { font-size: 18pt; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; line-height: 1; margin-top: 2px; }
+  .header .right { text-align: right; font-size: 7pt; color: var(--gray-500); line-height: 1.35; }
+  .header .right strong { color: var(--gray-700); display: block; font-size: 7.5pt; letter-spacing: 0.1em; text-transform: uppercase; }
+  /* Headline */
+  .headline { font-size: 11.5pt; font-weight: 700; color: var(--gray-900); line-height: 1.25; margin: 9px 0 10px; padding: 9px 12px; background: var(--accent-soft); border-left: 4px solid var(--accent); }
+  .headline em { font-style: normal; color: var(--accent); }
+  /* Stat row */
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 8px 0 10px; }
+  .stat { border: 1px solid var(--gray-200); padding: 8px 10px 8px; border-radius: 4px; background: var(--gray-100); }
+  .stat.accent { background: var(--accent-soft); border-color: var(--accent); }
+  .stat .label { font-size: 6.5pt; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 2px; }
+  .stat .value { font-size: 16pt; font-weight: 800; color: var(--navy); line-height: 1; }
+  .stat.accent .value { color: var(--accent); }
+  .stat .caption { font-size: 7.5pt; color: var(--gray-700); margin-top: 3px; line-height: 1.3; }
+  /* Section headings */
+  h3 { font-size: 10pt; color: var(--navy-deep); margin: 9px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--gray-200); }
+  ul, ol { padding-left: 16px; margin: 4px 0 0; }
+  li { margin-bottom: 3px; line-height: 1.32; }
+  strong { color: var(--gray-900); }
+  table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 8.5pt; }
+  th, td { border: 1px solid var(--gray-300); padding: 4px 6px; text-align: left; vertical-align: top; line-height: 1.3; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 7.5pt; letter-spacing: 0.04em; }
+  tr.guhsd { background: var(--accent-soft); }
+  tr.guhsd td { font-weight: 700; }
+  /* Quote callout */
+  .quote { background: var(--amber-soft); border-left: 3px solid var(--gold); padding: 7px 11px; margin: 7px 0; font-style: italic; font-size: 8.5pt; line-height: 1.35; }
+  .quote .attr { display: block; font-style: normal; margin-top: 3px; color: var(--gray-700); font-size: 7.5pt; }
+  /* The ask box */
+  .ask { background: var(--navy); color: #fff; padding: 8px 12px; margin: 7px 0 5px; border-radius: 4px; }
+  .ask .ask-label { font-size: 7pt; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 3px; }
+  .ask .ask-body { font-size: 10pt; font-weight: 600; line-height: 1.32; }
+  .ask strong { color: #fff; }
+  .ask .cost { margin-top: 4px; font-size: 8pt; color: rgba(255,255,255,0.85); line-height: 1.35; }
+  /* Footer */
+  .footer { margin-top: 6px; padding-top: 5px; border-top: 1px solid var(--gray-200); font-size: 6.5pt; color: var(--gray-500); line-height: 1.4; }
+  .footer strong { color: var(--gray-700); display: block; font-size: 7pt; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
+  /* Split bar visual (used in officials one-pager) */
+  .split-bar { display: flex; width: 100%; height: 38px; border-radius: 4px; overflow: hidden; margin: 8px 0 2px; border: 1px solid var(--gray-200); }
+  .split-bar > div { display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 700; font-size: 9.5pt; }
+  .split-bar .district { background: var(--navy); width: 38%; }
+  .split-bar .asb { background: var(--accent); width: 62%; }
+  .split-legend { display: flex; justify-content: space-between; font-size: 7.5pt; color: var(--gray-700); margin-bottom: 4px; }
+  .stat.gold { background: var(--amber-soft); border-color: var(--gold); }
+  .stat.gold .value { color: var(--gold); }
+  /* Print */
+  @media print {
+    html, body { background: #fff; }
+    .page { box-shadow: none; padding: 0.25in 0.4in 0.2in; min-height: auto; page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div>
+    <div class="topic-num">Issue 1 of 5 · Athletic Trainers</div>
+    <div class="topic">The $35/Hour Trainer</div>
+  </div>
+  <div class="right">
+    <strong>GUHSD Board Brief</strong>
+    Granite Hills Athletics<br>
+    April 2026
+  </div>
+</div>
+
+<div class="headline">
+  GUHSD pays Athletic Trainers <em>$35/hour</em> — set in 2021–22 and unchanged since. The California Athletic Trainers Association recommends a minimum of <em>$67–$73/hour</em> for our region. Six of seven SD County peers employ AT as a classified healthcare role with benefits and BOC certification required.
+</div>
+
+<div class="stat-row">
+  <div class="stat">
+    <div class="label">GUHSD AT Rate</div>
+    <div class="value">$35/hr</div>
+    <div class="caption">$22,500 stipend = $35 × 214 hrs × 3 seasons. Rate frozen since 2021–22; missed 8% (2023), 1% (2024), 2% (2025) COLAs.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">CATA Recommended (Region 5–6)</div>
+    <div class="value">$67–$73/hr</div>
+    <div class="caption">California Athletic Trainers Association minimum per-diem rate, cost-of-living adjusted for SD County.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">Injury Risk Without AT</div>
+    <div class="value">6× / 3×</div>
+    <div class="caption">Recurrent injury rate ratio in girls' soccer / girls' basketball at schools without ATs (Pierpoint et al., 2018).</div>
+  </div>
+</div>
+
+<h3>Three independent arguments for AT funding restructure</h3>
+<ol>
+  <li><strong>Student safety (Pierpoint 2018, peer-reviewed).</strong> Schools without certified ATs see <strong>6× higher recurrent injury rates</strong> in girls' soccer and 3× in girls' basketball. Four GUHSD sites (El Cajon Valley, Mount Miguel, El Capitan, Santana) currently rely on walk-on trainers.</li>
+  <li><strong>Title IX exposure (U.S. Dept. of Education OCR, Morgan Hill USD, October 2023).</strong> The OCR resolution explicitly requires "equitable access to the school's athletic trainer" regardless of booster-funding source. GUHSD's split model (5 internal CTE + 4 walk-on sites + ASB-funded supplements) is structurally analogous to the model OCR ruled non-compliant.</li>
+  <li><strong>Market-rate / professional standards (CATA 2022).</strong> GUHSD pays roughly half of CATA's recommended floor for any region of California — and well below half the appropriate rate for cost-of-living-adjusted Southern California.</li>
+</ol>
+
+<h3>The structural coverage gap (verified directly with current GUHSD AT)</h3>
+<table>
+  <thead>
+    <tr><th>Element</th><th>Contracted</th><th>Actual / Impact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Months of work</td><td>9 months</td><td><strong>10.5–11 months actually worked</strong> — 1.5–2 uncompensated months/year</td></tr>
+    <tr><td>Hours per season cap</td><td>214 hours × 3 seasons = 642 hours</td><td>Average ~17 hrs/week; football and winter sports exceed that</td></tr>
+    <tr class="guhsd"><td><strong>Coverage shortfall</strong></td><td>—</td><td><strong>Spring sports get less AT coverage</strong> because high-demand fall/winter sports consume more than the per-week budget — a structural funding gap, not an effort gap</td></tr>
+  </tbody>
+</table>
+
+<div class="quote">
+  "ATs are currently contracted/paid for 9 months of work, but we end up working 10.5/11 months. We are currently being paid $35/hour to work 214 hours per season (there are 3 seasons). This averages out to about 17 hours per week. However, certain sports/seasons require more than 17 hours per week (such as football, winter sports, etc.) which leaves less hours for other sports/seasons."
+  <span class="attr">— Katherine Leek, Granite Hills HS Athletic Trainer (April 2026)</span>
+</div>
+
+<div class="ask">
+  <div class="ask-label">The Ask · GUHSD Athletics' own costed proposal</div>
+  <div class="ask-body">Approve the Athletic Trainer Staffing &amp; Financial Realignment proposal: <strong>Track 1</strong> retention of 5 internal CTE-AT sites + <strong>Track 2</strong> ATvantage Athletic Training vendor at the 4 walk-on sites = <strong>100% certified AT coverage at every campus</strong>.</div>
+  <div class="cost">Total ongoing cost: <strong>$765,000/year</strong> (Option A, full-time vendor) = 0.24% of $321M general fund · 1.7–2.6% of $30–45M reserves · plus $12,670 one-time retroactive COLA correction.</div>
+</div>
+
+<div class="footer">
+  <strong>Primary Sources</strong>
+  GUHSD <em>Athletic Trainer Staffing and Financial Realignment Proposal</em> (internal). California Athletic Trainers Association <em>Certificated Athletic Training Pay Discrepancy Proposal</em>. Pierpoint et al., <em>Injuries in girls' soccer and basketball: a comparison of high schools with and without athletic trainers</em>, Injury Epidemiology 5:29, 2018. U.S. Dept. of Education OCR, <em>Resolution of Title IX Athletics Investigation of Morgan Hill Unified School District</em>, October 2023. California AB 796 (Statutes of 2024). Pickett et al., <em>Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update</em>, J. Athletic Training, 2024. EdJoin postings 1528322 (SDUHSD AT), 1093003 (Oceanside USD AT). Direct verification: K. Leek, Granite Hills HS AT (April 2026). Full report: <strong>jdavis-netizen.github.io/guhsd-athletics-funding-report</strong>
+</div>
+
+</div>
+</body>
+</html>
