@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GUHSD Athletics Funding — Research on Athletics Participation</title>
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-deep: #094234;
+    --accent: #a6192e;
+    --accent-soft: #fbecef;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+    --gold: #b8860b;
+    --amber-soft: #fff7e6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: letter; margin: 0; }
+  html, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--gray-900); background: var(--gray-100); }
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.2in 0.38in 0.16in;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    font-size: 8.5pt;
+    line-height: 1.27;
+  }
+  .header {
+    border-top: 5px solid var(--navy);
+    border-bottom: 1px solid var(--gray-200);
+    padding: 7px 0 8px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .header .topic-num { font-size: 7pt; font-weight: 800; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; }
+  .header .topic { font-size: 18pt; font-weight: 800; color: var(--navy); letter-spacing: -0.02em; line-height: 1; margin-top: 2px; }
+  .header .right { text-align: right; font-size: 7pt; color: var(--gray-500); line-height: 1.35; }
+  .header .right strong { color: var(--gray-700); display: block; font-size: 7.5pt; letter-spacing: 0.1em; text-transform: uppercase; }
+  .headline { font-size: 9.5pt; font-weight: 700; color: var(--gray-900); line-height: 1.28; margin: 6px 0 7px; padding: 7px 10px; background: var(--accent-soft); border-left: 4px solid var(--accent); }
+  .headline em { font-style: normal; color: var(--accent); }
+  .stat-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin: 7px 0 9px; }
+  .stat { border: 1px solid var(--gray-200); padding: 7px 9px; border-radius: 4px; background: var(--gray-100); }
+  .stat.accent { background: var(--accent-soft); border-color: var(--accent); }
+  .stat .label { font-size: 6pt; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 2px; }
+  .stat .value { font-size: 15pt; font-weight: 800; color: var(--navy); line-height: 1; }
+  .stat.accent .value { color: var(--accent); }
+  .stat .caption { font-size: 7pt; color: var(--gray-700); margin-top: 3px; line-height: 1.32; }
+  h3 { font-size: 9.5pt; color: var(--navy-deep); margin: 8px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--gray-200); }
+  table { width: 100%; border-collapse: collapse; margin: 2px 0 5px; font-size: 7.3pt; }
+  th, td { border: 1px solid var(--gray-300); padding: 2px 5px; text-align: left; vertical-align: top; line-height: 1.28; }
+  th { background: var(--navy); color: #fff; font-weight: 700; font-size: 6.8pt; letter-spacing: 0.04em; }
+  td.metric { font-weight: 800; color: var(--accent); white-space: nowrap; }
+  td.study { font-weight: 600; color: var(--navy-deep); white-space: nowrap; }
+  .equity {
+    background: var(--amber-soft);
+    border-left: 4px solid var(--gold);
+    padding: 5px 10px;
+    margin: 4px 0;
+    font-size: 7.8pt;
+    line-height: 1.35;
+  }
+  .equity strong { color: var(--gray-900); }
+  .ask { background: var(--navy); color: #fff; padding: 8px 12px; margin: 7px 0 5px; border-radius: 4px; }
+  .ask .ask-label { font-size: 7pt; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.75); margin-bottom: 3px; }
+  .ask .ask-body { font-size: 9.5pt; font-weight: 600; line-height: 1.32; }
+  .ask strong { color: #fff; }
+  .footer { margin-top: 5px; padding-top: 4px; border-top: 1px solid var(--gray-200); font-size: 6.5pt; color: var(--gray-500); line-height: 1.4; }
+  .footer strong { color: var(--gray-700); display: block; font-size: 7pt; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 2px; }
+  @media print {
+    html, body { background: #fff; }
+    .page { box-shadow: none; padding: 0.22in 0.36in 0.18in; min-height: auto; page-break-after: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+<div class="header">
+  <div>
+    <div class="topic-num">Issue 7 of 7 · The Research Case</div>
+    <div class="topic">Research on Athletics Participation</div>
+  </div>
+  <div class="right">
+    <strong>GUHSD Athletics Data Brief</strong>
+    Granite Hills Athletics<br>
+    May 2026
+  </div>
+</div>
+
+<div class="headline">Published research compiled by the National Federation of State High School Associations (NFHS) reports that athletes have higher attendance, graduation rates, and GPAs than non-athletes, with larger differences for low-income students. AEI's April 2026 report (n=262,600) is the most recent study.</div>
+
+<div class="stat-row">
+  <div class="stat accent">
+    <div class="label">Graduation</div>
+    <div class="value">99.4% vs 93.5%</div>
+    <div class="caption">Athlete vs. non-athlete graduation rate. Athletes ~<strong>17× less likely to drop out</strong>. Overton, North Carolina, 2001.</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">Attendance</div>
+    <div class="value">−12.9 pp</div>
+    <div class="caption">Lower chronic absenteeism for athletes vs. non-athletes. Effect <strong>~2× larger for low-income students</strong>. AEI 2026 (n=262,600).</div>
+  </div>
+  <div class="stat accent">
+    <div class="label">Academic Performance</div>
+    <div class="value">+0.81 GPA</div>
+    <div class="caption">Athlete GPA 2.98 vs. non-athlete 2.17 — <strong>nearly a full letter grade</strong>. Overton 2001 NC. Coe 2006: athletes ~10% better in core academics.</div>
+  </div>
+</div>
+
+<h3>Six categories of evidence · 25 years of cited research</h3>
+<table>
+  <thead>
+    <tr><th style="width: 22%;">Outcome</th><th style="width: 32%;">Study (n, location, year)</th><th>Finding</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Attendance</strong></td>
+      <td class="study">Malkus & Hollon · AEI · 2026 (n=262,600)</td>
+      <td>Athletes are <strong>12.9 pp less likely to be chronically absent</strong>. Effect ~2× larger for FRPM-eligible students.</td>
+    </tr>
+    <tr>
+      <td><strong>Attendance</strong></td>
+      <td class="study">Overton · NC · 2001</td>
+      <td>Athletes miss <strong>6.3 days/year</strong> vs. <strong>11.9 days</strong> for non-athletes — nearly half as many absences.</td>
+    </tr>
+    <tr>
+      <td><strong>Graduation</strong></td>
+      <td class="study">Overton · NC · 2001</td>
+      <td>Athlete graduation rate <strong>99.4%</strong> vs. non-athlete <strong>93.5%</strong>. Athlete dropout rate 0.6% vs. 10.32%.</td>
+    </tr>
+    <tr>
+      <td><strong>Graduation / GPA</strong></td>
+      <td class="study">Lumpkin & Favor · KS · 2012 (n=~140,000)</td>
+      <td>Athletes graduate at higher rates and earn higher GPAs. <strong>Students of color show much larger gains.</strong></td>
+    </tr>
+    <tr>
+      <td><strong>College Attainment</strong></td>
+      <td class="study">Gardner · 2008 · Lipscomb · 2007</td>
+      <td>Activity participation positively associated with post-secondary attainment <strong>2 and 8 years</strong> after HS; <strong>5% increase in BA-attainment</strong>.</td>
+    </tr>
+    <tr>
+      <td><strong>Discipline / Safety</strong></td>
+      <td class="study">Overton · NC · 2001</td>
+      <td>Discipline referral rate <strong>33.3% (athletes)</strong> vs. <strong>41.8% (non-athletes)</strong>.</td>
+    </tr>
+    <tr>
+      <td><strong>School Safety</strong></td>
+      <td class="study">Sage · 2010 · Veliz &amp; Shakib · 2012</td>
+      <td>Increased activity funding ↔ <strong>decreased risk of physical assault</strong> on educators. Higher sports participation ↔ <strong>fewer serious crimes &amp; suspensions</strong>.</td>
+    </tr>
+    <tr>
+      <td><strong>Mental Health &amp; Substance Use</strong></td>
+      <td class="study">Taliaferro · 2008 · Harrison &amp; Narayan · MN · 2003 (n=50,168)</td>
+      <td>Sports participation <strong>significantly reduces risk of hopelessness and suicidal behaviors</strong> in both males and females. <strong>Significantly lower</strong> alcohol, marijuana, and vandalism involvement.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="equity"><strong>★ Findings by income.</strong> <strong>Everson &amp; Millsap, 2005 (n = 480,000+ SAT scores)</strong>: the impact of activity participation on academic outcomes is larger than the impact of family socioeconomic factors. <strong>Marsh &amp; Kleitman, 2002</strong>: activities benefit socioeconomically disadvantaged students as much or more than advantaged students. <strong>Lumpkin &amp; Favor, 2012</strong>: pay-to-play policies "discriminate against students who do not have the financial means."</div>
+
+<h3>Cost in context — NFHS national norm</h3>
+<table>
+  <thead>
+    <tr><th>District</th><th>Activities Budget</th><th>Total Budget</th><th>% of Budget</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Chicago Public Schools</td><td>$17.6M</td><td>$4.93B</td><td class="metric">&lt;1%</td></tr>
+    <tr><td>Los Angeles USD</td><td>$6.33M</td><td>$7.27B</td><td class="metric">&lt;1%</td></tr>
+    <tr><td>Miami-Dade Schools</td><td>$17.2M</td><td>$3.70B</td><td class="metric">&lt;1%</td></tr>
+    <tr><td colspan="3"><em>NFHS national norm: activities = 1-3% of total school budget</em></td><td class="metric">1–3%</td></tr>
+    <tr class="guhsd"><td><strong>GUHSD full Helix-stipend parity</strong></td><td><strong>+$3.42M</strong></td><td>$321M GF</td><td class="metric">~1.07%</td></tr>
+  </tbody>
+</table>
+
+
+<div class="footer">
+  <strong>Primary Sources</strong>
+  National Federation of State High School Associations, "The Case for High School Activities," nfhs.org (compiled body of cited research) · Overton, NC, 2001 · Born, MN, 2007 · Coe et al., 2006 · Fox et al., 2010 · Lumpkin &amp; Favor, KS, 2012 (n=~140,000) · Lipscomb, 2007 · Gardner et al., 2008 · Peck et al., 2008 · Lutz et al., IA, 2009 · Rouse, NELS, 2012 · Harrison &amp; Narayan, MN, 2003 (n=50,168) · Sage et al., 2010 · Veliz &amp; Shakib, 2012 · Taliaferro et al., 2008 &amp; 2010 · Marsh &amp; Kleitman, 2002 · Everson &amp; Millsap, 2005 (n=480,000+ SAT scores) · Malkus &amp; Hollon, AEI, April 8 2026 (n=262,600 Indiana HS students). Full report &amp; sources: jdavis-netizen.github.io/guhsd-athletics-funding-report
+</div>
+
+</div>
+</body>
+</html>

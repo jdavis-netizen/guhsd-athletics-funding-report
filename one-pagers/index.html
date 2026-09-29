@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GUHSD Athletics — One-Page Data Briefs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0d5844;
+    --navy-deep: #094234;
+    --accent: #a6192e;
+    --accent-soft: #fbecef;
+    --gray-100: #f5f6f8;
+    --gray-200: #e5e8ee;
+    --gray-300: #cfd4dd;
+    --gray-500: #6b7280;
+    --gray-700: #374151;
+    --gray-900: #111827;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--gray-900); background: var(--gray-100); line-height: 1.5; }
+  .container { max-width: 880px; margin: 0 auto; padding: 40px 24px 60px; }
+  .header { padding: 56px 32px 48px; background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%); color: #fff; margin: 0 -24px 32px; border-radius: 8px; }
+  .eyebrow { font-size: 11px; letter-spacing: 2.4px; text-transform: uppercase; color: rgba(255,255,255,0.72); margin: 0 0 8px 0; }
+  h1 { font-size: 34px; font-weight: 800; letter-spacing: -0.6px; margin: 0 0 12px 0; }
+  .header p { color: rgba(255,255,255,0.88); font-size: 16px; max-width: 640px; }
+  .nav { background: #fff; border-radius: 6px; padding: 12px 16px; margin-bottom: 24px; display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+  .nav a { color: var(--gray-700); text-decoration: none; font-weight: 600; padding: 4px 8px; border-radius: 3px; }
+  .nav a:hover { background: var(--gray-100); color: var(--navy); }
+  .briefs { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 12px; }
+  .brief {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    background: #fff;
+    border: 1px solid var(--gray-200);
+    border-left: 5px solid var(--accent);
+    border-radius: 6px;
+    padding: 18px 22px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.12s, box-shadow 0.12s;
+  }
+  .brief:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.08); }
+  .brief-num { font-size: 36px; font-weight: 900; color: var(--accent); letter-spacing: -0.04em; line-height: 1; }
+  .brief-title { font-size: 17px; font-weight: 700; color: var(--navy-deep); margin-bottom: 3px; }
+  .brief-headline { font-size: 13px; color: var(--gray-700); line-height: 1.4; }
+  .brief-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .btn-pdf { background: var(--accent); color: #fff; }
+  .btn-pdf:hover { background: #8e1227; }
+  .btn-html { background: var(--gray-100); color: var(--gray-700); border: 1px solid var(--gray-300); }
+  .btn-html:hover { background: var(--gray-200); }
+  .footer { text-align: center; margin-top: 40px; font-size: 13px; color: var(--gray-500); }
+  .footer a { color: var(--navy); text-decoration: none; font-weight: 600; }
+  .download-all { background: var(--navy); color: #fff; padding: 14px 22px; border-radius: 6px; margin: 24px 0; text-align: center; font-size: 14px; }
+  .download-all strong { font-weight: 800; letter-spacing: 0.05em; text-transform: uppercase; font-size: 12px; display: block; margin-bottom: 4px; color: rgba(255,255,255,0.8); }
+  .download-all p { margin: 0; }
+  @media (max-width: 600px) {
+    .brief { grid-template-columns: 1fr; gap: 8px; }
+    .brief-num { font-size: 28px; }
+  }
+
+  /* ---- site-wide refresh (matches main report) ---- */
+  :root { --navy:#0d5844; --navy-deep:#073a2d; --mint:#e8f2ee; --gray-100:#f3f5f4; --gray-200:#e3e8e5;
+          --serif:"Source Serif 4", Georgia, serif; --sans:"Inter", -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+  html, body { font-family: var(--sans); background: var(--gray-100); -webkit-font-smoothing: antialiased; }
+  h1 { font-family: var(--serif) !important; font-weight: 600 !important; letter-spacing: -0.015em !important; }
+  h2 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; }
+
+  .nav { justify-content: center; gap: 6px; border: 1px solid var(--gray-200); border-radius: 999px; padding: 8px; }
+  .nav a { border-radius: 999px; padding: 7px 14px; }
+  .header { border-radius: 16px;
+            background: radial-gradient(700px 300px at 90% -20%, rgba(166,210,197,.22), transparent 60%),
+                        linear-gradient(160deg, #0f6a53 0%, var(--navy) 45%, var(--navy-deep) 100%); }
+  .header h1 { font-size: 44px; }
+  .download-all { border-radius: 12px; background: var(--mint); color: var(--navy-deep); }
+  .download-all strong { color: var(--navy) !important; }
+  .brief { border-radius: 14px !important; border: 1px solid var(--gray-200); }
+  .brief-num { font-family: var(--serif); font-weight: 600; }
+  .brief-title { font-size: 18px; }
+  .btn { border-radius: 999px !important; }
+  @media (max-width: 700px) { .header h1 { font-size: 32px; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="nav">
+  <a href="../index.html">← Main Report</a>
+  <a href="../GUHSD_Athletics_Sources.html">Sources</a>
+</div>
+
+<div class="header">
+  <p class="eyebrow">Summary + Seven Briefs</p>
+  <h1>One-Page Briefs</h1>
+  <p>A one-page summary plus seven focused, print-ready PDFs — one per key issue. Each is data-anchored to the same primary sources as the main report.</p>
+</div>
+
+<div class="download-all">
+  <strong>Pro tip</strong>
+  <p>Click any PDF link below to view, then save to print. Each file is a single 8.5×11 page (~110 KB).</p>
+</div>
+
+<div class="briefs">
+  <div class="brief" style="border-left-color: var(--navy); background: linear-gradient(90deg, #f0f7f4 0%, #fff 30%);">
+    <div class="brief-num" style="color: var(--navy);">★</div>
+    <div>
+      <div class="brief-title">Summary — At a Glance (Start Here)</div>
+      <div class="brief-headline">One-page synthesis of all seven findings: top-line stats ($21,644 per-ADA, $20.8M above-minimum reserves) and a seven-row findings table.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="0_Summary.pdf" target="_blank" style="background: var(--navy);">PDF</a>
+      <a class="btn btn-html" href="0_Summary.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">1</div>
+    <div>
+      <div class="brief-title">Athletic Trainers — $35/Hour Pay</div>
+      <div class="brief-headline">CATA recommends $67–$73/hour for Region 5–6. GUHSD pays $35. Reference points: Pierpoint 2018 injury data, Morgan Hill OCR Title IX resolution, CATA rates.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="1_Athletic_Trainers.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="1_Athletic_Trainers.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">2</div>
+    <div>
+      <div class="brief-title">Coaching Stipends — Peer Comparison</div>
+      <div class="brief-headline">Helix, San Marcos, and Steele Canyon Charter all pay head varsity football more than GUHSD at every tier. AD comparison shows GUHSD second-lowest in the SD County peer set.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="2_Coaching_Stipends.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="2_Coaching_Stipends.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">3</div>
+    <div>
+      <div class="brief-title">Attendance &amp; LCFF — Athletics and Attendance</div>
+      <div class="brief-headline">AEI April 2026 study (n=262,600): athletes 12.9 pp less likely to be chronically absent — effect 2× larger for low-income students. 1 pp attendance = ~$1.7M+ in CA LCFF revenue.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="3_Attendance_LCFF.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="3_Attendance_LCFF.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">4</div>
+    <div>
+      <div class="brief-title">Walk-On Coaches</div>
+      <div class="brief-headline">LAUSD reports 58% walk-on prevalence. How walk-on coaches differ from teacher-coaches under California's ASCC rules.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="4_Walk_On_Coaches.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="4_Walk_On_Coaches.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">5</div>
+    <div>
+      <div class="brief-title">Officials &amp; Ref Fees — The 38% District Share</div>
+      <div class="brief-headline">Granite Hills FY 2025-26: $57,393 actual / $22,000 district = 38%. The rest is paid from ASB/booster funds. CHSSO 2025-26 fees verified for every major sport.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="5_Officials_Ref_Fees.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="5_Officials_Ref_Fees.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">6</div>
+    <div>
+      <div class="brief-title">Coaching Paid Through ASB Trust Accounts</div>
+      <div class="brief-headline">GUHSD allocates 52 stipends ($313,200) split across 58 Granite Hills coaches. Even with splitting, 53 additional coach payments totaling $96,009 came from booster trusts (Trust Pay form) plus $27,710 in non-league officials, clearance, and fees. Total ASB-paid for these items: $123,719+.</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="6_Cost_Shifting.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="6_Cost_Shifting.html" target="_blank">HTML</a>
+    </div>
+  </div>
+
+  <div class="brief">
+    <div class="brief-num">7</div>
+    <div>
+      <div class="brief-title">Research on Athletics Participation</div>
+      <div class="brief-headline">NFHS-compiled research + AEI 2026 study: athletes graduate at 99.4% vs. 93.5%, miss ~half the school days, and earn +0.81 GPA. Effect is largest for low-income students. NFHS national norm for activities spending is 1-3% of budget;</div>
+    </div>
+    <div class="brief-actions">
+      <a class="btn btn-pdf" href="7_Research_Case.pdf" target="_blank">PDF</a>
+      <a class="btn btn-html" href="7_Research_Case.html" target="_blank">HTML</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Compiled April 2026 · Updated June 2026 by Granite Hills Athletics. Every numeric claim traces to a primary-source document — see <a href="../GUHSD_Athletics_Sources.html">consolidated sources</a> for full citations.
+</div>
+
+</div>
+</body>
+</html>
