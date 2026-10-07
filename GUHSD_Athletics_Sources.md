@@ -24,7 +24,7 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ## 2. California Department of Education / State Financial Data
 
-10. **California Department of Education, *Current Expense of Education per ADA, FY 2023–24*** — [currentexpense2324.xlsx](https://www.cde.ca.gov/ds/fd/ec/documents/currentexpense2324.xlsx). Audited-actual current expense figures for every California LEA. **Primary source for every per-ADA spending comparison in this brief.** GUHSD = $21,644/ADA (3rd highest in SD County peer set).
+10. **California Department of Education, *Current Expense of Education per ADA, FY 2024–25*** — [currentexpense2425.xlsx](https://www.cde.ca.gov/ds/fd/ec/documents/currentexpense2425.xlsx). Audited-actual current expense figures for every California LEA. **Primary source for every per-ADA spending comparison in this brief.** GUHSD = $21,618/ADA (3rd highest in SD County peer set).
 
 ---
 
@@ -36,13 +36,13 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ### San Dieguito UHSD
 13. **San Dieguito UHSD *Extra-Curricular Salary Schedule*** — Board approved 6/11/2025 (1.0% increase effective 7/1/2025). [SDUHSD Salary Schedules page](https://www.sduhsd.net/Departments/Human-Resources/Salary-Schedules/index.html).
-14. [SDUHSD Athletic Trainer EdJoin posting 1528322](https://www.edjoin.org/Home/JobPosting/1528322) — classified, 1.0 FTE, 35 hrs/week, $23.21–$31.11/hr + 2.5% shift diff + benefits; BOC required; San Dieguito Academy.
+14. [SDUHSD Athletic Trainer EdJoin posting 1528322](https://www.edjoin.org/Home/JobPosting/1528322) — classified, 11-month, 35 hrs/week, $23.21–$31.11/hr + 2.5% shift diff + benefits; NATA certification required; San Dieguito Academy (2022 posting, since closed).
 
 ### Escondido UHSD (incl. San Pasqual HS)
 15. **Escondido UHSD *2025–26 ESTA Co-Curricular Stipend Salary Schedule*** — revised March 2026 (3.0% increase effective 7/1/2025). [EUHSD Certificated Salary Schedule page](https://www.euhsd.org/apps/pages/index.jsp?uREC_ID=2772293&type=d&pREC_ID=2399780).
 
 ### San Marcos Unified (SMUSD)
-16. **SMUSD *SMEA/SMUSD Collective Bargaining Agreement 2024–2026*, Section 8(D) — Extra Pay for Extra Duty**. [PDF via SMEA](https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf). Class structure (AA/A/B/C/D/E) verified with per-sport position assignments.
+16. **SMUSD *SMEA/SMUSD Collective Bargaining Agreement 2024–2026*, Article X §8 — Extra Pay (AD differential at §8.E.4)**. [PDF via SMEA](https://www.sanmarcosteachers.org/_files/ugd/91fe1f_9e60ef2a6e7446ffaaaeb2575e57fb6b.pdf). Class structure (AA/A/B/C/D/E) verified with per-sport position assignments.
 16a. **SMUSD *2025-26 Extra Duty Stipends, Certificated Hourly and Daily Rates, Substitute Teacher Rates*** — effective 7/1/25. Primary-source schedule with dollar amounts at every Class × Year tier (provided by GUHSD athletics administration). Class AA Year 1 = $6,668 → Year 15+ = $8,675; percentages 11.76%–15.30% of Column 1 Step 1 (~$56,700). **Closes the SMUSD coaching-stipend data gap.**
 16b. **SMUSD *SMEA Master Contract 7/1/22–6/30/24*** — primary-source CBA with the percentages-of-Column-1-Step-1 formula in Article X Section C, the AD's 15% salary differential in Section E, and the 10%-of-coaching-pay-per-week playoff stipend in Article X Section D.
 
@@ -55,7 +55,7 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ### San Diego Unified (SDUSD)
 22. [San Diego Unified — SDEA Collective Bargaining Agreement 2022–2025](https://www.sdea.net/wp-content/uploads/2022-2025_SDEA_Collective-Bargaining-Agreement_FINAL-FOR-PRINT.pdf).
-22a. **SDUSD Coaching Stipend Per-Unit Schedule** — primary-source document provided by GUHSD athletics admin, April 2026. **$1,404 per unit**; sport-specific unit count. Football head varsity = 5 units = **$7,020**. Tennis = 3 units = $4,212. **Athletic Directors: 3 units × 3 seasons = $12,636** on a **208-day work year**, with last period of day allocated as Athletic PE Class. **Closes the SDUSD coaching-stipend data gap.**
+22a. **SDUSD Coaching Stipend Per-Unit Schedule** — primary-source document provided by GUHSD athletics admin, April 2026. $1,404 per unit; sport-specific unit count (Football head varsity = 5 units; Tennis = 3 units; Athletic Directors listed at 3 units × 3 seasons). **NOTE (Oct 2026 audit):** the public SDEA contract sets the extended-day unit at $1,383.69 (2022–25) and $1,475.61 (2025–27, §7.02) and gives Athletic Directors six extended-day units on a 208-day calendar (Appendix N). The report uses the contract figures: Head Football 5 × $1,475.61 = **$7,378**; AD 6 × $1,475.61 = **$8,854**. **Closes the SDUSD coaching-stipend data gap.**
 
 ### Poway USD
 22b. **Poway USD Board Policy 4.213 (Issue 12, dated 12/11/06): Salary Schedule — Extra-Curricular Coaching Assignments**. Class structure: Class AAA (Head Football, AD per semester) Step 1 = .163 → Step 10 = .235; Class AA (Head Basketball boys/girls) .140 → .203; Class A (Head Track, Baseball, Wrestling, Softball, Gymnastics) .117 → .171; Class B (other Head Coaches, Head Swim) .094 → .139; Class C (All Assistant Coaches) .070 → .106. Outside-district experience credit max 4 years. Stipends prorated over 10 months and paid monthly per AP 4.212.1. **Pay-scale base salary still requires confirmation for actual dollar amounts.** Closes Poway USD structural data gap.
@@ -95,7 +95,7 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ## 6. Athletic Trainer Regulatory Framework + Professional Standards
 
-37. [California Legislative Information — *AB 796 Athletic Trainers*](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796) — Chapter 899, Statutes of 2024. Title protection, signed 9/29/2024.
+37. [California Legislative Information — *AB 796 Athletic Trainers*](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB796) — Chapter 934, Statutes of 2024. Title protection, signed 9/29/2024.
 38. [Board of Certification — *Passage of Athletic Training Title Protection in California*](https://bocatc.org/newsroom/passage-of-athletic-training-title-protection-win-for-california/) — BOC context on AB 796.
 39. [California Legislative Information — *AB 346 Activity Supervisor Clearance Certificate*](https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240AB346) — ASCC regulatory framework for walk-on coaches.
 39a. **California Athletic Trainers Association (CATA) — *Certificated Athletic Training Pay Discrepancy Proposal: Recommended Minimum Per Diem Pay Rate, On-Site Athletic Training Medical Care*** (provided by GUHSD athletics administration). 6-region cost-of-living-adjusted rate map: Region 1 $59.50/hr, Region 2 $87.50/hr, Region 3 $57/hr, Region 4 $81.75/hr, Region 5 $73/hr, Region 6 $67/hr. Methodology base: 2020 NATA Salary Survey median ($53/hour) adjusted upward 34% for California cost of living, then varied by region. **Source for the GUHSD-pays-half-the-recommended-floor finding in Pillar 4.**
@@ -113,7 +113,7 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 43. **Pierpoint LA, Williams CM, Fields SK, Comstock RD. *Injuries in girls' soccer and basketball: a comparison of high schools with and without athletic trainers*. Injury Epidemiology 5:29, 2018.** [Full text](https://link.springer.com/article/10.1186/s40621-018-0159-6). Source of the **6× / 3× recurrent injury rate ratios** for no-AT vs. AT schools in girls' soccer and girls' basketball — the core student-safety finding in Pillar 4.
 
 ### CA AT staffing prevalence study
-44. **Pickett et al. *Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update*. *Journal of Athletic Training*, 2024.** [PMC article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11611368/). Findings: 51.6% of CA schools no AT; 45.0% of CA public schools have certified AT; 10.5% of CA public schools use unqualified personnel.
+44. **Eason et al. *Factors Influencing Athletic Training Services in California Secondary Schools: A 5-Year Update*. *Journal of Athletic Training*, 2024.** [PMC article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11611368/). Findings: 51.6% of CA schools no AT; 45.0% of CA public schools have certified AT; 10.5% of CA public schools use unqualified personnel.
 45. [Korey Stringer Institute — ATLAS Project (NFHS survey infrastructure)](https://koreystringer.institute.uconn.edu/atlas/).
 46. [Training & Conditioning — *Study: More than half of California high schools lack athletic trainers*](https://training-conditioning.com/news/study-more-than-half-of-california-high-schools-lack-athletic-trainers/).
 
@@ -127,7 +127,7 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 
 ## 9. CIF Participation Data
 
-48. **California Interscholastic Federation. *Annual Participation Census, 2022–23 through 2024–25*.** [CIF Census Index](https://www.cifstate.org/coaches-admin/census/index). 2022–23: 763,867 · 2023–24: 806,979 · 2024–25: 852,575 (all-time high). Two-year growth: +11.6%. **Methodology note:** CIF counts student-sport combinations, not unique students; figures represent participation occurrences across 1,615 member schools.
+48. **California Interscholastic Federation. *Annual Participation Census, 2022–23 through 2024–25*.** [CIF Census Index](https://www.cifstate.org/coaches-admin/census/index). 2022–23: 763,867 · 2023–24: 806,979 · 2024–25: 821,586 (all-time high; CIF reports 835,088 for 2025–26). Two-year growth: +7.6%. **Methodology note:** CIF counts student-sport combinations, not unique students; figures represent participation occurrences across 1,615 member schools.
 
 ---
 
@@ -173,10 +173,10 @@ Every primary source, peer-reviewed study, and supporting document cited in the 
 | Claim category | Primary sources |
 |---|---|
 | GUHSD stipend dollar amounts | #2, #4 (current schedules) |
-| Per-ADA spending comparisons | #10 (CDE Current Expense 2023-24) |
+| Per-ADA spending comparisons | #10 (CDE Current Expense 2024-25) |
 | SD County peer coaching stipends | #11–#21 + #23–#31 |
 | Officials fees (CIF-SDS) | #32 (CHSSO) |
-| Athletic trainer regulatory | #37 (AB 796), #39 (AB 346), #43 (Pierpoint), #44 (Pickett) |
+| Athletic trainer regulatory | #37 (AB 796), #39 (AB 346), #43 (Pierpoint), #44 (Eason) |
 | Title IX | #47 (Morgan Hill OCR) |
 | Attendance / LCFF | #40 (Malkus & Hollon AEI, 2026) |
 | Participation trend | #48 (CIF Census) |

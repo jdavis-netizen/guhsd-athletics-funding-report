@@ -17,7 +17,7 @@ A primary-source review of athletics funding at Grossmont Union High School Dist
 
 ## Key figures
 
-- GUHSD has the 3rd-highest per-ADA spending in San Diego County ($21,644/ADA, CDE FY 2023–24) and general fund reserves $20.8M above the state-required minimum (FY2026-27 adopted budget).
+- GUHSD has the 3rd-highest per-ADA spending in San Diego County ($21,618/ADA, CDE FY 2024–25) and general fund reserves $20.8M above the state-required minimum (FY2026-27 adopted budget).
 - Both GUHSD conversion charters fund more coaching stipend positions per school than GUHSD (Helix 73, Steele Canyon 72, GUHSD 52).
 - Helix spends ~2.2× per school on athletic stipends ($693,148 vs. ~$313,200, 2025-26).
 - GUHSD's Athletic Trainer is a $22,500 teacher stipend; 6 of 7 verified SD County peers employ the AT as a classified healthcare role.
